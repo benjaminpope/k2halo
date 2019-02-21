@@ -1,0 +1,9 @@
+halo ktwo200200356-c16_lpd-targ.fits.gz --data-dir ../data --name Asellus Australis -c 16 -o 1 --do-plot
+halo ktwo200200357-c16_lpd-targ.fits.gz --data-dir ../data --name Acubens -c 16 -o 1 --do-plot
+halo ktwo200200358-c16_lpd-targ.fits.gz --data-dir ../data --name ksi Cnc -c 16 -o 1 --do-plot
+halo ktwo200200360-c16_lpd-targ.fits.gz --data-dir ../data --name omi1 Cnc -c 16 -o 1 --do-plot
+halo ktwo200200359-c16_lpd-targ.fits.gz --data-dir ../data --name eta Cnc -c 16 -o 1 --do-plot
+halo ktwo200200728-c16_lpd-targ.fits.gz --data-dir ../data --name 45 Cnc -c 16 -o 1 --do-plot
+halo ktwo200200728-c16_lpd-targ.fits.gz --data-dir ../data --name 45 Cnc -c 16 -o 1 --do-plot
+halo ktwo200200361-c16_lpd-targ.fits.gz --data-dir ../data --name omi2 Cnc -c 16 -o 1 --do-plot
+halo ktwo200200363-c16_lpd-targ.fits.gz --data-dir ../data --name 50 Cnc -c 16 -o 1 --do-plot

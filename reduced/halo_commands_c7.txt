@@ -1,0 +1,10 @@
+halo ktwo200062593-c07_lpd-targ.fits.gz --data-dir ../data --name Ascella -c 7 -o 1 --do-plot
+halo ktwo200062592-c07_lpd-targ.fits.gz --data-dir ../data --name Albaldah -c 7 -o 1 --do-plot
+halo ktwo200062591-c07_lpd-targ.fits.gz --data-dir ../data --name tau Sgr -c 7 -o 1 --do-plot
+halo ktwo200062590-c07_lpd-targ.fits.gz --data-dir ../data --name ksi2 Sgr -c 7 -o 1 --do-plot
+halo ktwo200062589-c07_lpd-targ.fits.gz --data-dir ../data --name omi Sgr -c 7 -o 1 --do-plot
+halo ktwo200062585-c07_lpd-targ.fits.gz --data-dir ../data --name 52 Sgr -c 7 -o 1 --do-plot
+halo ktwo200062588-c07_lpd-targ.fits.gz --data-dir ../data --name Ainalrami -c 7 -o 1 --do-plot
+halo ktwo200062584-c07_lpd-targ.fits.gz --data-dir ../data --name psi Sgr -c 7 -o 1 --do-plot
+halo ktwo200062587-c07_lpd-targ.fits.gz --data-dir ../data --name 43 Sgr -c 7 -o 1 --do-plot
+halo ktwo200062586-c07_lpd-targ.fits.gz --data-dir ../data --name nu2 Sgr -c 7 -o 1 --do-plot
