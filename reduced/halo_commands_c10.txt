@@ -1,16 +1,16 @@
-halo ktwo200084004-c101_lpd-targ.fits.gz --data-dir ../data --name Porrima -c 10 -o 1 --do-plot
-halo ktwo200084004-c102_lpd-targ.fits.gz --data-dir ../data --name Porrima -c 10 -o 1 --do-plot
-halo ktwo200084005-c101_lpd-targ.fits.gz --data-dir ../data --name Zaniah -c 10 -o 1 --do-plot
-halo ktwo200084005-c102_lpd-targ.fits.gz --data-dir ../data --name Zaniah -c 10 -o 1 --do-plot
-halo ktwo200084006-c101_lpd-targ.fits.gz --data-dir ../data --name 21 Vir -c 10 -o 1 --do-plot
-halo ktwo200084006-c102_lpd-targ.fits.gz --data-dir ../data --name 21 Vir -c 10 -o 1 --do-plot
-halo ktwo200084007-c101_lpd-targ.fits.gz --data-dir ../data --name FW Vir -c 10 -o 1 --do-plot
-halo ktwo200084007-c102_lpd-targ.fits.gz --data-dir ../data --name FW Vir -c 10 -o 1 --do-plot
-halo ktwo200084008-c101_lpd-targ.fits.gz --data-dir ../data --name HR 4837 -c 10 -o 1 --do-plot
-halo ktwo200084008-c102_lpd-targ.fits.gz --data-dir ../data --name HR 4837 -c 10 -o 1 --do-plot
-halo ktwo200084009-c101_lpd-targ.fits.gz --data-dir ../data --name HR 4591 -c 10 -o 1 --do-plot
-halo ktwo200084009-c102_lpd-targ.fits.gz --data-dir ../data --name HR 4591 -c 10 -o 1 --do-plot
-halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data --name HR 4613 -c 10 -o 1 --do-plot
-halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data --name HR 4613 -c 10 -o 1 --do-plot
-halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data --name HD 107794 -c 10 -o 1 --do-plot
-halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data --name HD 107794 -c 10 -o 1 --do-plot
+halo ktwo200084004-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name Porrima -c 10 -o 1 --do-plot
+halo ktwo200084004-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name Porrima -c 10 -o 1 --do-plot
+halo ktwo200084005-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name Zaniah -c 10 -o 1 --do-plot
+halo ktwo200084005-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name Zaniah -c 10 -o 1 --do-plot
+halo ktwo200084006-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name 21_Vir -c 10 -o 1 --do-plot
+halo ktwo200084006-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name 21_Vir -c 10 -o 1 --do-plot
+halo ktwo200084007-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name FW_Vir -c 10 -o 1 --do-plot
+halo ktwo200084007-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name FW_Vir -c 10 -o 1 --do-plot
+halo ktwo200084008-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4837 -c 10 -o 1 --do-plot
+halo ktwo200084008-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4837 -c 10 -o 1 --do-plot
+halo ktwo200084009-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4591 -c 10 -o 1 --do-plot
+halo ktwo200084009-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4591 -c 10 -o 1 --do-plot
+halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4613 -c 10 -o 1 --do-plot
+halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HR_4613 -c 10 -o 1 --do-plot
+halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HD_107794 -c 10 -o 1 --do-plot
+halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c10/ --name HD_107794 -c 10 -o 1 --do-plot

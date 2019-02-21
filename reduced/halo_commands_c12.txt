@@ -1,8 +1,8 @@
-halo ktwo200164167-c12_lpd-targ.fits.gz --data-dir ../data --name kap Psc -c 12 -o 1 --do-plot
-halo ktwo200164168-c12_lpd-targ.fits.gz --data-dir ../data --name 83 Aqr -c 12 -o 1 --do-plot
-halo ktwo200164169-c12_lpd-targ.fits.gz --data-dir ../data --name 24 Psc -c 12 -o 1 --do-plot
-halo ktwo200164170-c12_lpd-targ.fits.gz --data-dir ../data --name HR 8759 -c 12 -o 1 --do-plot
-halo ktwo200164171-c12_lpd-targ.fits.gz --data-dir ../data --name 14 Psc -c 12 -o 1 --do-plot
-halo ktwo200164172-c12_lpd-targ.fits.gz --data-dir ../data --name HR 8921 -c 12 -o 1 --do-plot
-halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data --name 81 Aqr -c 12 -o 1 --do-plot
-halo ktwo200164174-c12_lpd-targ.fits.gz --data-dir ../data --name HR 8897 -c 12 -o 1 --do-plot
+halo ktwo200164167-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name kap_Psc -c 12 -o 1 --do-plot
+halo ktwo200164168-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 83_Aqr -c 12 -o 1 --do-plot
+halo ktwo200164169-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 24_Psc -c 12 -o 1 --do-plot
+halo ktwo200164170-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name HR_8759 -c 12 -o 1 --do-plot
+halo ktwo200164171-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 14_Psc -c 12 -o 1 --do-plot
+halo ktwo200164172-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name HR_8921 -c 12 -o 1 --do-plot
+halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 81_Aqr -c 12 -o 1 --do-plot
+halo ktwo200164174-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name HR_8897 -c 12 -o 1 --do-plot

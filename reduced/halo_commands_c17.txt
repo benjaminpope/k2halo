@@ -1,7 +1,7 @@
-halo ktwo200213067-c17_lpd-targ.fits.gz --data-dir ../data --name Spica -c 17 -o 1 --do-plot
-halo ktwo200213053-c17_lpd-targ.fits.gz --data-dir ../data --name 82 Vir -c 17 -o 1 --do-plot
-halo ktwo200213054-c17_lpd-targ.fits.gz --data-dir ../data --name 76 Vir -c 17 -o 1 --do-plot
-halo ktwo200213055-c17_lpd-targ.fits.gz --data-dir ../data --name 68 Vir -c 17 -o 1 --do-plot
-halo ktwo200213056-c17_lpd-targ.fits.gz --data-dir ../data --name 80 Vir -c 17 -o 1 --do-plot
-halo ktwo200213057-c17_lpd-targ.fits.gz --data-dir ../data --name HR 5106 -c 17 -o 1 --do-plot
-halo ktwo200213058-c17_lpd-targ.fits.gz --data-dir ../data --name HR 5059 -c 17 -o 1 --do-plot
+halo ktwo200213067-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name Spica -c 17 -o 1 --do-plot
+halo ktwo200213053-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name 82_Vir -c 17 -o 1 --do-plot
+halo ktwo200213054-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name 76_Vir -c 17 -o 1 --do-plot
+halo ktwo200213055-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name 68_Vir -c 17 -o 1 --do-plot
+halo ktwo200213056-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name 80_Vir -c 17 -o 1 --do-plot
+halo ktwo200213057-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name HR_5106 -c 17 -o 1 --do-plot
+halo ktwo200213058-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name HR_5059 -c 17 -o 1 --do-plot

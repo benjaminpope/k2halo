@@ -1,10 +1,10 @@
-halo ktwo200062593-c07_lpd-targ.fits.gz --data-dir ../data --name Ascella -c 7 -o 1 --do-plot
-halo ktwo200062592-c07_lpd-targ.fits.gz --data-dir ../data --name Albaldah -c 7 -o 1 --do-plot
-halo ktwo200062591-c07_lpd-targ.fits.gz --data-dir ../data --name tau Sgr -c 7 -o 1 --do-plot
-halo ktwo200062590-c07_lpd-targ.fits.gz --data-dir ../data --name ksi2 Sgr -c 7 -o 1 --do-plot
-halo ktwo200062589-c07_lpd-targ.fits.gz --data-dir ../data --name omi Sgr -c 7 -o 1 --do-plot
-halo ktwo200062585-c07_lpd-targ.fits.gz --data-dir ../data --name 52 Sgr -c 7 -o 1 --do-plot
-halo ktwo200062588-c07_lpd-targ.fits.gz --data-dir ../data --name Ainalrami -c 7 -o 1 --do-plot
-halo ktwo200062584-c07_lpd-targ.fits.gz --data-dir ../data --name psi Sgr -c 7 -o 1 --do-plot
-halo ktwo200062587-c07_lpd-targ.fits.gz --data-dir ../data --name 43 Sgr -c 7 -o 1 --do-plot
-halo ktwo200062586-c07_lpd-targ.fits.gz --data-dir ../data --name nu2 Sgr -c 7 -o 1 --do-plot
+halo ktwo200062593-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name Ascella -c 7 -o 1 --do-plot
+halo ktwo200062592-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name Albaldah -c 7 -o 1 --do-plot
+halo ktwo200062591-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name tau_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062590-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name ksi2_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062589-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name omi_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062585-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name 52_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062588-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name Ainalrami -c 7 -o 1 --do-plot
+halo ktwo200062584-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name psi_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062587-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name 43_Sgr -c 7 -o 1 --do-plot
+halo ktwo200062586-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name nu2_Sgr -c 7 -o 1 --do-plot

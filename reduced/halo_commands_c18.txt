@@ -1,13 +1,13 @@
-halo ktwo200233186-c18_lpd-targ.fits.gz --data-dir ../data --name gam Cnc -c 18 -o 1 --do-plot
-halo ktwo200233643-c18_lpd-targ.fits.gz --data-dir ../data --name zet Cnc -c 18 -o 1 --do-plot
-halo ktwo200233187-c18_lpd-targ.fits.gz --data-dir ../data --name eta Cnc -c 18 -o 1 --do-plot
-halo ktwo200233188-c18_lpd-targ.fits.gz --data-dir ../data --name 60 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233189-c18_lpd-targ.fits.gz --data-dir ../data --name 49 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233190-c18_lpd-targ.fits.gz --data-dir ../data --name HR 3264 -c 18 -o 1 --do-plot
-halo ktwo200233191-c18_lpd-targ.fits.gz --data-dir ../data --name 50 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233192-c18_lpd-targ.fits.gz --data-dir ../data --name 29 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233193-c18_lpd-targ.fits.gz --data-dir ../data --name HR 3222 -c 18 -o 1 --do-plot
-halo ktwo200233196-c18_lpd-targ.fits.gz --data-dir ../data --name 21 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233644-c18_lpd-targ.fits.gz --data-dir ../data --name 25 Cnc -c 18 -o 1 --do-plot
-halo ktwo200233195-c18_lpd-targ.fits.gz --data-dir ../data --name HR 3558 -c 18 -o 1 --do-plot
-halo ktwo200233194-c18_lpd-targ.fits.gz --data-dir ../data --name HR 3541 -c 18 -o 1 --do-plot
+halo ktwo200233186-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name gam_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233643-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name zet_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233187-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name eta_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233188-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 60_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233189-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 49_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233190-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3264 -c 18 -o 1 --do-plot
+halo ktwo200233191-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 50_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233192-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 29_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233193-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3222 -c 18 -o 1 --do-plot
+halo ktwo200233196-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 21_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233644-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name 25_Cnc -c 18 -o 1 --do-plot
+halo ktwo200233195-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3558 -c 18 -o 1 --do-plot
+halo ktwo200233194-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3541 -c 18 -o 1 --do-plot

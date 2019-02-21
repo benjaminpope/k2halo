@@ -1,13 +1,13 @@
-halo ktwo200194910-c15_lpd-targ.fits.gz --data-dir ../data --name Dschubba -c 15 -o 1 --do-plot
-halo ktwo200194911-c15_lpd-targ.fits.gz --data-dir ../data --name Zubenelhakrabi -c 15 -o 1 --do-plot
-halo ktwo200194912-c15_lpd-targ.fits.gz --data-dir ../data --name iot1 Lib -c 15 -o 1 --do-plot
-halo ktwo200194913-c15_lpd-targ.fits.gz --data-dir ../data --name 41 Lib -c 15 -o 1 --do-plot
-halo ktwo200194914-c15_lpd-targ.fits.gz --data-dir ../data --name zet4 Lib -c 15 -o 1 --do-plot
-halo ktwo200194915-c15_lpd-targ.fits.gz --data-dir ../data --name HR 5762 -c 15 -o 1 --do-plot
-halo ktwo200194916-c15_lpd-targ.fits.gz --data-dir ../data --name HR 5806 -c 15 -o 1 --do-plot
-halo ktwo200194917-c15_lpd-targ.fits.gz --data-dir ../data --name zet3 Lib -c 15 -o 1 --do-plot
-halo ktwo200194918-c15_lpd-targ.fits.gz --data-dir ../data --name HR 5810 -c 15 -o 1 --do-plot
-halo ktwo200194919-c15_lpd-targ.fits.gz --data-dir ../data --name iot2 Lib -c 15 -o 1 --do-plot
-halo ktwo200194920-c15_lpd-targ.fits.gz --data-dir ../data --name HR 5620 -c 15 -o 1 --do-plot
-halo ktwo200194921-c15_lpd-targ.fits.gz --data-dir ../data --name 28 Lib -c 15 -o 1 --do-plot
-halo ktwo200194958-c15_lpd-targ.fits.gz --data-dir ../data --name HD 138810 -c 15 -o 1 --do-plot
+halo ktwo200194910-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name Dschubba -c 15 -o 1 --do-plot
+halo ktwo200194911-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name Zubenelhakrabi -c 15 -o 1 --do-plot
+halo ktwo200194912-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name iot1_Lib -c 15 -o 1 --do-plot
+halo ktwo200194913-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name 41_Lib -c 15 -o 1 --do-plot
+halo ktwo200194914-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name zet4_Lib -c 15 -o 1 --do-plot
+halo ktwo200194915-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name HR_5762 -c 15 -o 1 --do-plot
+halo ktwo200194916-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name HR_5806 -c 15 -o 1 --do-plot
+halo ktwo200194917-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name zet3_Lib -c 15 -o 1 --do-plot
+halo ktwo200194918-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name HR_5810 -c 15 -o 1 --do-plot
+halo ktwo200194919-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name iot2_Lib -c 15 -o 1 --do-plot
+halo ktwo200194920-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name HR_5620 -c 15 -o 1 --do-plot
+halo ktwo200194921-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name 28_Lib -c 15 -o 1 --do-plot
+halo ktwo200194958-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name HD_138810 -c 15 -o 1 --do-plot

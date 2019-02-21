@@ -1,42 +1,42 @@
-halo ktwo200173843-c13_lpd-targ.fits.gz --data-dir ../data --name Aldebaran -c 13 -o 1 --do-plot
-halo ktwo200173845-c13_lpd-targ.fits.gz --data-dir ../data --name tet2 Tau -c 13 -o 1 --do-plot
-halo ktwo200173879-c13_lpd-targ.fits.gz --data-dir ../data --name tet2 Tau -c 13 -o 1 --do-plot
-halo ktwo200173844-c13_lpd-targ.fits.gz --data-dir ../data --name eps Tau -c 13 -o 1 --do-plot
-halo ktwo200173846-c13_lpd-targ.fits.gz --data-dir ../data --name tet1 Tau -c 13 -o 1 --do-plot
-halo ktwo200173847-c13_lpd-targ.fits.gz --data-dir ../data --name kap1 Tau -c 13 -o 1 --do-plot
-halo ktwo200173880-c13_lpd-targ.fits.gz --data-dir ../data --name kap1 Tau -c 13 -o 1 --do-plot
-halo ktwo200173849-c13_lpd-targ.fits.gz --data-dir ../data --name del3 Tau -c 13 -o 1 --do-plot
-halo ktwo200173850-c13_lpd-targ.fits.gz --data-dir ../data --name tau Tau -c 13 -o 1 --do-plot
-halo ktwo200173848-c13_lpd-targ.fits.gz --data-dir ../data --name ups Tau -c 13 -o 1 --do-plot
-halo ktwo200173881-c13_lpd-targ.fits.gz --data-dir ../data --name ups Tau -c 13 -o 1 --do-plot
-halo ktwo200173851-c13_lpd-targ.fits.gz --data-dir ../data --name rho Tau -c 13 -o 1 --do-plot
-halo ktwo200173882-c13_lpd-targ.fits.gz --data-dir ../data --name rho Tau -c 13 -o 1 --do-plot
-halo ktwo200173853-c13_lpd-targ.fits.gz --data-dir ../data --name 11 Ori -c 13 -o 1 --do-plot
-halo ktwo200173855-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1427 -c 13 -o 1 --do-plot
-halo ktwo200173883-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1427 -c 13 -o 1 --do-plot
-halo ktwo200173854-c13_lpd-targ.fits.gz --data-dir ../data --name 15 Ori -c 13 -o 1 --do-plot
-halo ktwo200173852-c13_lpd-targ.fits.gz --data-dir ../data --name 75 Tau -c 13 -o 1 --do-plot
-halo ktwo200173857-c13_lpd-targ.fits.gz --data-dir ../data --name 97 Tau -c 13 -o 1 --do-plot
-halo ktwo200173884-c13_lpd-targ.fits.gz --data-dir ../data --name 97 Tau -c 13 -o 1 --do-plot
-halo ktwo200173856-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1684 -c 13 -o 1 --do-plot
-halo ktwo200173859-c13_lpd-targ.fits.gz --data-dir ../data --name kap2 Tau -c 13 -o 1 --do-plot
-halo ktwo200173885-c13_lpd-targ.fits.gz --data-dir ../data --name kap2 Tau -c 13 -o 1 --do-plot
-halo ktwo200173861-c13_lpd-targ.fits.gz --data-dir ../data --name 56 Tau -c 13 -o 1 --do-plot
-halo ktwo200173860-c13_lpd-targ.fits.gz --data-dir ../data --name 81 Tau -c 13 -o 1 --do-plot
-halo ktwo200173864-c13_lpd-targ.fits.gz --data-dir ../data --name 53 Tau -c 13 -o 1 --do-plot
-halo ktwo200173858-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1585 -c 13 -o 1 --do-plot
-halo ktwo200173866-c13_lpd-targ.fits.gz --data-dir ../data --name 80 Tau -c 13 -o 1 --do-plot
-halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data --name 51 Tau -c 13 -o 1 --do-plot
-halo ktwo200173867-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1403 -c 13 -o 1 --do-plot
-halo ktwo200173868-c13_lpd-targ.fits.gz --data-dir ../data --name 89 Tau -c 13 -o 1 --do-plot
-halo ktwo200173871-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1576 -c 13 -o 1 --do-plot
-halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data --name 98 Tau -c 13 -o 1 --do-plot
-halo ktwo200173862-c13_lpd-targ.fits.gz --data-dir ../data --name 99 Tau -c 13 -o 1 --do-plot
-halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data --name 105 Tau -c 13 -o 1 --do-plot
-halo ktwo200173874-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1554 -c 13 -o 1 --do-plot
-halo ktwo200173875-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1385 -c 13 -o 1 --do-plot
-halo ktwo200173878-c13_lpd-targ.fits.gz --data-dir ../data --name 85 Tau -c 13 -o 1 --do-plot
-halo ktwo200173877-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1459 -c 13 -o 1 --do-plot
-halo ktwo200173873-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1741 -c 13 -o 1 --do-plot
-halo ktwo200173872-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1633 -c 13 -o 1 --do-plot
-halo ktwo200173876-c13_lpd-targ.fits.gz --data-dir ../data --name HR 1755 -c 13 -o 1 --do-plot
+halo ktwo200173843-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name Aldebaran -c 13 -o 1 --do-plot
+halo ktwo200173845-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name tet2_Tau -c 13 -o 1 --do-plot
+halo ktwo200173879-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name tet2_Tau -c 13 -o 1 --do-plot
+halo ktwo200173844-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name eps_Tau -c 13 -o 1 --do-plot
+halo ktwo200173846-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name tet1_Tau -c 13 -o 1 --do-plot
+halo ktwo200173847-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap1_Tau -c 13 -o 1 --do-plot
+halo ktwo200173880-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap1_Tau -c 13 -o 1 --do-plot
+halo ktwo200173849-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name del3_Tau -c 13 -o 1 --do-plot
+halo ktwo200173850-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name tau_Tau -c 13 -o 1 --do-plot
+halo ktwo200173848-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name ups_Tau -c 13 -o 1 --do-plot
+halo ktwo200173881-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name ups_Tau -c 13 -o 1 --do-plot
+halo ktwo200173851-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name rho_Tau -c 13 -o 1 --do-plot
+halo ktwo200173882-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name rho_Tau -c 13 -o 1 --do-plot
+halo ktwo200173853-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 11_Ori -c 13 -o 1 --do-plot
+halo ktwo200173855-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1427 -c 13 -o 1 --do-plot
+halo ktwo200173883-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1427 -c 13 -o 1 --do-plot
+halo ktwo200173854-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 15_Ori -c 13 -o 1 --do-plot
+halo ktwo200173852-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 75_Tau -c 13 -o 1 --do-plot
+halo ktwo200173857-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 97_Tau -c 13 -o 1 --do-plot
+halo ktwo200173884-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 97_Tau -c 13 -o 1 --do-plot
+halo ktwo200173856-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1684 -c 13 -o 1 --do-plot
+halo ktwo200173859-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap2_Tau -c 13 -o 1 --do-plot
+halo ktwo200173885-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap2_Tau -c 13 -o 1 --do-plot
+halo ktwo200173861-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 56_Tau -c 13 -o 1 --do-plot
+halo ktwo200173860-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 81_Tau -c 13 -o 1 --do-plot
+halo ktwo200173864-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 53_Tau -c 13 -o 1 --do-plot
+halo ktwo200173858-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1585 -c 13 -o 1 --do-plot
+halo ktwo200173866-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 80_Tau -c 13 -o 1 --do-plot
+halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 51_Tau -c 13 -o 1 --do-plot
+halo ktwo200173867-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1403 -c 13 -o 1 --do-plot
+halo ktwo200173868-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 89_Tau -c 13 -o 1 --do-plot
+halo ktwo200173871-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1576 -c 13 -o 1 --do-plot
+halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 98_Tau -c 13 -o 1 --do-plot
+halo ktwo200173862-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 99_Tau -c 13 -o 1 --do-plot
+halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 105_Tau -c 13 -o 1 --do-plot
+halo ktwo200173874-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1554 -c 13 -o 1 --do-plot
+halo ktwo200173875-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1385 -c 13 -o 1 --do-plot
+halo ktwo200173878-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 85_Tau -c 13 -o 1 --do-plot
+halo ktwo200173877-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1459 -c 13 -o 1 --do-plot
+halo ktwo200173873-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1741 -c 13 -o 1 --do-plot
+halo ktwo200173872-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1633 -c 13 -o 1 --do-plot
+halo ktwo200173876-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1755 -c 13 -o 1 --do-plot
