@@ -1,0 +1,10 @@
+Name,Vmag,Sp. Type,EPIC ID,RA (J2000) [deg],Dec (J2000) [deg],Investigation IDs,LC TPF,Halo Lightcurve,Lightcurve Image,Weight Image,Flux Image,Project,Contact,Publication,Comments
+kap Psc,4.94,A2VpSrCrSi,200164167,351.732716,1.255165,GO12047_LC|GO12103_LC|GO12039_LC|GO12122_LC,KTWO200164167-C12,kap_Pschalo_lc_o1.fits,kap_Pschalo_lc_o1.png,kap_Psc_weightmap_o1_sub1.png,kap_Psc_fluxmap_o1_sub1.png,,,,C19
+83 Aqr,5.47,F0V,200164168,346.291555,-7.693773,GO12047_LC|GO12039_LC|GO12122_LC,KTWO200164168-C12,83_Aqrhalo_lc_o1.fits,83_Aqrhalo_lc_o1.png,83_Aqr_weightmap_o1_sub1.png,83_Aqr_fluxmap_o1_sub1.png,,,,C19
+24 Psc,5.94,K0II/III,200164169,358.231585,-3.155866,GO12047_LC,KTWO200164169-C12,24_Pschalo_lc_o1.fits,24_Pschalo_lc_o1.png,24_Psc_weightmap_o1_sub1.png,24_Psc_fluxmap_o1_sub1.png,,,,
+HR 8759,5.933,G5II/III,200164170,345.382614,-4.711516,GO12047_LC,KTWO200164170-C12,HR_8759halo_lc_o1.fits,HR_8759halo_lc_o1.png,HR_8759_weightmap_o1_sub1.png,HR_8759_fluxmap_o1_sub1.png,,,,C19
+14 Psc,5.87,A2II,200164171,353.53746,-1.247154,GO12047_LC|GO12039_LC|GO12122_LC,KTWO200164171-C12,14_Pschalo_lc_o1.fits,14_Pschalo_lc_o1.png,14_Psc_weightmap_o1_sub1.png,14_Psc_fluxmap_o1_sub1.png,,,,
+HR 8921,6.191,K4/5III,200164172,352.25226,-9.266444,GO12047_LC,KTWO200164172-C12,HR_8921halo_lc_o1.fits,HR_8921halo_lc_o1.png,HR_8921_weightmap_o1_sub1.png,HR_8921_fluxmap_o1_sub1.png,,,,
+81 Aqr,6.215,K4III,200164173,345.348622,-7.061254,GO12047_LC,KTWO200164173-C12,81_Aqrhalo_lc_o1.fits,81_Aqrhalo_lc_o1.png,81_Aqr_weightmap_o1_sub1.png,81_Aqr_fluxmap_o1_sub1.png,,,,C19
+HR 8897,6.34,K4III,200164174,350.883513,0.290695,GO12047_LC,KTWO200164174-C12,HR_8897halo_lc_o1.fits,HR_8897halo_lc_o1.png,HR_8897_weightmap_o1_sub1.png,HR_8897_fluxmap_o1_sub1.png,,,,
+,,,,,,,All files:,c12_halofits.tgz,c12_lcpng.tgz,c12_weightpng.tgz,c12_fluxpng.tgz,,,,
