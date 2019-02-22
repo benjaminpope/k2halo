@@ -107,6 +107,10 @@
 \usepackage{xcolor, fontawesome}
 \definecolor{twitterblue}{RGB}{64,153,255}
 \newcommand\twitter[1]{\href{https://twitter.com/#1 }{\textcolor{twitterblue}{\faTwitter}\,\tt \textcolor{twitterblue}{@#1}}}
+% \usepackage{ccaption}
+% \usepackage{graphicx}	% Including figure files
+% \usepackage{amsmath}	% Advanced maths commands
+% \usepackage{amssymb}	% Extra maths symbols
 
 
 %% Tells LaTeX to search for image files in the 
@@ -233,6 +237,9 @@ K2 bright stars. \href{https://github.com/benjaminpope/aselli}{\color{linkcolor}
 \section{Halo Photometry}
 \label{sec:k2}
 
+\section{Sample}
+\label{sec:sample}
+
 
 \section{Discussion}
 \label{sec:discussion}
@@ -259,7 +266,14 @@ This research made use of NASA's Astrophysics Data System; the SIMBAD database, 
 
 \bibliography{ms}
 
+\newpage
+% \section*{Sample}
 
+\input{all_stars_1}
+\input{all_stars_2}
+\input{all_stars_3}
+\input{all_stars_4}
+\input{all_stars_5}
 %% This command is needed to show the entire author+affilation list when
 %% the collaboration and author truncation commands are used.  It has to
 %% go at the end of the manuscript.
