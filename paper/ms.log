@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 FEB 2019 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 FEB 2019 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -553,12 +553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--45
  []
 
 ) (./all_stars_5.tex
-Overfull \hbox (59.93257pt too wide) in paragraph at lines 3--53
+Overfull \hbox (59.93257pt too wide) in paragraph at lines 3--41
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--53
+Underfull \hbox (badness 10000) in paragraph at lines 3--41
 
  []
 
@@ -571,7 +571,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 286.
 Here is how much of TeX's memory you used:
  10242 strings out of 492995
  141777 string characters out of 6132704
- 334867 words of memory out of 5000000
+ 327867 words of memory out of 5000000
  13653 multiletter control sequences out of 15000+600000
  15704 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -587,7 +587,7 @@ cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 mr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on ms.pdf (7 pages, 139252 bytes).
+Output written on ms.pdf (7 pages, 138967 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
