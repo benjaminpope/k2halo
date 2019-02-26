@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 FEB 2019 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 FEB 2019 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,42 +523,42 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 233--233
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./ms.bbl) [2] (./all_stars_1.tex
-Overfull \hbox (46.19946pt too wide) in paragraph at lines 3--45
+Overfull \hbox (46.19946pt too wide) in paragraph at lines 3--42
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--45
+Underfull \hbox (badness 10000) in paragraph at lines 3--42
 
  []
 
 ) (./all_stars_2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--45
+Underfull \hbox (badness 10000) in paragraph at lines 3--42
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--45
+Underfull \hbox (badness 10000) in paragraph at lines 3--42
 
  []
 
 ) (./all_stars_3.tex) (./all_stars_4.tex
-Overfull \hbox (59.93257pt too wide) in paragraph at lines 3--45
+Overfull \hbox (59.93257pt too wide) in paragraph at lines 3--42
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--45
+Underfull \hbox (badness 10000) in paragraph at lines 3--42
 
  []
 
 ) (./all_stars_5.tex
-Overfull \hbox (59.93257pt too wide) in paragraph at lines 3--41
+Overfull \hbox (0.7721pt too wide) in paragraph at lines 3--33
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--41
+Underfull \hbox (badness 10000) in paragraph at lines 3--33
 
  []
 
@@ -571,7 +571,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 286.
 Here is how much of TeX's memory you used:
  10242 strings out of 492995
  141777 string characters out of 6132704
- 328867 words of memory out of 5000000
+ 320867 words of memory out of 5000000
  13653 multiletter control sequences out of 15000+600000
  15704 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -588,7 +588,7 @@ cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on ms.pdf (7 pages, 149330 bytes).
+Output written on ms.pdf (7 pages, 148430 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
