@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 FEB 2019 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2019 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,6 +521,10 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 233--233
 [][] 
  []
 
+
+Overfull \vbox (9.87204pt too high) has occurred while \output is active []
+
+
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./ms.bbl) [2] (./all_stars_1.tex
 Overfull \hbox (46.19946pt too wide) in paragraph at lines 3--42
@@ -569,13 +573,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 286.
  ) 
 Here is how much of TeX's memory you used:
- 10242 strings out of 492995
- 141777 string characters out of 6132704
+ 10244 strings out of 492995
+ 141796 string characters out of 6132704
  320867 words of memory out of 5000000
- 13653 multiletter control sequences out of 15000+600000
- 15704 words of font info for 64 fonts, out of 8000000 for 9000
+ 13654 multiletter control sequences out of 15000+600000
+ 16051 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,654b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1105b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -583,15 +587,18 @@ FontAwesome.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
-.pfb>
-Output written on ms.pdf (7 pages, 148430 bytes).
+m/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+10.pfb>
+Output written on ms.pdf (7 pages, 173762 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  24 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
