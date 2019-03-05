@@ -1,14 +1,23 @@
 import numpy as np
+import matplotlib.pyplot as plt
+
 import matplotlib 
 import matplotlib as mpl
+from matplotlib import rc
+from matplotlib.gridspec import GridSpec
+from matplotlib.pyplot import figure, subplots, subplot
+from mpl_toolkits.axes_grid1 import make_axes_locatable, axes_size
 
 import lightkurve 
 from lightkurve import KeplerLightCurve, KeplerTargetPixelFile
 from k2sc.standalone import k2sc_lc
 import k2sc
 
+import warnings ## eeek!
+warnings.filterwarnings("ignore")
+
 import halophot
-from halophot.halo_tools import translate_greek
+from halophot.halo_tools import *
 
 from astropy.table import Table
 from astropy.io import fits
@@ -16,8 +25,6 @@ from astropy.io import fits
 import fitsio
 
 from argparse import ArgumentParser
-
-import matplotlib as mpl
 
 mpl.style.use('seaborn-colorblind')
 
@@ -136,6 +143,8 @@ if __name__ == '__main__':
     lc.flux = f[1]['corr_flux'][inds_flux]
 
     # now the magic happens
+
+    lc.campaign = int(campaign)
     lc.__class__ = k2sc_lc
     lc.k2sc()
 
