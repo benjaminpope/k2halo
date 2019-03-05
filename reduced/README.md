@@ -9,12 +9,13 @@ In this file we list problems noticed visually with the default reduction on ind
 * psi Sgr - a lot of contamination
 
 #### C8 
-* 60 Psc - didn't correctly threshold saturation
+* 60 Psc - didn't correctly threshold saturation - actually fine now
 * 80 Psc - contaminating star at top right
 * WW Psc - contamination at 4:00 at edge
 
 #### C9
 All stars are extremely contaminated - field is very crowded.
+Deathstar fixes this to some extent.
 
 #### C10
 * HD 107794 - a bit of contamination at 6:00 at the edge
@@ -32,13 +33,13 @@ All stars are extremely contaminated - field is very crowded.
 * 51 Tau - contamination from several sources
 * 56 Tau - contamination at 6:00 at edge
 * 75 Tau - contamination at 2:00 far out
-* 97 Tau - broken
-* 98 Tau - contamination - important because it seems there's a transit! 
+* 97 Tau - broken - always selects a handful of pixels - high frequency 
+* 98 Tau - contamination - important because it seems there's a transit! - transit is real, requires manual map
 * HR 1755 - a bit of contamination at 6:00 at edge
 * del3 Tau - a bit of contamination at 6:00 at edge
-* kap1 Tau - good signal but odd structure
-* rho Tau - bad aperture
-* nu Tau - good signal but weights are only on a few pixels
+* kap1 Tau - good signal but odd structure - high frequency
+* rho Tau - bad aperture - be aggressive with minimum flux 
+* nu Tau - good signal but weights are only on a few pixels - where is this anyway?
 
 #### C14 
 All good! 
@@ -47,12 +48,11 @@ All good!
 * zet4 Lib - bi t of contamination at the edge at 2:00 
 
 #### C16 
-* omi2 Cnc - contamination at the edges
+* omi2 Cnc - contamination at the edges - still crap after fixing this though
 
 #### C17
 * HR 5106 - contamination is significant
-* Spica - threshold too low
 
 #### C18
 * HR 3264 - contamination at edge
-* HR 3222 seems suboptimal
+* HR 3222 seems suboptimal - mid range contamination - same high frequency feature
