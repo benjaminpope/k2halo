@@ -14,7 +14,7 @@ In this repository we include the entire set of scripts and metadata that went i
 
 * In scripts/ are the `k2sc` call script and HPC sbatch scripts to deploy this to the cluster.
 
-* In release/ are the final `k2sc` light curves in MAST High Level Science Product format, together with `k2sc` + `halophot` diagnostic plots.
+* In release/ are the final `k2sc` light curves in MAST High Level Science Product format, together with `k2sc` + `halophot` diagnostic plots. __Use these for your science!__
 
 ### Citation
 
