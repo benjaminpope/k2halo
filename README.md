@@ -8,7 +8,7 @@ We hope you are as excited as we are to look at the largest ever sample of the b
 
 ### Contents
 
-In this repository we include the entire set of scripts and metadata that went into producing the K2 Halo Campaign data release.
+In this repository we include the entire set of scripts and metadata that went into producing the K2 Halo Campaign data release.  We do so in order that this science is completely reproducible, so that the K2 Halo Campaign light curves can be kept up to date with new software or data releases, and to facilitate custom re-reductions of individual datasets. If you have any requests, notice any bugs, or have any suggestions, please do not hesitate to open an Issue on this page with your comments.
 
 * In notebooks/ are the Jupyter notebooks used to generate all the scripts and explore the data. 
 
@@ -16,7 +16,7 @@ In this repository we include the entire set of scripts and metadata that went i
 
 * In reduced/ are the `halophot` reduction scripts, together with subdirectories for each campaiggn including the halo light curve fits files and diagnostic plots.
 
-* In scripts/ are the `k2sc` call script and HPC sbatch scripts to deploy this to the cluster.
+* In scripts/ are the `k2sc` call script and sbatch scripts to deploy this to the NYU HPC cluster.
 
 * In release/ are the final `k2sc` light curves in MAST High Level Science Product format, together with `k2sc` + `halophot` diagnostic plots. __Use these for your science!__
 
