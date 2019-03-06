@@ -30,7 +30,7 @@ The final light curves will be made available as High Level Science Products on 
 
 The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO6081-7081, GO8025, GO9923, GO10025, GO11047-13047, GO14003-16003, and GO17051-19051 (led by Daniel Huber), and as a DDT program in Campaign 4. 
 
-If you use these data pre-publication, please contact [Pope](http://benjaminpope.github.io), [White](https://rsaa.anu.edu.au/people/academics/dr-timothy-white), and [Huber](http://www.ifa.hawaii.edu/~dhuber/) to include them and any relevant students as co-authors.
+If you use these data pre-publication, please contact [Pope](http://benjaminpope.github.io), [White](https://rsaa.anu.edu.au/people/academics/dr-timothy-white), and [Huber](http://www.ifa.hawaii.edu/~dhuber/) to include them and any relevant team members as co-authors.
 
 A data release paper is in preparation.
 
