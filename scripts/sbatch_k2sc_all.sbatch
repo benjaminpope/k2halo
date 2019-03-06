@@ -9,10 +9,6 @@
 
 if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
-things=$(cat sbatch_k2sc_all.txt)
-
-if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
-
 module purge
 module load anaconda3/5.3.1
 source ~/pyenv/py3.7.0/bin/activate
