@@ -1,6 +1,10 @@
 # k2halo
 
-The K2 Halo Campaign Data Release and Paper
+##The K2 Halo Campaign Data Release and Paper
+
+We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars Aldebaran and Spica, the Seven Sisters of the Pleiades, the Hyades giants and the blue supergiant ρ Leonis! These light curves were obtained through a special 'halo photometry' method, which uses the unsaturated 'halo' around a saturated star and applies a Total Variation minimization (TV-min) algorithm to obtain nearly normal quality photometry. These are then additionally corrected with the [`k2sc`](https://github.com/OxES/k2sc) Gaussian Process systematics-correction code to further correct pointing residuals.
+
+We hope you are as excited as we are to look at the largest ever sample of the brightest ever stars to be observed with high-quality space photometry! 
 
 ### Contents
 
