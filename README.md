@@ -66,3 +66,5 @@ Papers on [Aldebaran](https://arxiv.org/abs/1802.09812), the [Pleiades](https://
 The [*Kepler* Smear Campaign](https://github.com/benjaminpope/smearcampaign) includes 103 of the brightest stars observed in the nominal *Kepler* Mission, obtained via [smear photometry](https://arxiv.org/abs/1510.00008). If you haven't had enough of high-quality light curves of very bright stars from the K2 Halo Campaign, this is where you need to go!
 
 In addition to this, before the halo photometry GO proposals, the first few K2 campaigns more or less entirely missed observing very bright stars. Smear data are available for bright stars in these upon request. 
+
+The halo method has been extended to TESS as part of the TASOC pipeline - watch this space for exciting new results soon.
