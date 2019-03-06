@@ -59,7 +59,7 @@ Please also cite the original White et al. halo paper:
 	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 	}
 
-Papers on [Aldebaran](https://arxiv.org/abs/1802.09812), the [Pleiades](https://arxiv.org/abs/1708.07462), [ι Lib](http://adsabs.harvard.edu/abs/2018sf2a.conf..369B), [ε Tauri](https://arxiv.org/abs/1901.06187), and [ρ Leonis](https://arxiv.org/abs/1802.00621) have already been published. Manuscripts are in preparation on the catalogue (Pope), variability in the main-sequence stars (Greklek-McKeon), chemically-peculiar stars (Luger/Pope), and Hyades giants (White). Please be kind!
+Papers on [Aldebaran](https://arxiv.org/abs/1802.09812), the [Pleiades](https://arxiv.org/abs/1708.07462), [ι Lib](http://adsabs.harvard.edu/abs/2018sf2a.conf..369B), [ε Tauri](https://arxiv.org/abs/1901.06187), and [ρ Leonis](https://arxiv.org/abs/1802.00621) have already been published. Manuscripts are in preparation on the catalogue (Pope), variability in the main-sequence stars (Greklek-McKeon/Huber), chemically-peculiar stars (Luger/Pope), and Hyades giants (White). Please be kind!
 
 ### You may also be interested in
 
