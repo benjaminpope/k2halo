@@ -59,6 +59,8 @@ Please also cite the original White et al. halo paper:
 	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 	}
 
+Papers on [Aldebaran](https://arxiv.org/abs/1802.09812), the [Pleiades](https://arxiv.org/abs/1708.07462), [ι Lib](http://adsabs.harvard.edu/abs/2018sf2a.conf..369B), [ε Tauri](https://arxiv.org/abs/1901.06187) and [ρ Leonis](https://arxiv.org/abs/1802.00621) have already been published. Manuscripts are in preparation on variability in the main-sequence stars (Greklek-McKeon) and Hyades giants (White). Please be kind!
+
 ### You may also be interested in
 
 The [*Kepler* Smear Campaign](https://github.com/benjaminpope/smearcampaign) includes 103 of the brightest stars observed in the nominal *Kepler* Mission, obtained via [smear photometry](https://arxiv.org/abs/1510.00008). If you haven't had enough of high-quality light curves of very bright stars from the K2 Halo Campaign, this is where you need to go!
