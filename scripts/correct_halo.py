@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     # read in our halo work
     all_stars = Table.read('../data/haloC%d.csv' % campaign,format='ascii')
-    star = all_stars[all_stars['Name']==starname]
+    star = all_stars[all_stars['Name']==starname.replace('_',' ')]
     epic = star['EPIC ID'].data.data[0]
 
     #load a lightkurve object with all the desired metadata
