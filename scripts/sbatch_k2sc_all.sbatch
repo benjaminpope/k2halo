@@ -9,13 +9,14 @@
 
 if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
-module purge
-module load anaconda3/5.3.1
-source ~/pyenv/py3.7.0/bin/activate
-
 i=0
 while read -r line; do
     if [ $i -eq $SLURM_ARRAY_TASK_ID ]; then
+    	
+		module purge
+		module load anaconda3/5.3.1
+		source ~/pyenv/py3.7.0/bin/activate
+
         echo $line 
         exit
     fi
