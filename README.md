@@ -2,7 +2,7 @@
 
 ##The K2 Halo Campaign Data Release and Paper
 
-We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars Aldebaran and Spica, the Seven Sisters of the Pleiades, the Hyades giants and the blue supergiant ρ Leonis! These light curves were obtained through a special ['halo photometry'](https://github.com/hvidy/halophot) method, which uses the unsaturated 'halo' around a saturated star and applies a Total Variation minimization (TV-min) algorithm to obtain nearly normal quality photometry. These are then additionally corrected with the [`k2sc`](https://github.com/OxES/k2sc) Gaussian Process systematics-correction code to further correct pointing residuals.
+We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars Aldebaran and Spica, the Seven Sisters of the Pleiades, the Hyades giants and the blue supergiant ρ Leonis! *Kepler* saturates around the eleventh magnitude, and looking at first magnitude stars ten thousand times brighter is therefore conventionally impossible. These light curves were obtained through a special ['halo photometry'](https://github.com/hvidy/halophot) method, which uses the unsaturated 'halo' around a saturated star and applies a Total Variation minimization (TV-min) algorithm to obtain nearly normal quality photometry. These are then additionally corrected with the [`k2sc`](https://github.com/OxES/k2sc) Gaussian Process systematics-correction code to further correct pointing residuals.
 
 We hope you are as excited as we are to look at the largest ever sample of the brightest ever stars to be observed with high-quality space photometry! 
 
@@ -11,6 +11,8 @@ We hope you are as excited as we are to look at the largest ever sample of the b
 In this repository we include the entire set of scripts and metadata that went into producing the K2 Halo Campaign data release.  We do so in order that this science is completely open and reproducible, so that the K2 Halo Campaign light curves can be kept up to date with new software or data releases, and to facilitate custom re-reductions of individual datasets. If you have any requests, notice any bugs, or have any suggestions, please do not hesitate to open an Issue on this page with your comments.
 
 You will need to use [git-lfs](https://git-lfs.github.com) to download the .fits and .png data products. Remember to run `git lfs pull` to sync the files locally.
+
+The final light curves will be made available as High Level Science Products on [MAST](https://archive.stsci.edu/k2/hlsps.html).
 
 * In notebooks/ are the Jupyter notebooks used to generate all the scripts and explore the data. 
 
@@ -30,7 +32,7 @@ If you use these data pre-publication, please contact Pope, White, Huber to incl
 
 A data release paper is in preparation.
 
-Please also cite the original White et al. halo paper
+Please also cite the original White et al. halo paper:
 	
 	@ARTICLE{White2017,
 	   author = {{White}, T.~R. and {Pope}, B.~J.~S. and {Antoci}, V. and {P{\'a}pics}, P.~I. and
@@ -54,3 +56,9 @@ Please also cite the original White et al. halo paper
 	   adsurl = {http://adsabs.harvard.edu/abs/2017MNRAS.471.2882W},
 	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 	}
+
+### You may also be interested in
+
+The [*Kepler* Smear Campaign](https://github.com/benjaminpope/smearcampaign) includes 103 of the brightest stars observed in the nominal *Kepler* Mission, obtained via [smear photometry](https://arxiv.org/abs/1510.00008). If you haven't had enough of high-quality light curves of very bright stars from the K2 Halo Campaign, this is where you need to go!
+
+In addition to this, before the halo photometry GO proposals, the first few K2 campaigns more or less entirely missed observing very bright stars. Smear data are available for bright stars in these upon request. 
