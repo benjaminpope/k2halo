@@ -8,7 +8,7 @@ We hope you are as excited as we are to look at the largest ever sample of the b
 
 ### Contents
 
-In this repository we include the entire set of scripts and metadata that went into producing the K2 Halo Campaign data release.  We do so in order that this science is completely reproducible, so that the K2 Halo Campaign light curves can be kept up to date with new software or data releases, and to facilitate custom re-reductions of individual datasets. If you have any requests, notice any bugs, or have any suggestions, please do not hesitate to open an Issue on this page with your comments.
+In this repository we include the entire set of scripts and metadata that went into producing the K2 Halo Campaign data release.  We do so in order that this science is completely open and reproducible, so that the K2 Halo Campaign light curves can be kept up to date with new software or data releases, and to facilitate custom re-reductions of individual datasets. If you have any requests, notice any bugs, or have any suggestions, please do not hesitate to open an Issue on this page with your comments.
 
 * In notebooks/ are the Jupyter notebooks used to generate all the scripts and explore the data. 
 
