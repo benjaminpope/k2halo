@@ -16,7 +16,7 @@ source ~/pyenv/py3.7.0/bin/activate
 i=0
 while read -r line; do
     if [ $i -eq $SLURM_ARRAY_TASK_ID ]; then
-        echo $i $line 
+        echo $line 
         exit
     fi
     i=$((i+1))
