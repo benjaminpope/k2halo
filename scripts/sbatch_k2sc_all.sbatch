@@ -11,12 +11,19 @@ if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
 things=$(cat sbatch_k2sc_all.txt)
 
-if [ $SLURM_ARRAY_TASK_ID -lt ${#things[*]} ]; then
-	module purge
-	module load anaconda3/5.3.1
+if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
-	virtualenv --system-site-packages py3.7.0
-	source ~/pyenv/py3.7.0/bin/activate
+module purge
+module load anaconda3/5.3.1
+source ~/pyenv/py3.7.0/bin/activate
 
-    echo $SLURM_ARRAY_TASK_ID ${things[$SLURM_ARRAY_TASK_ID]}
-fi
+i=0
+while read -r line; do
+    if [ $i -eq $SLURM_ARRAY_TASK_ID ]; then
+        echo $i $line 
+        exit
+    fi
+    i=$((i+1))
+done < sbatch_k2sc_all.txt
+
+exit
