@@ -2,7 +2,7 @@
 
 ##The K2 Halo Campaign Data Release and Paper
 
-We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars Aldebaran and Spica, the Seven Sisters of the Pleiades, the Hyades giants and the blue supergiant ρ Leonis! These light curves were obtained through a special 'halo photometry' method, which uses the unsaturated 'halo' around a saturated star and applies a Total Variation minimization (TV-min) algorithm to obtain nearly normal quality photometry. These are then additionally corrected with the [`k2sc`](https://github.com/OxES/k2sc) Gaussian Process systematics-correction code to further correct pointing residuals.
+We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars Aldebaran and Spica, the Seven Sisters of the Pleiades, the Hyades giants and the blue supergiant ρ Leonis! These light curves were obtained through a special ['halo photometry'](https://github.com/hvidy/halophot) method, which uses the unsaturated 'halo' around a saturated star and applies a Total Variation minimization (TV-min) algorithm to obtain nearly normal quality photometry. These are then additionally corrected with the [`k2sc`](https://github.com/OxES/k2sc) Gaussian Process systematics-correction code to further correct pointing residuals.
 
 We hope you are as excited as we are to look at the largest ever sample of the brightest ever stars to be observed with high-quality space photometry! 
 
@@ -22,7 +22,7 @@ In this repository we include the entire set of scripts and metadata that went i
 
 ### Citation
 
-The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO19051, GO18051, GO17051, GO16003, GO15003, GO14003, GO13047, GO12047, GO11047, GO10025, GO9923, GO8025, GO7081, GO6081, and as a DDT program in Campaign 4. 
+The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO6081-7081, GO8025, GO9923, GO10025, GO11047-13047, GO14003-16003, and GO17051-19051 (led by Daniel Huber), and as a DDT program in Campaign 4. 
 
 If you use these data pre-publication, please contact Pope, White, Huber to include them as co-authors.
 
