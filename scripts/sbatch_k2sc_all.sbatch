@@ -5,18 +5,21 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=08:00:00
-#SBATCH --array=0-13
+#SBATCH --array=0-195
 
 if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
-things=$(cat sbatch_k2sc_all.txt)
+module purge
+module load anaconda3/5.3.1
+source ~/pyenv/py3.7.0/bin/activate
 
-if [ $SLURM_ARRAY_TASK_ID -lt ${#things[*]} ]; then
-	module purge
-	module load anaconda3/5.3.1
+i=0
+while read -r line; do
+    if [ $i -eq $SLURM_ARRAY_TASK_ID ]; then
+        echo $line 
+        exit
+    fi
+    i=$((i+1))
+done < sbatch_k2sc_all.txt
 
-	virtualenv --system-site-packages py3.7.0
-	source ~/pyenv/py3.7.0/bin/activate
-
-    echo $SLURM_ARRAY_TASK_ID ${things[$SLURM_ARRAY_TASK_ID]}
-fi
+exit

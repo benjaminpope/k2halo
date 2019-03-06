@@ -1,196 +1,196 @@
-python correct_halo.py -c 7 -name Ascella
-python correct_halo.py -c 7 -name Albaldah
-python correct_halo.py -c 7 -name tau_Sgr
-python correct_halo.py -c 7 -name ksi2_Sgr
-python correct_halo.py -c 7 -name omi_Sgr
-python correct_halo.py -c 7 -name 52_Sgr
-python correct_halo.py -c 7 -name Ainalrami
-python correct_halo.py -c 7 -name psi_Sgr
-python correct_halo.py -c 7 -name 43_Sgr
-python correct_halo.py -c 7 -name nu2_Sgr
-python correct_halo.py -c 8 -name eps_Psc
-python correct_halo.py -c 8 -name Revati
-python correct_halo.py -c 8 -name 80_Psc
-python correct_halo.py -c 8 -name 42_Cet
-python correct_halo.py -c 8 -name 33_Cet
-python correct_halo.py -c 8 -name 60_Psc
-python correct_halo.py -c 8 -name 73_Psc
-python correct_halo.py -c 8 -name WW_Psc
-python correct_halo.py -c 8 -name HR_243
-python correct_halo.py -c 8 -name HR_161
-python correct_halo.py -c 91 -name HR_6766
-python correct_halo.py -c 92 -name HR_6766
-python correct_halo.py -c 91 -name HR_6842
-python correct_halo.py -c 92 -name HR_6842
-python correct_halo.py -c 91 -name 4_Sgr
-python correct_halo.py -c 92 -name 4_Sgr
-python correct_halo.py -c 91 -name 11_Sgr
-python correct_halo.py -c 92 -name 11_Sgr
-python correct_halo.py -c 91 -name 7_Sgr
-python correct_halo.py -c 92 -name 7_Sgr
-python correct_halo.py -c 91 -name 15_Sgr
-python correct_halo.py -c 92 -name 15_Sgr
-python correct_halo.py -c 91 -name HR_6838
-python correct_halo.py -c 92 -name HR_6838
-python correct_halo.py -c 91 -name Y_Sgr
-python correct_halo.py -c 92 -name Y_Sgr
-python correct_halo.py -c 91 -name HR_6716
-python correct_halo.py -c 92 -name HR_6716
-python correct_halo.py -c 91 -name HR_6681
-python correct_halo.py -c 92 -name HR_6681
-python correct_halo.py -c 91 -name 9_Sgr
-python correct_halo.py -c 92 -name 9_Sgr
-python correct_halo.py -c 91 -name 16_Sgr
-python correct_halo.py -c 92 -name 16_Sgr
-python correct_halo.py -c 91 -name HR_6825
-python correct_halo.py -c 92 -name HR_6825
-python correct_halo.py -c 91 -name 63_Oph
-python correct_halo.py -c 92 -name 63_Oph
-python correct_halo.py -c 91 -name HR_6679
-python correct_halo.py -c 92 -name HR_6679
-python correct_halo.py -c 91 -name HD_165784
-python correct_halo.py -c 92 -name HD_165784
-python correct_halo.py -c 91 -name HD_161083
-python correct_halo.py -c 92 -name HD_161083
-python correct_halo.py -c 91 -name 5_Sgr
-python correct_halo.py -c 92 -name 5_Sgr
-python correct_halo.py -c 91 -name HD_167576
-python correct_halo.py -c 92 -name HD_167576
-python correct_halo.py -c 91 -name HR_6773
-python correct_halo.py -c 92 -name HR_6773
-python correct_halo.py -c 91 -name HD_163296
-python correct_halo.py -c 92 -name HD_163296
-python correct_halo.py -c 91 -name HD_165052
-python correct_halo.py -c 92 -name HD_165052
-python correct_halo.py -c 91 -name 17_Sgr
-python correct_halo.py -c 92 -name 17_Sgr
-python correct_halo.py -c 91 -name HD_169966
-python correct_halo.py -c 92 -name HD_169966
-python correct_halo.py -c 91 -name HD_162030
-python correct_halo.py -c 92 -name HD_162030
-python correct_halo.py -c 101 -name Porrima
-python correct_halo.py -c 102 -name Porrima
-python correct_halo.py -c 101 -name Zaniah
-python correct_halo.py -c 102 -name Zaniah
-python correct_halo.py -c 101 -name 21_Vir
-python correct_halo.py -c 102 -name 21_Vir
-python correct_halo.py -c 101 -name FW_Vir
-python correct_halo.py -c 102 -name FW_Vir
-python correct_halo.py -c 101 -name HR_4837
-python correct_halo.py -c 102 -name HR_4837
-python correct_halo.py -c 101 -name HR_4591
-python correct_halo.py -c 102 -name HR_4591
-python correct_halo.py -c 101 -name HR_4613
-python correct_halo.py -c 102 -name HR_4613
-python correct_halo.py -c 101 -name HD_107794
-python correct_halo.py -c 102 -name HD_107794
-python correct_halo.py -c 111 -name tet_Oph
-python correct_halo.py -c 111 -name 44_Oph
-python correct_halo.py -c 111 -name 45_Oph
-python correct_halo.py -c 111 -name 51_Oph
-python correct_halo.py -c 111 -name 36_Oph
-python correct_halo.py -c 111 -name omi_Oph
-python correct_halo.py -c 111 -name 26_Oph
-python correct_halo.py -c 111 -name HR_6472
-python correct_halo.py -c 111 -name HR_6366
-python correct_halo.py -c 111 -name HR_6365
-python correct_halo.py -c 111 -name 191_Oph
-python correct_halo.py -c 12 -name kap_Psc
-python correct_halo.py -c 12 -name 83_Aqr
-python correct_halo.py -c 12 -name 24_Psc
-python correct_halo.py -c 12 -name HR_8759
-python correct_halo.py -c 12 -name 14_Psc
-python correct_halo.py -c 12 -name HR_8921
-python correct_halo.py -c 12 -name 81_Aqr
-python correct_halo.py -c 12 -name HR_8897
-python correct_halo.py -c 13 -name Aldebaran
-python correct_halo.py -c 13 -name tet2_Tau
-python correct_halo.py -c 13 -name tet2_Tau
-python correct_halo.py -c 13 -name eps_Tau
-python correct_halo.py -c 13 -name tet1_Tau
-python correct_halo.py -c 13 -name kap1_Tau
-python correct_halo.py -c 13 -name kap1_Tau
-python correct_halo.py -c 13 -name del3_Tau
-python correct_halo.py -c 13 -name tau_Tau
-python correct_halo.py -c 13 -name ups_Tau
-python correct_halo.py -c 13 -name ups_Tau
-python correct_halo.py -c 13 -name rho_Tau
-python correct_halo.py -c 13 -name rho_Tau
-python correct_halo.py -c 13 -name 11_Ori
-python correct_halo.py -c 13 -name HR_1427
-python correct_halo.py -c 13 -name HR_1427
-python correct_halo.py -c 13 -name 15_Ori
-python correct_halo.py -c 13 -name 75_Tau
-python correct_halo.py -c 13 -name 97_Tau
-python correct_halo.py -c 13 -name 97_Tau
-python correct_halo.py -c 13 -name HR_1684
-python correct_halo.py -c 13 -name kap2_Tau
-python correct_halo.py -c 13 -name kap2_Tau
-python correct_halo.py -c 13 -name 56_Tau
-python correct_halo.py -c 13 -name 81_Tau
-python correct_halo.py -c 13 -name 53_Tau
-python correct_halo.py -c 13 -name HR_1585
-python correct_halo.py -c 13 -name 80_Tau
-python correct_halo.py -c 13 -name 51_Tau
-python correct_halo.py -c 13 -name HR_1403
-python correct_halo.py -c 13 -name 89_Tau
-python correct_halo.py -c 13 -name HR_1576
-python correct_halo.py -c 13 -name 98_Tau
-python correct_halo.py -c 13 -name 99_Tau
-python correct_halo.py -c 13 -name 105_Tau
-python correct_halo.py -c 13 -name HR_1554
-python correct_halo.py -c 13 -name HR_1385
-python correct_halo.py -c 13 -name 85_Tau
-python correct_halo.py -c 13 -name HR_1459
-python correct_halo.py -c 13 -name HR_1741
-python correct_halo.py -c 13 -name HR_1633
-python correct_halo.py -c 13 -name HR_1755
-python correct_halo.py -c 14 -name rho_Leo
-python correct_halo.py -c 14 -name 58_Leo
-python correct_halo.py -c 14 -name 48_Leo
-python correct_halo.py -c 14 -name 53_Leo
-python correct_halo.py -c 14 -name 65_Leo
-python correct_halo.py -c 14 -name 35_Sex
-python correct_halo.py -c 14 -name 43_Leo
-python correct_halo.py -c 15 -name Dschubba
-python correct_halo.py -c 15 -name Zubenelhakrabi
-python correct_halo.py -c 15 -name iot1_Lib
-python correct_halo.py -c 15 -name 41_Lib
-python correct_halo.py -c 15 -name zet4_Lib
-python correct_halo.py -c 15 -name HR_5762
-python correct_halo.py -c 15 -name HR_5806
-python correct_halo.py -c 15 -name zet3_Lib
-python correct_halo.py -c 15 -name HR_5810
-python correct_halo.py -c 15 -name iot2_Lib
-python correct_halo.py -c 15 -name HR_5620
-python correct_halo.py -c 15 -name 28_Lib
-python correct_halo.py -c 15 -name HD_138810
-python correct_halo.py -c 16 -name Asellus_Australis
-python correct_halo.py -c 16 -name Acubens
-python correct_halo.py -c 16 -name ksi_Cnc
-python correct_halo.py -c 16 -name omi1_Cnc
-python correct_halo.py -c 16 -name eta_Cnc
-python correct_halo.py -c 16 -name 45_Cnc
-python correct_halo.py -c 16 -name 45_Cnc
-python correct_halo.py -c 16 -name omi2_Cnc
-python correct_halo.py -c 16 -name 50_Cnc
-python correct_halo.py -c 17 -name Spica
-python correct_halo.py -c 17 -name 82_Vir
-python correct_halo.py -c 17 -name 76_Vir
-python correct_halo.py -c 17 -name 68_Vir
-python correct_halo.py -c 17 -name 80_Vir
-python correct_halo.py -c 17 -name HR_5106
-python correct_halo.py -c 17 -name HR_5059
-python correct_halo.py -c 18 -name gam_Cnc
-python correct_halo.py -c 18 -name zet_Cnc
-python correct_halo.py -c 18 -name eta_Cnc
-python correct_halo.py -c 18 -name 60_Cnc
-python correct_halo.py -c 18 -name 49_Cnc
-python correct_halo.py -c 18 -name HR_3264
-python correct_halo.py -c 18 -name 50_Cnc
-python correct_halo.py -c 18 -name 29_Cnc
-python correct_halo.py -c 18 -name HR_3222
-python correct_halo.py -c 18 -name 21_Cnc
-python correct_halo.py -c 18 -name 25_Cnc
-python correct_halo.py -c 18 -name HR_3558
-python correct_halo.py -c 18 -name HR_3541
+python correct_halo.py -c 7 -name Ascella &> Ascella_output.txt
+python correct_halo.py -c 7 -name Albaldah &> Albaldah_output.txt
+python correct_halo.py -c 7 -name tau_Sgr &> tau_Sgr_output.txt
+python correct_halo.py -c 7 -name ksi2_Sgr &> ksi2_Sgr_output.txt
+python correct_halo.py -c 7 -name omi_Sgr &> omi_Sgr_output.txt
+python correct_halo.py -c 7 -name 52_Sgr &> 52_Sgr_output.txt
+python correct_halo.py -c 7 -name Ainalrami &> Ainalrami_output.txt
+python correct_halo.py -c 7 -name psi_Sgr &> psi_Sgr_output.txt
+python correct_halo.py -c 7 -name 43_Sgr &> 43_Sgr_output.txt
+python correct_halo.py -c 7 -name nu2_Sgr &> nu2_Sgr_output.txt
+python correct_halo.py -c 8 -name eps_Psc &> eps_Psc_output.txt
+python correct_halo.py -c 8 -name Revati &> Revati_output.txt
+python correct_halo.py -c 8 -name 80_Psc &> 80_Psc_output.txt
+python correct_halo.py -c 8 -name 42_Cet &> 42_Cet_output.txt
+python correct_halo.py -c 8 -name 33_Cet &> 33_Cet_output.txt
+python correct_halo.py -c 8 -name 60_Psc &> 60_Psc_output.txt
+python correct_halo.py -c 8 -name 73_Psc &> 73_Psc_output.txt
+python correct_halo.py -c 8 -name WW_Psc &> WW_Psc_output.txt
+python correct_halo.py -c 8 -name HR_243 &> HR_243_output.txt
+python correct_halo.py -c 8 -name HR_161 &> HR_161_output.txt
+python correct_halo.py -c 91 -name HR_6766 &> HR_6766_output.txt
+python correct_halo.py -c 92 -name HR_6766 &> HR_6766_output.txt
+python correct_halo.py -c 91 -name HR_6842 &> HR_6842_output.txt
+python correct_halo.py -c 92 -name HR_6842 &> HR_6842_output.txt
+python correct_halo.py -c 91 -name 4_Sgr &> 4_Sgr_output.txt
+python correct_halo.py -c 92 -name 4_Sgr &> 4_Sgr_output.txt
+python correct_halo.py -c 91 -name 11_Sgr &> 11_Sgr_output.txt
+python correct_halo.py -c 92 -name 11_Sgr &> 11_Sgr_output.txt
+python correct_halo.py -c 91 -name 7_Sgr &> 7_Sgr_output.txt
+python correct_halo.py -c 92 -name 7_Sgr &> 7_Sgr_output.txt
+python correct_halo.py -c 91 -name 15_Sgr &> 15_Sgr_output.txt
+python correct_halo.py -c 92 -name 15_Sgr &> 15_Sgr_output.txt
+python correct_halo.py -c 91 -name HR_6838 &> HR_6838_output.txt
+python correct_halo.py -c 92 -name HR_6838 &> HR_6838_output.txt
+python correct_halo.py -c 91 -name Y_Sgr &> Y_Sgr_output.txt
+python correct_halo.py -c 92 -name Y_Sgr &> Y_Sgr_output.txt
+python correct_halo.py -c 91 -name HR_6716 &> HR_6716_output.txt
+python correct_halo.py -c 92 -name HR_6716 &> HR_6716_output.txt
+python correct_halo.py -c 91 -name HR_6681 &> HR_6681_output.txt
+python correct_halo.py -c 92 -name HR_6681 &> HR_6681_output.txt
+python correct_halo.py -c 91 -name 9_Sgr &> 9_Sgr_output.txt
+python correct_halo.py -c 92 -name 9_Sgr &> 9_Sgr_output.txt
+python correct_halo.py -c 91 -name 16_Sgr &> 16_Sgr_output.txt
+python correct_halo.py -c 92 -name 16_Sgr &> 16_Sgr_output.txt
+python correct_halo.py -c 91 -name HR_6825 &> HR_6825_output.txt
+python correct_halo.py -c 92 -name HR_6825 &> HR_6825_output.txt
+python correct_halo.py -c 91 -name 63_Oph &> 63_Oph_output.txt
+python correct_halo.py -c 92 -name 63_Oph &> 63_Oph_output.txt
+python correct_halo.py -c 91 -name HR_6679 &> HR_6679_output.txt
+python correct_halo.py -c 92 -name HR_6679 &> HR_6679_output.txt
+python correct_halo.py -c 91 -name HD_165784 &> HD_165784_output.txt
+python correct_halo.py -c 92 -name HD_165784 &> HD_165784_output.txt
+python correct_halo.py -c 91 -name HD_161083 &> HD_161083_output.txt
+python correct_halo.py -c 92 -name HD_161083 &> HD_161083_output.txt
+python correct_halo.py -c 91 -name 5_Sgr &> 5_Sgr_output.txt
+python correct_halo.py -c 92 -name 5_Sgr &> 5_Sgr_output.txt
+python correct_halo.py -c 91 -name HD_167576 &> HD_167576_output.txt
+python correct_halo.py -c 92 -name HD_167576 &> HD_167576_output.txt
+python correct_halo.py -c 91 -name HR_6773 &> HR_6773_output.txt
+python correct_halo.py -c 92 -name HR_6773 &> HR_6773_output.txt
+python correct_halo.py -c 91 -name HD_163296 &> HD_163296_output.txt
+python correct_halo.py -c 92 -name HD_163296 &> HD_163296_output.txt
+python correct_halo.py -c 91 -name HD_165052 &> HD_165052_output.txt
+python correct_halo.py -c 92 -name HD_165052 &> HD_165052_output.txt
+python correct_halo.py -c 91 -name 17_Sgr &> 17_Sgr_output.txt
+python correct_halo.py -c 92 -name 17_Sgr &> 17_Sgr_output.txt
+python correct_halo.py -c 91 -name HD_169966 &> HD_169966_output.txt
+python correct_halo.py -c 92 -name HD_169966 &> HD_169966_output.txt
+python correct_halo.py -c 91 -name HD_162030 &> HD_162030_output.txt
+python correct_halo.py -c 92 -name HD_162030 &> HD_162030_output.txt
+python correct_halo.py -c 101 -name Porrima &> Porrima_output.txt
+python correct_halo.py -c 102 -name Porrima &> Porrima_output.txt
+python correct_halo.py -c 101 -name Zaniah &> Zaniah_output.txt
+python correct_halo.py -c 102 -name Zaniah &> Zaniah_output.txt
+python correct_halo.py -c 101 -name 21_Vir &> 21_Vir_output.txt
+python correct_halo.py -c 102 -name 21_Vir &> 21_Vir_output.txt
+python correct_halo.py -c 101 -name FW_Vir &> FW_Vir_output.txt
+python correct_halo.py -c 102 -name FW_Vir &> FW_Vir_output.txt
+python correct_halo.py -c 101 -name HR_4837 &> HR_4837_output.txt
+python correct_halo.py -c 102 -name HR_4837 &> HR_4837_output.txt
+python correct_halo.py -c 101 -name HR_4591 &> HR_4591_output.txt
+python correct_halo.py -c 102 -name HR_4591 &> HR_4591_output.txt
+python correct_halo.py -c 101 -name HR_4613 &> HR_4613_output.txt
+python correct_halo.py -c 102 -name HR_4613 &> HR_4613_output.txt
+python correct_halo.py -c 101 -name HD_107794 &> HD_107794_output.txt
+python correct_halo.py -c 102 -name HD_107794 &> HD_107794_output.txt
+python correct_halo.py -c 111 -name tet_Oph &> tet_Oph_output.txt
+python correct_halo.py -c 111 -name 44_Oph &> 44_Oph_output.txt
+python correct_halo.py -c 111 -name 45_Oph &> 45_Oph_output.txt
+python correct_halo.py -c 111 -name 51_Oph &> 51_Oph_output.txt
+python correct_halo.py -c 111 -name 36_Oph &> 36_Oph_output.txt
+python correct_halo.py -c 111 -name omi_Oph &> omi_Oph_output.txt
+python correct_halo.py -c 111 -name 26_Oph &> 26_Oph_output.txt
+python correct_halo.py -c 111 -name HR_6472 &> HR_6472_output.txt
+python correct_halo.py -c 111 -name HR_6366 &> HR_6366_output.txt
+python correct_halo.py -c 111 -name HR_6365 &> HR_6365_output.txt
+python correct_halo.py -c 111 -name 191_Oph &> 191_Oph_output.txt
+python correct_halo.py -c 12 -name kap_Psc &> kap_Psc_output.txt
+python correct_halo.py -c 12 -name 83_Aqr &> 83_Aqr_output.txt
+python correct_halo.py -c 12 -name 24_Psc &> 24_Psc_output.txt
+python correct_halo.py -c 12 -name HR_8759 &> HR_8759_output.txt
+python correct_halo.py -c 12 -name 14_Psc &> 14_Psc_output.txt
+python correct_halo.py -c 12 -name HR_8921 &> HR_8921_output.txt
+python correct_halo.py -c 12 -name 81_Aqr &> 81_Aqr_output.txt
+python correct_halo.py -c 12 -name HR_8897 &> HR_8897_output.txt
+python correct_halo.py -c 13 -name Aldebaran &> Aldebaran_output.txt
+python correct_halo.py -c 13 -name tet2_Tau &> tet2_Tau_output.txt
+python correct_halo.py -c 13 -name tet2_Tau &> tet2_Tau_output.txt
+python correct_halo.py -c 13 -name eps_Tau &> eps_Tau_output.txt
+python correct_halo.py -c 13 -name tet1_Tau &> tet1_Tau_output.txt
+python correct_halo.py -c 13 -name kap1_Tau &> kap1_Tau_output.txt
+python correct_halo.py -c 13 -name kap1_Tau &> kap1_Tau_output.txt
+python correct_halo.py -c 13 -name del3_Tau &> del3_Tau_output.txt
+python correct_halo.py -c 13 -name tau_Tau &> tau_Tau_output.txt
+python correct_halo.py -c 13 -name ups_Tau &> ups_Tau_output.txt
+python correct_halo.py -c 13 -name ups_Tau &> ups_Tau_output.txt
+python correct_halo.py -c 13 -name rho_Tau &> rho_Tau_output.txt
+python correct_halo.py -c 13 -name rho_Tau &> rho_Tau_output.txt
+python correct_halo.py -c 13 -name 11_Ori &> 11_Ori_output.txt
+python correct_halo.py -c 13 -name HR_1427 &> HR_1427_output.txt
+python correct_halo.py -c 13 -name HR_1427 &> HR_1427_output.txt
+python correct_halo.py -c 13 -name 15_Ori &> 15_Ori_output.txt
+python correct_halo.py -c 13 -name 75_Tau &> 75_Tau_output.txt
+python correct_halo.py -c 13 -name 97_Tau &> 97_Tau_output.txt
+python correct_halo.py -c 13 -name 97_Tau &> 97_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1684 &> HR_1684_output.txt
+python correct_halo.py -c 13 -name kap2_Tau &> kap2_Tau_output.txt
+python correct_halo.py -c 13 -name kap2_Tau &> kap2_Tau_output.txt
+python correct_halo.py -c 13 -name 56_Tau &> 56_Tau_output.txt
+python correct_halo.py -c 13 -name 81_Tau &> 81_Tau_output.txt
+python correct_halo.py -c 13 -name 53_Tau &> 53_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1585 &> HR_1585_output.txt
+python correct_halo.py -c 13 -name 80_Tau &> 80_Tau_output.txt
+python correct_halo.py -c 13 -name 51_Tau &> 51_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1403 &> HR_1403_output.txt
+python correct_halo.py -c 13 -name 89_Tau &> 89_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1576 &> HR_1576_output.txt
+python correct_halo.py -c 13 -name 98_Tau &> 98_Tau_output.txt
+python correct_halo.py -c 13 -name 99_Tau &> 99_Tau_output.txt
+python correct_halo.py -c 13 -name 105_Tau &> 105_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1554 &> HR_1554_output.txt
+python correct_halo.py -c 13 -name HR_1385 &> HR_1385_output.txt
+python correct_halo.py -c 13 -name 85_Tau &> 85_Tau_output.txt
+python correct_halo.py -c 13 -name HR_1459 &> HR_1459_output.txt
+python correct_halo.py -c 13 -name HR_1741 &> HR_1741_output.txt
+python correct_halo.py -c 13 -name HR_1633 &> HR_1633_output.txt
+python correct_halo.py -c 13 -name HR_1755 &> HR_1755_output.txt
+python correct_halo.py -c 14 -name rho_Leo &> rho_Leo_output.txt
+python correct_halo.py -c 14 -name 58_Leo &> 58_Leo_output.txt
+python correct_halo.py -c 14 -name 48_Leo &> 48_Leo_output.txt
+python correct_halo.py -c 14 -name 53_Leo &> 53_Leo_output.txt
+python correct_halo.py -c 14 -name 65_Leo &> 65_Leo_output.txt
+python correct_halo.py -c 14 -name 35_Sex &> 35_Sex_output.txt
+python correct_halo.py -c 14 -name 43_Leo &> 43_Leo_output.txt
+python correct_halo.py -c 15 -name Dschubba &> Dschubba_output.txt
+python correct_halo.py -c 15 -name Zubenelhakrabi &> Zubenelhakrabi_output.txt
+python correct_halo.py -c 15 -name iot1_Lib &> iot1_Lib_output.txt
+python correct_halo.py -c 15 -name 41_Lib &> 41_Lib_output.txt
+python correct_halo.py -c 15 -name zet4_Lib &> zet4_Lib_output.txt
+python correct_halo.py -c 15 -name HR_5762 &> HR_5762_output.txt
+python correct_halo.py -c 15 -name HR_5806 &> HR_5806_output.txt
+python correct_halo.py -c 15 -name zet3_Lib &> zet3_Lib_output.txt
+python correct_halo.py -c 15 -name HR_5810 &> HR_5810_output.txt
+python correct_halo.py -c 15 -name iot2_Lib &> iot2_Lib_output.txt
+python correct_halo.py -c 15 -name HR_5620 &> HR_5620_output.txt
+python correct_halo.py -c 15 -name 28_Lib &> 28_Lib_output.txt
+python correct_halo.py -c 15 -name HD_138810 &> HD_138810_output.txt
+python correct_halo.py -c 16 -name Asellus_Australis &> Asellus_Australis_output.txt
+python correct_halo.py -c 16 -name Acubens &> Acubens_output.txt
+python correct_halo.py -c 16 -name ksi_Cnc &> ksi_Cnc_output.txt
+python correct_halo.py -c 16 -name omi1_Cnc &> omi1_Cnc_output.txt
+python correct_halo.py -c 16 -name eta_Cnc &> eta_Cnc_output.txt
+python correct_halo.py -c 16 -name 45_Cnc &> 45_Cnc_output.txt
+python correct_halo.py -c 16 -name 45_Cnc &> 45_Cnc_output.txt
+python correct_halo.py -c 16 -name omi2_Cnc &> omi2_Cnc_output.txt
+python correct_halo.py -c 16 -name 50_Cnc &> 50_Cnc_output.txt
+python correct_halo.py -c 17 -name Spica &> Spica_output.txt
+python correct_halo.py -c 17 -name 82_Vir &> 82_Vir_output.txt
+python correct_halo.py -c 17 -name 76_Vir &> 76_Vir_output.txt
+python correct_halo.py -c 17 -name 68_Vir &> 68_Vir_output.txt
+python correct_halo.py -c 17 -name 80_Vir &> 80_Vir_output.txt
+python correct_halo.py -c 17 -name HR_5106 &> HR_5106_output.txt
+python correct_halo.py -c 17 -name HR_5059 &> HR_5059_output.txt
+python correct_halo.py -c 18 -name gam_Cnc &> gam_Cnc_output.txt
+python correct_halo.py -c 18 -name zet_Cnc &> zet_Cnc_output.txt
+python correct_halo.py -c 18 -name eta_Cnc &> eta_Cnc_output.txt
+python correct_halo.py -c 18 -name 60_Cnc &> 60_Cnc_output.txt
+python correct_halo.py -c 18 -name 49_Cnc &> 49_Cnc_output.txt
+python correct_halo.py -c 18 -name HR_3264 &> HR_3264_output.txt
+python correct_halo.py -c 18 -name 50_Cnc &> 50_Cnc_output.txt
+python correct_halo.py -c 18 -name 29_Cnc &> 29_Cnc_output.txt
+python correct_halo.py -c 18 -name HR_3222 &> HR_3222_output.txt
+python correct_halo.py -c 18 -name 21_Cnc &> 21_Cnc_output.txt
+python correct_halo.py -c 18 -name 25_Cnc &> 25_Cnc_output.txt
+python correct_halo.py -c 18 -name HR_3558 &> HR_3558_output.txt
+python correct_halo.py -c 18 -name HR_3541 &> HR_3541_output.txt
