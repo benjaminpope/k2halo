@@ -166,4 +166,4 @@ if __name__ == '__main__':
     hdul.writeto('hlsp_halo_k2_llc_%s_-c%d.fits' % (epic,campaign),overwrite=True)
 
     if args.do_plot:
-        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' Detrended')
+        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' Detrended',save_file='%s_halo_k2sc.png' % args.name)
