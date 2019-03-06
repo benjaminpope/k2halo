@@ -17,7 +17,7 @@ i=0
 while read -r line; do
     if [ $i -eq $SLURM_ARRAY_TASK_ID ]; then
         echo $line 
-        exit
+        # exit
     fi
     i=$((i+1))
 done < sbatch_k2sc_all.txt
