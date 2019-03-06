@@ -1,6 +1,6 @@
 # k2halo
 
-##The K2 Halo Campaign Data Release and Paper
+## The K2 Halo Campaign Data Release and Paper
 
 We are delighted to present light curves of the very brightest stars observed by K2 - including the first magnitude stars [Aldebaran](https://arxiv.org/abs/1802.09812) and Spica, the [Seven Sisters of the Pleiades](https://arxiv.org/abs/1708.07462), the Hyades giants and the blue supergiant [ρ Leonis](https://arxiv.org/abs/1802.00621)! 
 
