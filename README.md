@@ -14,7 +14,7 @@ In this repository we include the entire set of scripts and metadata that went i
 
 You will need to use [git-lfs](https://git-lfs.github.com) to download the .fits and .png data products. Remember to run `git lfs pull` to sync the files locally.
 
-The final light curves will be made available as High Level Science Products on [MAST](https://archive.stsci.edu/k2/hlsps.html).
+The final light curves will be made available as High Level Science Products on [MAST](https://archive.stsci.edu/k2/hlsps.html). The reduction here should be considered pretty good but nevertheless preliminary and may be improved or extended by the time it goes live on MAST.
 
 * In notebooks/ are the Jupyter notebooks used to generate all the scripts and explore the data. 
 
