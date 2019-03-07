@@ -25,4 +25,11 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
 
+\bibitem[{Vin\'{i}cius {et~al.}(2018)Vin\'{i}cius, Barentsen, Hedges, \&
+  Gully-Santiago}]{lightkurve}
+Vin\'{i}cius, Z., Barentsen, G., Hedges, C., \& Gully-Santiago, M. 2018,
+  {KeplerGO/lightkurve: 1.0.0.dev1: First development release of lightkurve},
+  \dodoi{10.5281/zenodo.1181929}.
+\newblock \url{https://doi.org/10.5281/zenodo.1181929}
+
 \end{thebibliography}
