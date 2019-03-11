@@ -5,6 +5,14 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
+  {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aquirre},
+  {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
+  {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Palle}, {Garcia}, {Deng},
+  {Hon}, {Stello}, \& {J{\o}rgensen}}]{arentoft2019}
+{Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, arXiv e-prints.
+\newblock \doarXiv{1901.06187}
+
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
   {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
@@ -15,6 +23,18 @@
   {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{astropy}
 {Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
   \aap, 558, A33, \dodoi{10.1051/0004-6361/201322068}
+
+\bibitem[{{Buysschaert} {et~al.}(2018){Buysschaert}, {Neiner}, {Aerts},
+  {White}, \& {Pope}}]{Buysschaert2018}
+{Buysschaert}, B., {Neiner}, C., {Aerts}, C., {White}, T.~R., \& {Pope},
+  B.~J.~S. 2018, in SF2A-2018: Proceedings of the Annual meeting of the French
+  Society of Astronomy and Astrophysics, 369--372
+
+\bibitem[{{Farr} {et~al.}(2018){Farr}, {Pope}, {Davies}, {North}, {White},
+  {Barrett}, {Miglio}, {Lund}, {Antoci}, {Fredslund Andersen}, {Grundahl}, \&
+  {Huber}}]{Farr2018}
+{Farr}, W.~M., {Pope}, B. J.~S., {Davies}, G.~R., {et~al.} 2018, \apj, 865,
+  L20, \dodoi{10.3847/2041-8213/aadfde}
 
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
@@ -31,5 +51,13 @@ Vin\'{i}cius, Z., Barentsen, G., Hedges, C., \& Gully-Santiago, M. 2018,
   {KeplerGO/lightkurve: 1.0.0.dev1: First development release of lightkurve},
   \dodoi{10.5281/zenodo.1181929}.
 \newblock \url{https://doi.org/10.5281/zenodo.1181929}
+
+\bibitem[{{White} {et~al.}(2017){White}, {Pope}, {Antoci}, {P{\'a}pics},
+  {Aerts}, {Gies}, {Gordon}, {Huber}, {Schaefer}, {Aigrain}, {Albrecht},
+  {Barclay}, {Barentsen}, {Beck}, {Bedding}, {Fredslund Andersen}, {Grundahl},
+  {Howell}, {Ireland}, {Murphy}, {Nielsen}, {Silva Aguirre}, \&
+  {Tuthill}}]{White2017}
+{White}, T.~R., {Pope}, B.~J.~S., {Antoci}, V., {et~al.} 2017, \mnras, 471,
+  2882, \dodoi{10.1093/mnras/stx1050}
 
 \end{thebibliography}
