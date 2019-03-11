@@ -5,11 +5,17 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
+\bibitem[{{Aerts} {et~al.}(2018){Aerts}, {Bowman}, {S{\'{\i}}mon-D{\'{\i}}az},
+  {Buysschaert}, {Johnston}, {Moravveji}, {Beck}, {De Cat}, {Triana},
+  {Aigrain}, {Castro}, {Huber}, \& {White}}]{Aerts2018}
+{Aerts}, C., {Bowman}, D.~M., {S{\'{\i}}mon-D{\'{\i}}az}, S., {et~al.} 2018,
+  \mnras, 476, 1234, \dodoi{10.1093/mnras/sty308}
+
 \bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
   {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aquirre},
   {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
   {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Palle}, {Garcia}, {Deng},
-  {Hon}, {Stello}, \& {J{\o}rgensen}}]{arentoft2019}
+  {Hon}, {Stello}, \& {J{\o}rgensen}}]{Arentoft2019}
 {Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, arXiv e-prints.
 \newblock \doarXiv{1901.06187}
 
@@ -44,6 +50,11 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
+
+\bibitem[{{Pope} {et~al.}(2016){Pope}, {White}, {Huber}, {Murphy}, {Bedding},
+  {Caldwell}, {Sarai}, {Aigrain}, \& {Barclay}}]{Pope2016}
+{Pope}, B.~J.~S., {White}, T.~R., {Huber}, D., {et~al.} 2016, \mnras, 455, L36,
+  \dodoi{10.1093/mnrasl/slv143}
 
 \bibitem[{Vin\'{i}cius {et~al.}(2018)Vin\'{i}cius, Barentsen, Hedges, \&
   Gully-Santiago}]{lightkurve}

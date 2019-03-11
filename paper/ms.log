@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 MAR 2019 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 MAR 2019 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,22 +526,41 @@ Overfull \vbox (9.87204pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./ms.bbl) [3] (./all_stars_1.tex) (./all_stars_2.tex) (./all_stars_3.tex)
-(./all_stars_4.tex) (./all_stars_5.tex) (./all_stars_6.tex) [4] [5] [6]
-[7] [8] [9]
+[2] (./ms.bbl [3]) [4] (./all_stars_1.tex
+Overfull \hbox (36.88373pt too wide) in paragraph at lines 3--39
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--39
+
+ []
+
+) (./all_stars_2.tex) (./all_stars_3.tex) (./all_stars_4.tex)
+(./all_stars_5.tex
+Overfull \hbox (28.51923pt too wide) in paragraph at lines 3--30
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--30
+
+ []
+
+) (./all_stars_6.tex) [5] [6] [7] [8] [9] [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
  ) 
 Here is how much of TeX's memory you used:
- 10284 strings out of 492995
- 142393 string characters out of 6132704
- 311936 words of memory out of 5000000
- 13682 multiletter control sequences out of 15000+600000
+ 10296 strings out of 492995
+ 142567 string characters out of 6132704
+ 319248 words of memory out of 5000000
+ 13691 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1105b,364s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1105b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -552,16 +571,17 @@ cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
-0.pfb>
-Output written on ms.pdf (9 pages, 180498 bytes).
+7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on ms.pdf (10 pages, 191531 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
