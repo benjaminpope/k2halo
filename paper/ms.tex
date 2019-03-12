@@ -219,8 +219,7 @@
 
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
-While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign 6 onwards. This halo campaign reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the halo sources, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product from the Mikulski Archive for Space Telescopes (MAST). \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % shamelessly borrowed from Luger!
-
+While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign 6 onwards. This halo campaign reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the halo sources, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product from the Mikulski Archive for Space Telescopes (MAST). \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % git link shamelessly borrowed from Luger!
 \end{abstract}
 
 %% Keywords should appear after the \end{abstract} command. 
@@ -245,7 +244,20 @@ While the \kepler\ mission was designed to look at tens of thousands of faint st
 % describe saturation
 
 % describe TV-min algorithm
-We use the method of halo photometry, first described by \citet{White2017} and with further developments by \citet{Farr2018}.
+We use the method of halo photometry, first described by \citet{White2017} and with further developments by \citet{Farr2018}. Because SAP is not possible, we consider instead the unsaturated pixels $p_j$ at the wings of the broad and complex PSF, and construct a light curve as a linear combination with weights $w_j$ of these time series, so that flux at cadence $i$ is 
+
+
+\begin{equation}
+    f_i \equiv \sum_j {w_j p_{ij}}.
+\end{equation}
+
+\noindent The weights are chosen to minimize the Total Variation
+
+\begin{equation}
+    TV \equiv \frac{\sum_i{|f_i - f_{i-1}|}}{\sum_i {f_i}},
+\end{equation}
+
+\noindent which can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. 
 
 % smear
 This method differs from smear photometry \citep{Pope2016}, which uses collateral `smear' data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. While this has also been used for photometry of very bright stars, the `halo' method has the advantage of averaging over many more realizations of the K2 pointing systematics and permitting more significant calibration, achieving a generally higher photometric prevision.
@@ -278,6 +290,10 @@ Some of the objects here have been previously published, but we here provide the
 \label{sec:discussion}
 
 % how well did we do?
+
+% interesting EB
+
+% RGs, Classical pulsators 
 
 \section{Conclusions}
 \label{sec:conclusions}
