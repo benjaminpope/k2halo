@@ -56,6 +56,9 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
 \newblock \url{http://www.scipy.org/}
 
+\bibitem[{Maclaurin {et~al.}(2015)Maclaurin, Duvenaud, \& Adams}]{autograd}
+Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
+
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
