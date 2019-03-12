@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 MAR 2019 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 MAR 2019 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,12 +521,8 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 233--233
 [][] 
  []
 
-
-Overfull \vbox (9.87204pt too high) has occurred while \output is active []
-
-
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./ms.bbl [3]) [4] (./all_stars_1.tex
+[2] [3] (./ms.bbl) [4] (./all_stars_1.tex
 Overfull \hbox (36.88373pt too wide) in paragraph at lines 3--39
 []$[]$
  []
@@ -548,19 +544,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--30
  []
 
 ) (./all_stars_6.tex) [5] [6] [7] [8] [9] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 327.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 327.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 327.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 333.
  ) 
 Here is how much of TeX's memory you used:
- 10295 strings out of 492995
- 142555 string characters out of 6132704
- 319248 words of memory out of 5000000
- 13690 multiletter control sequences out of 15000+600000
+ 10311 strings out of 492995
+ 142778 string characters out of 6132704
+ 320082 words of memory out of 5000000
+ 13703 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1105b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1159b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -569,19 +565,20 @@ FontAwesome.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb>
-Output written on ms.pdf (10 pages, 191735 bytes).
+/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb>
+Output written on ms.pdf (10 pages, 206124 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 38 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

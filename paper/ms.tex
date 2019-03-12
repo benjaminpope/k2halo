@@ -219,7 +219,7 @@
 
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
-While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign 6 onwards. This halo campaign reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the halo sources, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product. \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % shamelessly borrowed from Luger!
+While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign 6 onwards. This halo campaign reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the halo sources, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product from the Mikulski Archive for Space Telescopes (MAST). \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % shamelessly borrowed from Luger!
 
 \end{abstract}
 
@@ -242,13 +242,18 @@ While the \kepler\ mission was designed to look at tens of thousands of faint st
 \section{Halo Photometry}
 \label{sec:k2}
 
-% describe saturation, smear
+% describe saturation
 
 % describe TV-min algorithm
+We use the method of halo photometry, first described by \citet{White2017} and with further developments by \citet{Farr2018}.
+
+% smear
+This method differs from smear photometry \citep{Pope2016}, which uses collateral `smear' data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. While this has also been used for photometry of very bright stars, the `halo' method has the advantage of averaging over many more realizations of the K2 pointing systematics and permitting more significant calibration, achieving a generally higher photometric prevision.
 
 % describe changes with respect to Pleiades and Aldebaran papers: deathstar
 
 % incorporation of k2sc
+While the TV-min procedure produces in most cases a fairly clean light curve, there are nevertheless residual systematic errors related to spacecraft motion. In order to correct these, we employ the \texttt{k2sc} code \citep{Aigrain2015,k2sc}, which simultaneously models a light curve as a 3D Gaussian Process (GP) in time and predicted position (the K2 standard data product \texttt{POS\_CORR}) in pixels $(x,y)$. The model prediction in time for fixed position is then a nonparametric model of the stellar variability, and the prediction in space evaluated for fixed time represents the pointing systematics and is subtracted from the input fluxes to obtain a final corrected flux, which is the time series we use and recommend for science.
 
 % figure 
 
@@ -261,7 +266,7 @@ While the \kepler\ mission was designed to look at tens of thousands of faint st
 The full sample of stars for which halo apertures were obtained is listed in Tables~\ref{table_0}--\ref{table_5}, broken down by Campaign. While some very bright stars were observed with conventional apertures as part of these programs, simple aperture photometry is satisfactory on these targets and we exclude them from the present discussion and data release, which is oriented strictly towards targets only observable with halo photometry. We make an exception for Spica, which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture by mistake and simple aperture photometry performed extremely poorly, so we have processed it with the halo pipeline.
 
 % short cadence availability 
-Seven stars in Campaign~13 and one in Campaign~16 were not only assigned long-cadence halo apertures, but also downloaded at short cadence. TV-min halo photometry appears to perform poorly on short-cadence data, however, and we do not consider the data products for these stars to be satisfactory for an initial data release. This may be to do with the total variation being a poor proxy for noise in the light curves, with relatively fewer thruster-firing jumps and relatively higher white noise. The long-cadence data appear to be of normal quality. 
+Seven stars in Campaign~13 and one in Campaign~16 were not only assigned long-cadence halo apertures, but also downloaded at short cadence. TV-min halo photometry appears to perform poorly on short-cadence data, however, and we do not consider the data products for these stars to be satisfactory for an initial data release. This may be to do with the total variation being a poor proxy for noise in the light curves, with relatively fewer thruster-firing jumps and relatively higher white noise. The long-cadence data for these stars appear to be of normal quality. 
 
 % breakdown of main sequence vs giants
 
@@ -283,9 +288,10 @@ Some of the objects here have been previously published, but we here provide the
 Some of the objects presented here are the subject of more detailed work in preparation, namely Spica (Buzasi et al., in prep.) and the Hyades giants (White et al., in prep.). In addition to this, we aim to separately publish asteroseismic catalogues of the red giants (Yu et al., in prep.) and main-sequence stars (Greklek-McKeon et al., in prep.). 
 
 % do k2 smear after that
-The sample of K2 bright stars presented here only includes those with halo apertures, but while some others are available conventionally, many were not assigned target pixels and were not downloaded at all. Light curves for many of these stars can nevertheless be obtained with smear photometry \citep{Pope2016}, which uses collateral `smear' data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. These can be used to recover the 102 brightest otherwise-unobserved stars in nominal \kepler (Pope et al., in prep.), and also in K2, although in the latter case the sample is much smaller due to competition with halo apertures and the systematics correction is more difficult. A natural extension of both pieces of work would be to produce smear light curves of all bright stars without halo apertures in K2, which would finally make the \kepler extended mission magnitude-complete at the bright end. 
+The sample of K2 bright stars presented here only includes those with halo apertures, but while some others are available conventionally, many were not assigned target pixels and were not downloaded at all. Smear photometry has been used to recover the brightest otherwise-unobserved stars in nominal \kepler (Pope et al., in prep.), and this can also be done in K2, although in the latter case the sample is much smaller due to competition with halo apertures and the systematics correction is more difficult. A natural extension of both pieces of work would be to produce smear light curves of all bright stars without halo apertures in K2, which would finally make the \kepler extended mission magnitude-complete at the bright end. 
 
 % tess halo 
+The halo method naturally extends to other contexts where simple aperture photometry is not possible, such as for saturated stars observed by the Transiting Exoplanet Survey Satellite \citep[TESS;][]{tess}. Although the saturation limit is brighter ($T_{mag} \sim 6$) and this problem accordingly affects fewer stars and less badly, there are situations such as for $\alpha$~Centauri or $\beta$~Hydri where the bleed column reaches the edge of the chip and a SAP light curve is irrecoverable. We expect that TV-min halo photometry will therefore be valuable in ensuring that TESS can observe even the very brightest stars.
 
 \section*{Acknowledgements} % add your acknowledgements text here!
 

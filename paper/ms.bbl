@@ -11,6 +11,15 @@
 {Aerts}, C., {Bowman}, D.~M., {S{\'{\i}}mon-D{\'{\i}}az}, S., {et~al.} 2018,
   \mnras, 476, 1234, \dodoi{10.1093/mnras/sty308}
 
+\bibitem[{{Aigrain} {et~al.}(2015){Aigrain}, {Hodgkin}, {Irwin}, {Lewis}, \&
+  {Roberts}}]{Aigrain2015}
+{Aigrain}, S., {Hodgkin}, S.~T., {Irwin}, M.~J., {Lewis}, J.~R., \& {Roberts},
+  S.~J. 2015, \mnras, 447, 2880, \dodoi{10.1093/mnras/stu2638}
+
+\bibitem[{{Aigrain} {et~al.}(2016){Aigrain}, {Parviainen}, \& {Pope}}]{k2sc}
+{Aigrain}, S., {Parviainen}, H., \& {Pope}, B.~J.~S. 2016, \mnras, 459, 2408,
+  \dodoi{10.1093/mnras/stw706}
+
 \bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
   {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aquirre},
   {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
@@ -55,6 +64,20 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   {Caldwell}, {Sarai}, {Aigrain}, \& {Barclay}}]{Pope2016}
 {Pope}, B.~J.~S., {White}, T.~R., {Huber}, D., {et~al.} 2016, \mnras, 455, L36,
   \dodoi{10.1093/mnrasl/slv143}
+
+\bibitem[{{Ricker} {et~al.}(2015){Ricker}, {Winn}, {Vanderspek}, {Latham},
+  {Bakos}, {Bean}, {Berta-Thompson}, {Brown}, {Buchhave}, {Butler}, {Butler},
+  {Chaplin}, {Charbonneau}, {Christensen-Dalsgaard}, {Clampin}, {Deming},
+  {Doty}, {De Lee}, {Dressing}, {Dunham}, {Endl}, {Fressin}, {Ge}, {Henning},
+  {Holman}, {Howard}, {Ida}, {Jenkins}, {Jernigan}, {Johnson}, {Kaltenegger},
+  {Kawai}, {Kjeldsen}, {Laughlin}, {Levine}, {Lin}, {Lissauer}, {MacQueen},
+  {Marcy}, {McCullough}, {Morton}, {Narita}, {Paegert}, {Palle}, {Pepe},
+  {Pepper}, {Quirrenbach}, {Rinehart}, {Sasselov}, {Sato}, {Seager},
+  {Sozzetti}, {Stassun}, {Sullivan}, {Szentgyorgyi}, {Torres}, {Udry}, \&
+  {Villasenor}}]{tess}
+{Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2015, Journal of
+  Astronomical Telescopes, Instruments, and Systems, 1, 014003,
+  \dodoi{10.1117/1.JATIS.1.1.014003}
 
 \bibitem[{Vin\'{i}cius {et~al.}(2018)Vin\'{i}cius, Barentsen, Hedges, \&
   Gully-Santiago}]{lightkurve}
