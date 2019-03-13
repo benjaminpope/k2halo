@@ -94,7 +94,11 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     ax_weightmap.set_title('TV-Min Weight Map')
 
     if save_file is not None:
-        plt.savefig(save_file)
+        try:
+            for fname in save_file:
+                plt.savefig(fname)
+        except:
+            plt.savefig(save_file)
 '''-----------------------------------------------------------------
 
 An example call is 
@@ -166,4 +170,4 @@ if __name__ == '__main__':
     hdul.writeto('../release/hlsp_halo_k2_llc_%s_-c%d.fits' % (epic,campaign),overwrite=True)
 
     if args.do_plot:
-        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' Detrended',save_file='../release/%s_halo_k2sc.png' % args.name)
+        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' Detrended',save_file=['../release/%s_halo_k2sc.png' % args.name,'../release/%s_halo_k2sc.pdf' % args.name])
