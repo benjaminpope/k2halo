@@ -39,6 +39,21 @@
 {Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
   \aap, 558, A33, \dodoi{10.1051/0004-6361/201322068}
 
+\bibitem[{{Borucki} {et~al.}(2010){Borucki}, {Koch}, {Basri}, {Batalha},
+  {Brown}, {Caldwell}, {Caldwell}, {Christensen-Dalsgaard}, {Cochran},
+  {DeVore}, {Dunham}, {Dupree}, {Gautier}, {Geary}, {Gilliland}, {Gould},
+  {Howell}, {Jenkins}, {Kondo}, {Latham}, {Marcy}, {Meibom}, {Kjeldsen},
+  {Lissauer}, {Monet}, {Morrison}, {Sasselov}, {Tarter}, {Boss}, {Brownlee},
+  {Owen}, {Buzasi}, {Charbonneau}, {Doyle}, {Fortney}, {Ford}, {Holman},
+  {Seager}, {Steffen}, {Welsh}, {Rowe}, {Anderson}, {Buchhave}, {Ciardi},
+  {Walkowicz}, {Sherry}, {Horch}, {Isaacson}, {Everett}, {Fischer}, {Torres},
+  {Johnson}, {Endl}, {MacQueen}, {Bryson}, {Dotson}, {Haas}, {Kolodziejczak},
+  {Van Cleve}, {Chandrasekaran}, {Twicken}, {Quintana}, {Clarke}, {Allen},
+  {Li}, {Wu}, {Tenenbaum}, {Verner}, {Bruhweiler}, {Barnes}, \&
+  {Prsa}}]{2010sci...327..977b}
+{Borucki}, W.~J., {Koch}, D., {Basri}, G., {et~al.} 2010, Science, 327, 977,
+  \dodoi{10.1126/science.1185402}
+
 \bibitem[{{Buysschaert} {et~al.}(2018){Buysschaert}, {Neiner}, {Aerts},
   {White}, \& {Pope}}]{Buysschaert2018}
 {Buysschaert}, B., {Neiner}, C., {Aerts}, C., {White}, T.~R., \& {Pope},
@@ -51,6 +66,17 @@
 {Farr}, W.~M., {Pope}, B. J.~S., {Davies}, G.~R., {et~al.} 2018, \apj, 865,
   L20, \dodoi{10.3847/2041-8213/aadfde}
 
+\bibitem[{{Foreman-Mackey} {et~al.}(2014){Foreman-Mackey}, {Hogg}, \&
+  {Morton}}]{2014ApJ...795...64F}
+{Foreman-Mackey}, D., {Hogg}, D.~W., \& {Morton}, T.~D. 2014, \apj, 795, 64,
+  \dodoi{10.1088/0004-637X/795/1/64}
+
+\bibitem[{{Fressin} {et~al.}(2013){Fressin}, {Torres}, {Charbonneau}, {Bryson},
+  {Christiansen}, {Dressing}, {Jenkins}, {Walkowicz}, \&
+  {Batalha}}]{2013ApJ...766...81F}
+{Fressin}, F., {Torres}, G., {Charbonneau}, D., {et~al.} 2013, \apj, 766, 81,
+  \dodoi{10.1088/0004-637X/766/2/81}
+
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
@@ -62,6 +88,11 @@ Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
+
+\bibitem[{{Petigura} {et~al.}(2013){Petigura}, {Howard}, \&
+  {Marcy}}]{2013PNAS..11019273P}
+{Petigura}, E.~A., {Howard}, A.~W., \& {Marcy}, G.~W. 2013, Proceedings of the
+  National Academy of Science, 110, 19273, \dodoi{10.1073/pnas.1319909110}
 
 \bibitem[{{Pope} {et~al.}(2016){Pope}, {White}, {Huber}, {Murphy}, {Bedding},
   {Caldwell}, {Sarai}, {Aigrain}, \& {Barclay}}]{Pope2016}
