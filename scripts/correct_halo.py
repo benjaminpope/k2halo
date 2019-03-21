@@ -126,7 +126,7 @@ if __name__ == '__main__':
     hdr = fitsio.read_header(fname)
 
     # read in our halo work
-    if campaign in [91,92, 101, 102, 111,112]:
+    if campaign in [91,92, 101, 102, 111, 112]:
         campaign_name = int(str(campaign)[:-1])
     else:
         campaign_name = campaign
@@ -185,8 +185,8 @@ if __name__ == '__main__':
         lc.tr_time = data['tr_time']
 
     if args.do_plot:
-        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+'(EPIC %s) Detrended' % epic,
-            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign_name,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign)])
+        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' (EPIC %s) Detrended' % epic,
+            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign_name,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.pdf' % (campaign,epic,campaign)])
 
 
 
