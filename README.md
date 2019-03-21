@@ -26,6 +26,15 @@ The final light curves will be made available as High Level Science Products on 
 
 * In release/ are the final `k2sc` light curves in MAST High Level Science Product format, together with `k2sc` + `halophot` diagnostic plots. __Use these for your science!__
 
+### Reproduction
+
+To perform a complete reduction, run the entire notebook `download_stars.ipynb` and execute the download commands in `data/`. Then on a slurm HPC platform use
+
+	sbatch reduced/sbatch_halo_all.sbatch
+	sbatch reduced/sbatch_halo_clip.sbatch
+	sbatch scripts/sbatch_k2sc_all.sbatch
+
+
 ### Citation
 
 The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO6081-7081, GO8025, GO9923, GO10025, GO11047-13047, GO14003-16003, and GO17051-19051 (led by Daniel Huber), and as a DDT program in Campaign 4. 
