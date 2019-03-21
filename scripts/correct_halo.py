@@ -113,6 +113,8 @@ if __name__ == '__main__':
         help='Campaign number')
     ap.add_argument('--do-plot', action = 'store_true', default = True, \
                     help = 'produce plots')
+    ap.add_argument('--just-plot', action = 'store_true', default = False, \
+                    help = 'only produce plots')
 
     args = ap.parse_args()
 
@@ -120,7 +122,6 @@ if __name__ == '__main__':
     ddir = '../reduced/c%d/' % campaign
     starname = args.name
     fname = ddir+'%s_halo_lc_o1.fits' % starname
-
     f = fitsio.FITS(fname)
     hdr = fitsio.read_header(fname)
 
@@ -132,6 +133,7 @@ if __name__ == '__main__':
     #load a lightkurve object with all the desired metadata
     tpf = lightkurve.open('../data/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign))
     lc = tpf.to_lightcurve('aperture')
+
     lc.pos_corr1 = tpf.pos_corr1
     lc.pos_corr2 = tpf.pos_corr2
     lc.primary_header = tpf.hdu[0].header
@@ -150,24 +152,39 @@ if __name__ == '__main__':
 
     lc.campaign = int(campaign)
     lc.__class__ = k2sc_lc
-    lc.k2sc()
 
-    # save data
-    to_save = ['time', 'flux', 'flux_err','centroid_col', 'centroid_row', 'quality', 'cadenceno','pos_corr1', 'pos_corr2','tr_position', 'tr_time','corr_flux']
+    if not args.just_plot:
+        lc.k2sc()
 
-    dummy = fits.getheader('../data/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign)) # get the old header from the TPF
-    dummy['NAXIS']=1
-    dummy['halo'] =(halophot.__version__,'halophot version')
-    dummy['order']=(1,'halophot TV order')
-    dummy['sub']=(1,'halophot subsampling')
-    dummy['starname']=(starname,'Star Identifier')
+        # save data
+        to_save = ['time', 'flux', 'flux_err','centroid_col', 'centroid_row', 'quality', 'cadenceno','pos_corr1', 'pos_corr2','tr_position', 'tr_time','corr_flux']
 
-    hdu = fits.PrimaryHDU(f[0][:,:],dummy) # can't save a masked array yet so just using pixelmap
-    cols = [fits.Column(name=key,format="D",array=lc.__dict__[key]) for key in to_save]
-    tab = fits.BinTableHDU.from_columns(cols)
+        dummy = fits.getheader('../data/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign)) # get the old header from the TPF
+        dummy['NAXIS']=1
+        dummy['halo'] =(halophot.__version__,'halophot version')
+        dummy['order']=(1,'halophot TV order')
+        dummy['sub']=(1,'halophot subsampling')
+        dummy['starname']=(starname,'Star Identifier')
 
-    hdul = fits.HDUList([hdu, tab])
-    hdul.writeto('../release/hlsp_halo_k2_llc_%s_-c%d.fits' % (epic,campaign),overwrite=True)
+        hdu = fits.PrimaryHDU(f[0][:,:],dummy) # can't save a masked array yet so just using pixelmap
+        cols = [fits.Column(name=key,format="D",array=lc.__dict__[key]) for key in to_save]
+        tab = fits.BinTableHDU.from_columns(cols)
+
+        hdul = fits.HDUList([hdu, tab])
+        hdul.writeto('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign,epic,campaign),overwrite=True)
+
+    else:
+        args.do_plot = True # in case you forgot!  
+        data = Table.read('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign,epic,campaign))
+        lc.corr_flux = data['corr_flux']
+        lc.tr_position = data['tr_position']
+        lc.tr_time = data['tr_time']
 
     if args.do_plot:
-        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' Detrended',save_file=['../release/%s_halo_k2sc.png' % args.name,'../release/%s_halo_k2sc.pdf' % args.name])
+        plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+'(EPIC %s) Detrended' % epic,
+            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign)])
+
+
+
+
+
