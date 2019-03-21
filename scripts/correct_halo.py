@@ -126,7 +126,11 @@ if __name__ == '__main__':
     hdr = fitsio.read_header(fname)
 
     # read in our halo work
-    all_stars = Table.read('../data/haloC%d.csv' % campaign,format='ascii')
+    if campaign in [91,92, 101, 102, 111,112]:
+        campaign_name = int(str(campaign)[:-1])
+    else:
+        campaign_name = campaign
+    all_stars = Table.read('../data/haloC%d.csv' % campaign_name,format='ascii')
     star = all_stars[all_stars['Name']==starname.replace('_',' ')]
     epic = star['EPIC ID'].data.data[0]
 
@@ -171,18 +175,18 @@ if __name__ == '__main__':
         tab = fits.BinTableHDU.from_columns(cols)
 
         hdul = fits.HDUList([hdu, tab])
-        hdul.writeto('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign,epic,campaign),overwrite=True)
+        hdul.writeto('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign_name,epic,campaign),overwrite=True)
 
     else:
         args.do_plot = True # in case you forgot!  
-        data = Table.read('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign,epic,campaign))
+        data = Table.read('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign_name,epic,campaign))
         lc.corr_flux = data['corr_flux']
         lc.tr_position = data['tr_position']
         lc.tr_time = data['tr_time']
 
     if args.do_plot:
         plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+'(EPIC %s) Detrended' % epic,
-            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign)])
+            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign_name,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign,epic,campaign)])
 
 
 
