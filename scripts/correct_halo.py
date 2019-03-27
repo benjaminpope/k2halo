@@ -111,31 +111,56 @@ if __name__ == '__main__':
     ap.add_argument('-name', default='test',type=str,help='Target name')
     ap.add_argument('-c', '--campaign', metavar='C',default=13, type=int, 
         help='Campaign number')
+    ap.add_argument('--ddir',default=None,type=str,help='Data directory')
+    ap.add_argument('--savedir',default=None,type=str,help='output directory')
     ap.add_argument('--do-plot', action = 'store_true', default = True, \
                     help = 'produce plots')
     ap.add_argument('--just-plot', action = 'store_true', default = False, \
                     help = 'only produce plots')
+    ap.add_argument('--epic',default=200000000,type=str,help='EPIC Number')
+    ap.add_argument('--tpf-fname',default=None,type=str,help='TPF Filename')
 
     args = ap.parse_args()
 
     campaign = args.campaign
-    ddir = '../reduced/c%d/' % campaign
-    starname = args.name
-    fname = ddir+'%s_halo_lc_o1.fits' % starname
-    f = fitsio.FITS(fname)
-    hdr = fitsio.read_header(fname)
 
-    # read in our halo work
     if campaign in [91,92, 101, 102, 111, 112]:
         campaign_name = int(str(campaign)[:-1])
     else:
         campaign_name = campaign
-    all_stars = Table.read('../data/haloC%d.csv' % campaign_name,format='ascii')
-    star = all_stars[all_stars['Name']==starname.replace('_',' ')]
-    epic = star['EPIC ID'].data.data[0]
+
+    if args.ddir is not None:
+        ddir = args.ddir
+    else:
+        ddir = '../reduced/c%d/' % campaign_name
+
+    if args.savedir is not None:
+        savedir = args.savedir
+    else:
+        savedir='../release/c%d' % campaign_name
+
+    starname = args.name
+    fname = '%s/%s_halo_lc_o1.fits' % (ddir,starname)
+    f = fitsio.FITS(fname)
+    hdr = fitsio.read_header(fname)
+
+    # read in our halo work
+
 
     #load a lightkurve object with all the desired metadata
-    tpf = lightkurve.open('../data/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign))
+
+    if args.tpf_fname is not None:
+        print('Loaded manually chosen TPF')
+        tpf_fname = args.tpf_fname
+        tpf = lightkurve.open('%s/%s' % (ddir, tpf_fname))
+        epic = args.epic
+    else:
+        all_stars = Table.read('../data/haloC%d.csv' % campaign_name,format='ascii')
+        star = all_stars[all_stars['Name']==starname.replace('_',' ')]
+        epic = star['EPIC ID'].data.data[0]
+        tpf_fname = '/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign)
+
+        tpf = lightkurve.open('%s/%s' % (ddir, tpf_fname))
     lc = tpf.to_lightcurve('aperture')
 
     lc.pos_corr1 = tpf.pos_corr1
@@ -158,12 +183,13 @@ if __name__ == '__main__':
     lc.__class__ = k2sc_lc
 
     if not args.just_plot:
+        lc.remove_outliers(sigma=5.0)
         lc.k2sc()
 
         # save data
         to_save = ['time', 'flux', 'flux_err','centroid_col', 'centroid_row', 'quality', 'cadenceno','pos_corr1', 'pos_corr2','tr_position', 'tr_time','corr_flux']
 
-        dummy = fits.getheader('../data/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign)) # get the old header from the TPF
+        dummy = fits.getheader('%s/%s' % (ddir,tpf_fname)) # get the old header from the TPF
         dummy['NAXIS']=1
         dummy['halo'] =(halophot.__version__,'halophot version')
         dummy['order']=(1,'halophot TV order')
@@ -175,18 +201,18 @@ if __name__ == '__main__':
         tab = fits.BinTableHDU.from_columns(cols)
 
         hdul = fits.HDUList([hdu, tab])
-        hdul.writeto('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign_name,epic,campaign),overwrite=True)
+        hdul.writeto('%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (savedir,epic,campaign),overwrite=True)
 
     else:
         args.do_plot = True # in case you forgot!  
-        data = Table.read('../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (campaign_name,epic,campaign))
+        data = Table.read('%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (savedir,epic,campaign))
         lc.corr_flux = data['corr_flux']
         lc.tr_position = data['tr_position']
         lc.tr_time = data['tr_time']
 
     if args.do_plot:
         plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' (EPIC %s) Detrended' % epic,
-            save_file=['../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (campaign_name,epic,campaign),'../release/c%d/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.pdf' % (campaign,epic,campaign)])
+            save_file=['%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (savedir,epic,campaign),'%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.pdf' % (savedir,epic,campaign)])
 
 
 

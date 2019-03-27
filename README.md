@@ -25,6 +25,7 @@ The final light curves will be made available as High Level Science Products on 
 * In scripts/ are the `k2sc` call script and sbatch scripts to deploy this to the NYU HPC cluster.
 
 * In release/ are the final `k2sc` light curves in MAST High Level Science Product format, together with `k2sc` + `halophot` diagnostic plots. __Use these for your science!__
+	* There is no position information for C91, C92, C101, and there are no halo apertures for C112. As a result `k2sc`-corrected data are not available for these targets at the moment.
 
 ### Reproduction
 
@@ -34,6 +35,7 @@ To perform a complete reduction, run the entire notebook `download_stars.ipynb` 
 	sbatch reduced/sbatch_halo_clip.sbatch
 	sbatch scripts/sbatch_k2sc_all.sbatch
 
+There 
 
 ### Citation
 
