@@ -1,4 +1,5 @@
-python correct_halo.py -c 6 -name Spica &> Spica_output.txtpython correct_halo.py -c 4 -name Alcyone &> Alcyone_output.txt
+python correct_halo.py -c 6 -name Spica &> Spica_output.txt
+python correct_halo.py -c 4 -name Alcyone &> Alcyone_output.txt
 python correct_halo.py -c 4 -name Atlas &> Atlas_output.txt
 python correct_halo.py -c 4 -name Electra &> Electra_output.txt
 python correct_halo.py -c 4 -name Merope &> Merope_output.txt
