@@ -82,7 +82,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
 
     plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trend=lc.tr_position)
     plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trend=lc.tr_time)
-    plot_lc(ax_lcwhite,lc.time,lc.corr_flux-lc.tr_time,formal_name+': Whitened')
+    plot_lc(ax_lcwhite,lc.time,(lc.corr_flux-lc.tr_time)+np.nanmedian(lc.tr_time),formal_name+': Whitened')
     plot_weightmap(ax_weightmap,weightmap,formal_name)
     plot_fluxmap(ax_fluxmap,image,formal_name)
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
@@ -111,8 +111,9 @@ if __name__ == '__main__':
     ap.add_argument('-name', default='test',type=str,help='Target name')
     ap.add_argument('-c', '--campaign', metavar='C',default=13, type=int, 
         help='Campaign number')
-    ap.add_argument('--ddir',default=None,type=str,help='Data directory')
-    ap.add_argument('--savedir',default=None,type=str,help='output directory')
+    ap.add_argument('--ddir-raw',default=None,type=str,help='Raw data directory')
+    ap.add_argument('--ddir-halo',default=None,type=str,help='Halo data directory')
+    ap.add_argument('--savedir',default=None,type=str,help='Output directory')
     ap.add_argument('--do-plot', action = 'store_true', default = True, \
                     help = 'produce plots')
     ap.add_argument('--just-plot', action = 'store_true', default = False, \
@@ -129,10 +130,15 @@ if __name__ == '__main__':
     else:
         campaign_name = campaign
 
-    if args.ddir is not None:
-        ddir = args.ddir
+    if args.ddir_halo is not None:
+        ddir_halo = args.ddir_halo
     else:
-        ddir = '../reduced/c%d/' % campaign_name
+        ddir_halo = '../reduced/c%d/' % campaign_name
+
+    if args.ddir_raw is not None:
+        ddir_raw = args.ddir_raw
+    else:
+        ddir_raw = '../data/' 
 
     if args.savedir is not None:
         savedir = args.savedir
@@ -140,7 +146,7 @@ if __name__ == '__main__':
         savedir='../release/c%d' % campaign_name
 
     starname = args.name
-    fname = '%s/%s_halo_lc_o1.fits' % (ddir,starname)
+    fname = '%s/%s_halo_lc_o1.fits' % (ddir_halo,starname)
     f = fitsio.FITS(fname)
     hdr = fitsio.read_header(fname)
 
@@ -152,7 +158,7 @@ if __name__ == '__main__':
     if args.tpf_fname is not None:
         print('Loaded manually chosen TPF')
         tpf_fname = args.tpf_fname
-        tpf = lightkurve.open('%s/%s' % (ddir, tpf_fname))
+        tpf = lightkurve.open('%s/%s' % (ddir_raw, tpf_fname))
         epic = args.epic
     else:
         all_stars = Table.read('../data/haloC%d.csv' % campaign_name,format='ascii')
@@ -160,7 +166,7 @@ if __name__ == '__main__':
         epic = star['EPIC ID'].data.data[0]
         tpf_fname = '/ktwo%d-c%02d_lpd-targ.fits.gz' % (epic,campaign)
 
-        tpf = lightkurve.open('%s/%s' % (ddir, tpf_fname))
+        tpf = lightkurve.open('%s/%s' % (ddir_raw, tpf_fname))
     lc = tpf.to_lightcurve('aperture')
 
     lc.pos_corr1 = tpf.pos_corr1
@@ -189,7 +195,7 @@ if __name__ == '__main__':
         # save data
         to_save = ['time', 'flux', 'flux_err','centroid_col', 'centroid_row', 'quality', 'cadenceno','pos_corr1', 'pos_corr2','tr_position', 'tr_time','corr_flux']
 
-        dummy = fits.getheader('%s/%s' % (ddir,tpf_fname)) # get the old header from the TPF
+        dummy = fits.getheader('%s/%s' % (ddir_raw,tpf_fname)) # get the old header from the TPF
         dummy['NAXIS']=1
         dummy['halo'] =(halophot.__version__,'halophot version')
         dummy['order']=(1,'halophot TV order')
