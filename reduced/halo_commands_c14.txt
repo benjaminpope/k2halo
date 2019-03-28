@@ -1,7 +1,7 @@
-halo ktwo200182931-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name rho_Leo -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182925-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 58_Leo -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182926-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 48_Leo -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182928-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 53_Leo -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182927-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 65_Leo -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182929-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 35_Sex -c 14 -o 1 --thresh 0.5 --do-plot
-halo ktwo200182930-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 43_Leo -c 14 -o 1 --thresh 0.5 --do-plot
+halo ktwo200182931-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name rho_Leo -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182925-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 58_Leo -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182926-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 48_Leo -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182928-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 53_Leo -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182927-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 65_Leo -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182929-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 35_Sex -c 14 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200182930-c14_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c14/ --name 43_Leo -c 14 --thresh 0.5 --objective l2v --do-plot

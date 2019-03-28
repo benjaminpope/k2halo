@@ -120,6 +120,7 @@ if __name__ == '__main__':
                     help = 'only produce plots')
     ap.add_argument('--epic',default=200000000,type=str,help='EPIC Number')
     ap.add_argument('--tpf-fname',default=None,type=str,help='TPF Filename')
+    ap.add_argument('--objective', default='tv',type=str,help='Objective function: can be tv, tv_o2, l2v, or l3v')
 
     args = ap.parse_args()
 
@@ -145,8 +146,10 @@ if __name__ == '__main__':
     else:
         savedir='../release/c%d' % campaign_name
 
+    objective = args.objective
+
     starname = args.name
-    fname = '%s/%s_halo_lc_o1.fits' % (ddir_halo,starname)
+    fname = '%s/%s_halo_lc_%s.fits' % (ddir_halo,starname,objective)
     f = fitsio.FITS(fname)
     hdr = fitsio.read_header(fname)
 
@@ -198,7 +201,7 @@ if __name__ == '__main__':
         dummy = fits.getheader('%s/%s' % (ddir_raw,tpf_fname)) # get the old header from the TPF
         dummy['NAXIS']=1
         dummy['halo'] =(halophot.__version__,'halophot version')
-        dummy['order']=(1,'halophot TV order')
+        dummy['objective']=(objective,'halophot objective')
         dummy['sub']=(1,'halophot subsampling')
         dummy['starname']=(starname,'Star Identifier')
 
