@@ -1,11 +1,11 @@
-halo ktwo200128906-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name tet_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128907-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 44_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128908-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 45_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128909-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 51_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200129035-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 36_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128910-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name omi_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200129034-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 26_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128911-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6472 -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128913-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6366 -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128912-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6365 -c 111 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200128914-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 191_Oph -c 111 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200128906-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name tet_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128907-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 44_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128908-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 45_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128909-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 51_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200129035-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 36_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128910-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name omi_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200129034-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 26_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128911-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6472 -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128913-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6366 -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128912-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name HR_6365 -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200128914-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name 191_Oph -c 111 --thresh 0.5 --objective tv --lag 10 --do-plot

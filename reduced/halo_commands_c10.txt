@@ -1,16 +1,16 @@
-halo ktwo200084004-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name Porrima -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084004-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name Porrima -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084005-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name Zaniah -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084005-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name Zaniah -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084006-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name 21_Vir -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084006-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name 21_Vir -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084007-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name FW_Vir -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084007-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name FW_Vir -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084008-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4837 -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084008-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4837 -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084009-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4591 -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084009-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4591 -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4613 -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4613 -c 102 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HD_107794 -c 101 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HD_107794 -c 102 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200084004-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name Porrima -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084004-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name Porrima -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084005-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name Zaniah -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084005-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name Zaniah -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084006-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name 21_Vir -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084006-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name 21_Vir -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084007-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name FW_Vir -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084007-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name FW_Vir -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084008-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4837 -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084008-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4837 -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084009-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4591 -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084009-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4591 -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4613 -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4613 -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HD_107794 -c 101 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HD_107794 -c 102 --thresh 0.5 --objective tv --lag 10 --do-plot

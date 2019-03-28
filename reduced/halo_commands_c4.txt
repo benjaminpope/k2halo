@@ -1,9 +1,9 @@
-halo ktwo200007767-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Alcyone -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007768-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Atlas -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007769-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Electra -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007770-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Merope -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007771-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Maia -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007772-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Taygeta -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007773-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Pleione -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007765-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name gam_Tau -c 4 --thresh 0.5 --objective l2v --do-plot
-halo ktwo200007766-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name del1_Tau -c 4 --thresh 0.5 --objective l2v --do-plot
+halo ktwo200007767-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Alcyone -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007768-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Atlas -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007769-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Electra -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007770-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Merope -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007771-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Maia -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007772-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Taygeta -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007773-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name Pleione -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007765-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name gam_Tau -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
+halo ktwo200007766-c04_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c4/ --name del1_Tau -c 4 --thresh 0.5 --objective tv --lag 10 --do-plot
