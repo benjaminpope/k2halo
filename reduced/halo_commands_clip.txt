@@ -13,6 +13,7 @@ halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduce
 halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 98_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 105_Tau -c 13 --thresh 0.5 --do-plot --rr [3,12] --objective tv --lag 10
 halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 51_Tau -c 13 --thresh 0.5 --do-plot --rr [0,10] --objective tv --lag 10
+halo ktwo200173873-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1741 -c 13 --thresh 0.5 --objective tv --lag 10 --do-plot --deathstar
 halo ktwo200173861-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 56_Tau -c 13 --thresh 0.5 --do-plot --rr [0,14] --objective tv --lag 10
 halo ktwo200173852-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 75_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200173876-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1755 -c 13 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
@@ -21,6 +22,7 @@ halo ktwo200173880-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduce
 halo ktwo200173851-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name rho_Tau -c 13 --thresh 0.75 --do-plot --minflux 750 --objective tv --lag 10
 halo ktwo200194914-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name zet4_Lib -c 15 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200200361-c16_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c16/ --name omi2_Cnc -c 16 --thresh 0.5 --do-plot --rr [0,12] --objective tv --lag 10
+halo ktwo200200356-c16_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c16/ --name Asellus_Australis -c 16 --thresh 0.5 --objective tv --lag 10 --do-plot --deathstar
 halo ktwo200213057-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name HR_5106 -c 17 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200233190-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3264 -c 18 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200233193-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3222 -c 18 --thresh 0.1 --do-plot --objective tv --lag 10
