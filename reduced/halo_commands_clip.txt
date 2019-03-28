@@ -1,26 +1,26 @@
 halo ktwo212573842-c06_lpd-targ.fits.gz  --data-dir ../data/ --save-dir ../reduced/c6/ --name Spica -c 6 --thresh 0.5 --minflux -100 --rr [0,17.5] --do-plot --objective l2v
-halo ktwo200062589-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name omi_Sgr -c 7 -o 1 --thresh 0.5 --do-plot --rr [0,18] --objective l2v
-halo ktwo200062584-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name psi_Sgr -c 7 -o 1 --thresh 0.5 --do-plot --rr [0,12] --objective l2v
-halo ktwo200068394-c08_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c8/ --name 80_Psc -c 8 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200068398-c08_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c8/ --name WW_Psc -c 8 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HD_107794 -c 101 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HD_107794 -c 102 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4613 -c 101 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4613 -c 102 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200128906-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name tet_Oph -c 111 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200128910-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name omi_Oph -c 111 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 81_Aqr -c 12 -o 1 --thresh 0.25 --do-plot --objective l2v
-halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 98_Tau -c 13 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 105_Tau -c 13 -o 1 --thresh 0.5 --do-plot --rr [3,12] --objective l2v
-halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 51_Tau -c 13 -o 1 --thresh 0.5 --do-plot --rr [0,10] --objective l2v
-halo ktwo200173861-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 56_Tau -c 13 -o 1 --thresh 0.5 --do-plot --rr [0,14] --objective l2v
-halo ktwo200173852-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 75_Tau -c 13 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200173876-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1755 -c 13 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200173849-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name del3_Tau -c 13 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200173880-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap1_Tau -c 13 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200173851-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name rho_Tau -c 13 -o 1 --thresh 0.75 --do-plot --minflux 750 --objective l2v
-halo ktwo200194914-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name zet4_Lib -c 15 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200200361-c16_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c16/ --name omi2_Cnc -c 16 -o 1 --thresh 0.5 --do-plot --rr [0,12] --objective l2v
-halo ktwo200213057-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name HR_5106 -c 17 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200233190-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3264 -c 18 -o 1 --thresh 0.5 --do-plot --deathstar --objective l2v
-halo ktwo200233193-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3222 -c 18 -o 1 --thresh 0.1 --do-plot --objective l2v
+halo ktwo200062589-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name omi_Sgr -c 7 --thresh 0.5 --do-plot --rr [0,18] --objective l2v
+halo ktwo200062584-c07_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c7/ --name psi_Sgr -c 7 --thresh 0.5 --do-plot --rr [0,12] --objective l2v
+halo ktwo200068394-c08_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c8/ --name 80_Psc -c 8 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200068398-c08_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c8/ --name WW_Psc -c 8 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200084011-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HD_107794 -c 101 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200084011-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HD_107794 -c 102 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c101/ --name HR_4613 -c 101 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4613 -c 102 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200128906-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name tet_Oph -c 111 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200128910-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name omi_Oph -c 111 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 81_Aqr -c 12 --thresh 0.25 --do-plot --objective l2v
+halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 98_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 105_Tau -c 13 --thresh 0.5 --do-plot --rr [3,12] --objective l2v
+halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 51_Tau -c 13 --thresh 0.5 --do-plot --rr [0,10] --objective l2v
+halo ktwo200173861-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 56_Tau -c 13 --thresh 0.5 --do-plot --rr [0,14] --objective l2v
+halo ktwo200173852-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 75_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200173876-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name HR_1755 -c 13 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200173849-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name del3_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200173880-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name kap1_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200173851-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name rho_Tau -c 13 --thresh 0.75 --do-plot --minflux 750 --objective l2v
+halo ktwo200194914-c15_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c15/ --name zet4_Lib -c 15 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200200361-c16_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c16/ --name omi2_Cnc -c 16 --thresh 0.5 --do-plot --rr [0,12] --objective l2v
+halo ktwo200213057-c17_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c17/ --name HR_5106 -c 17 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200233190-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3264 -c 18 --thresh 0.5 --do-plot --deathstar --objective l2v
+halo ktwo200233193-c18_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c18/ --name HR_3222 -c 18 --thresh 0.1 --do-plot --objective l2v
