@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  21 MAR 2019 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  29 MAR 2019 10:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,34 +506,38 @@ t line 178.
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 222.
+line 225.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
-Missing character: There is no â in font cmti8!
-Missing character: There is no € in font cmti8!
-Missing character: There is no ˜ in font cmti8!
 
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 232--232
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 235--235
 [][] 
  []
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./ms.bbl [3]) [4] (./all_stars_1.tex) (./all_stars_2.tex)
-(./all_stars_3.tex) (./all_stars_4.tex) (./all_stars_5.tex) (./all_stars_6.tex)
-[5] [6] [7] [8] [9] [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
+[2] (./ms.bbl
+Overfull \vbox (7.6811pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.6811pt too high) has occurred while \output is active []
+
+
+[3]) [4] (./all_stars_1.tex) (./all_stars_2.tex) (./all_stars_3.tex)
+(./all_stars_4.tex) (./all_stars_5.tex) (./all_stars_6.tex) [5] [6] [7]
+[8] [9] [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 351.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
  10340 strings out of 492995
  143362 string characters out of 6132704
- 325632 words of memory out of 5000000
+ 327615 words of memory out of 5000000
  13721 multiletter control sequences out of 15000+600000
  14571 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -550,20 +554,19 @@ mmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
 pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (10 pages, 252282 bytes).
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on ms.pdf (10 pages, 246545 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 248 compressed objects within 3 object streams
+ 280 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
  45 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
