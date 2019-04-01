@@ -249,20 +249,21 @@ In this Paper we describe the complete catalog of long-cadence \ktwo halo light 
 
 % describe saturation
 
-% describe TV-min algorithm
-We use the method of halo photometry, first described by \citet{White2017} and with further developments by \citet{Farr2018}. Because SAP is not possible, we consider instead the unsaturated pixels $p_j$ at the wings of the broad and complex PSF, and construct a light curve as a linear combination with weights $w_j$ of these time series, so that flux at cadence $i$ is 
+% describe halo algorithm
+We use an extension of the method of halo photometry, first described by \citet{White2017} and with further developments by \citet{Farr2018}. Because SAP is not possible, we consider instead the unsaturated pixels $p_j$ at the wings of the broad and complex PSF, and construct a light curve as a linear combination with weights $w_j$ of these time series, so that flux at cadence $i$ is 
 
 \begin{equation}
     f_i \equiv \sum_j {w_j p_{ij}}.
 \end{equation}
 
-\noindent The weights are chosen to minimize the modified Total Variation
+\noindent The weights are chosen to minimize an objective function
 
 \begin{equation}
-    TV \equiv \frac{\sum_i{|f_i - f_{i-l}|}}{\sum_i {f_i}},
+    \Lambda_{k,l} \equiv \frac{\sum_i{|f_i - f_{i-l}|^k}}{\sum_i {f_i}},
 \end{equation}
 
-\noindent which for $l = 1$ is the standard Total Variation and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. We introduce a lag parameter $l$ in order to allow for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. TV is a convex objective function and has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd};][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution.
+\noindent which is the $L_k$ norm on a `lagged' finite difference with a lag parameter $l$. For $k = 1$ and $l = 1$, $\Lambda_{1,1}$ is the standard Total Variation as used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The lag parameter $l$ allow for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. TV is a convex objective function \textcolor{red}{and I think the generalizations are too} and $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd};][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution.
+
 % smear
 This method differs from smear photometry \citep{Pope2016}, which uses collateral `smear' data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. While this has also been used for photometry of very bright stars, the `halo' method has the advantage of averaging over many more realizations of the K2 pointing systematics and permitting more significant calibration, achieving a generally higher photometric prevision.
 
@@ -271,7 +272,7 @@ This method differs from smear photometry \citep{Pope2016}, which uses collatera
 % benchmarking with lags and 
 
 % incorporation of k2sc
-While the TV-min procedure produces in most cases a fairly clean light curve, there are nevertheless residual systematic errors related to spacecraft motion. In order to correct these, we employ the \textsc{k2sc} code \citep{Aigrain2015,k2sc}, which simultaneously models a light curve as a 3D Gaussian Process (GP) in time and predicted position (the K2 standard data product \textsc{pos\_corr}) in pixels $(x,y)$. The model prediction in time for fixed position is then a nonparametric model of the stellar variability, and the prediction in space evaluated for fixed time represents the pointing systematics and is subtracted from the input fluxes to obtain a final corrected flux, which is the time series we use and recommend for science. The target pixel files for C91, C92, and C101 include no position information, and there are no halo apertures for C112. As a result \textsc{k2sc}-corrected data are not available for these targets.
+While the halo procedure produces in most cases a fairly clean light curve, there are nevertheless residual systematic errors related to spacecraft motion. In order to correct these, we employ the \textsc{k2sc} code \citep{Aigrain2015,k2sc}, which simultaneously models a light curve as a 3D Gaussian Process (GP) in time and predicted position (the K2 standard data product \textsc{pos\_corr}) in pixels $(x,y)$. The model prediction in time for fixed position is then a nonparametric model of the stellar variability, and the prediction in space evaluated for fixed time represents the pointing systematics and is subtracted from the input fluxes to obtain a final corrected flux, which is the time series we use and recommend for science. The target pixel files for C91, C92, and C101 include no position information, and there are no halo apertures for C112. As a result \textsc{k2sc}-corrected data are not available for these targets.
 
 % figure 
 
@@ -284,7 +285,7 @@ While the TV-min procedure produces in most cases a fairly clean light curve, th
 The full sample of stars for which halo apertures were obtained is listed in Tables~\ref{table_0}--\ref{table_5}, broken down by Campaign. While some very bright stars were observed with conventional apertures as part of these programs, simple aperture photometry is satisfactory on these targets and we exclude them from the present discussion and data release, which is oriented strictly towards targets only observable with halo photometry. We make an exception for Spica, which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture by mistake and simple aperture photometry performed extremely poorly, so we have processed it with the halo pipeline. The stars in Campaign~18 were also on-silicon in Campaign~5, but were not assigned apertures suitable for halo photometry in C5. A possible further extension of the present work would be to recover C5 light curves for these objects using either or both of smear or modified halo photometry.
 
 % short cadence availability 
-Seven stars in Campaign~13 and one in Campaign~16 were not only assigned long-cadence halo apertures, but also downloaded at short cadence. TV-min halo photometry appears to perform poorly on short-cadence data, however, and we do not consider the data products for these stars to be satisfactory for an initial data release. This may be to do with the total variation being a poor proxy for noise in the light curves, with relatively fewer thruster-firing jumps and relatively higher white noise. The long-cadence data for these stars appear to be of normal quality. 
+Seven stars in Campaign~13 and one in Campaign~16 were not only assigned long-cadence halo apertures, but also downloaded at short cadence. For these targets we have provided both long and short cadence reductions.
 
 % breakdown of main sequence vs giants
 
