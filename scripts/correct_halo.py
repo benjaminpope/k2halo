@@ -57,8 +57,8 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     min_p,max_p=1./24.,20.
 
     PW,PH = 8.27, 11.69
-    
-    frequency, power, spower = get_pgram(lc.time,lc.corr_flux-lc.tr_time,min_p=min_p,max_p=max_p)
+    trend = savgol_filter(lc_first_try,201,2)
+    frequency, power, spower = get_pgram(lc.time,lc.corr_flux-trend+np.nanmedian(trend),min_p=min_p,max_p=max_p)
     
     rc('axes', labelsize=7, titlesize=8)
     rc('font', size=6)
@@ -81,8 +81,8 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     ax_periodogram   = subplot(gs3[0,:])
     ax_logpgram    = subplot(gs3[1,:])
 
-    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trend=lc.tr_position)
-    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trend=lc.tr_time)
+    plot_lc(ax_lctime,lc.time,[lc.flux-lc.tr_time+np.nanmedian(lc.tr_time)],formal_name,trends=[lc.tr_position])
+    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trends=[lc.tr_time,trend])
     plot_lc(ax_lcwhite,lc.time,(lc.corr_flux-lc.tr_time)+np.nanmedian(lc.tr_time),formal_name+': Whitened')
     plot_weightmap(ax_weightmap,weightmap,formal_name)
     plot_fluxmap(ax_fluxmap,image,formal_name)
