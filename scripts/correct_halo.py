@@ -135,7 +135,7 @@ if __name__ == '__main__':
     if args.ddir_halo is not None:
         ddir_halo = args.ddir_halo
     else:
-        ddir_halo = '../reduced/c%d/' % campaign_name
+        ddir_halo = '../reduced/c%d/' % campaign
 
     if args.ddir_raw is not None:
         ddir_raw = args.ddir_raw
@@ -145,7 +145,7 @@ if __name__ == '__main__':
     if args.savedir is not None:
         savedir = args.savedir
     else:
-        savedir='../release/c%d' % campaign_name
+        savedir='../release/c%d' % campaign
 
     objective = args.objective
 
