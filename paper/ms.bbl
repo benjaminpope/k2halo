@@ -60,6 +60,13 @@
   B.~J.~S. 2018, in SF2A-2018: Proceedings of the Annual meeting of the French
   Society of Astronomy and Astrophysics, 369--372
 
+\bibitem[{{Christiansen} {et~al.}(2012){Christiansen}, {Jenkins}, {Caldwell},
+  {Burke}, {Tenenbaum}, {Seader}, {Thompson}, {Barclay}, {Clarke}, {Li},
+  {Smith}, {Stumpe}, {Twicken}, \& {Van Cleve}}]{cdpp}
+{Christiansen}, J.~L., {Jenkins}, J.~M., {Caldwell}, D.~A., {et~al.} 2012,
+  Publications of the Astronomical Society of the Pacific, 124, 1279,
+  \dodoi{10.1086/668847}
+
 \bibitem[{{Farr} {et~al.}(2018){Farr}, {Pope}, {Davies}, {North}, {White},
   {Barrett}, {Miglio}, {Lund}, {Antoci}, {Fredslund Andersen}, {Grundahl}, \&
   {Huber}}]{Farr2018}
@@ -81,6 +88,11 @@
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
 \newblock \url{http://www.scipy.org/}
+
+\bibitem[{{Lund} {et~al.}(2015){Lund}, {Handberg}, {Davies}, {Chaplin}, \&
+  {Jones}}]{k2p2}
+{Lund}, M.~N., {Handberg}, R., {Davies}, G.~R., {Chaplin}, W.~J., \& {Jones},
+  C.~D. 2015, \apj, 806, 30, \dodoi{10.1088/0004-637X/806/1/30}
 
 \bibitem[{Maclaurin {et~al.}(2015)Maclaurin, Duvenaud, \& Adams}]{autograd}
 Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
