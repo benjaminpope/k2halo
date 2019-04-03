@@ -9,7 +9,7 @@ halo ktwo200084010-c101_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduc
 halo ktwo200084010-c102_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c102/ --name HR_4613 -c 102 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200128906-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name tet_Oph -c 111 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200128910-c111_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c111/ --name omi_Oph -c 111 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
-halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 81_Aqr -c 12 --thresh 0.25 --do-plot --objective tv --lag 10
+halo ktwo200164173-c12_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c12/ --name 81_Aqr -c 12 --thresh 0.25 --do-plot --objective tv --lag 10 --bitmask hardest
 halo ktwo200173870-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 98_Tau -c 13 --thresh 0.5 --do-plot --deathstar --objective tv --lag 10
 halo ktwo200173869-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 105_Tau -c 13 --thresh 0.5 --do-plot --rr [3,12] --objective tv --lag 10
 halo ktwo200173865-c13_lpd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/c13/ --name 51_Tau -c 13 --thresh 0.5 --do-plot --rr [0,10] --objective tv --lag 10
