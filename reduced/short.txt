@@ -1,0 +1,15 @@
+halo ktwo200129035-c111_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 36_Oph -c 111 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200129034-c111_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 26_Oph -c 111 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173879-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name tet2_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173880-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name kap1_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173881-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name ups_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173882-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name rho_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173883-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name HR_1427 -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173884-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 97_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173885-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name kap2_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173878-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 85_Tau -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200173877-c13_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name HR_1459 -c 13 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200200728-c16_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 45_Cnc -c 16 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200200728-c16_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 45_Cnc -c 16 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200233643-c18_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name zet_Cnc -c 18 --thresh 0.5 --objective tv --lag 300 --do-plot
+halo ktwo200233644-c18_spd-targ.fits.gz --data-dir ../data/ --save-dir ../reduced/short/ --name 25_Cnc -c 18 --thresh 0.5 --objective tv --lag 300 --do-plot

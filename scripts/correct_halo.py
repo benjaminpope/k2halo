@@ -38,6 +38,7 @@ mpl.rcParams['axes.labelsize'] = 16
 mpl.rcParams['axes.labelsize'] = 16
 mpl.rcParams['xtick.labelsize'] = 12
 mpl.rcParams['ytick.labelsize'] = 12
+mpl.rcParams["font.family"] = "Times New Roman"
 
 
 '''-----------------------------------------------------------------
