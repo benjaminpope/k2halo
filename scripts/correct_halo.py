@@ -81,7 +81,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     ax_periodogram   = subplot(gs3[0,:])
     ax_logpgram    = subplot(gs3[1,:])
 
-    plot_lc(ax_lctime,lc.time,[lc.flux-lc.tr_time+np.nanmedian(lc.tr_time)],formal_name,trends=[lc.tr_position])
+    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trends=[lc.tr_position])
     plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trends=[lc.tr_time,trend])
     plot_lc(ax_lcwhite,lc.time,(lc.corr_flux-lc.tr_time)+np.nanmedian(lc.tr_time),formal_name+': Whitened')
     plot_weightmap(ax_weightmap,weightmap,formal_name)
