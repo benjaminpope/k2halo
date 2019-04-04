@@ -57,7 +57,8 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     min_p,max_p=1./24.,20.
 
     PW,PH = 8.27, 11.69
-    poly = np.poly1d(np.polyfit(lc.time,lc.corr_flux,15))
+    m = np.isfinite(lc.corr_flux)
+    poly = np.poly1d(np.polyfit(lc.time[m],lc.corr_flux[m],15))
     trend = poly(lc.time)
     frequency, power, spower = get_pgram(lc.time,lc.corr_flux-trend+np.nanmedian(trend),min_p=min_p,max_p=max_p)
     
