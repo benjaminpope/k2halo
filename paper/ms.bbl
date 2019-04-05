@@ -84,10 +84,42 @@
 {Fressin}, F., {Torres}, G., {Charbonneau}, D., {et~al.} 2013, \apj, 766, 81,
   \dodoi{10.1088/0004-637X/766/2/81}
 
+\bibitem[{{Gilliland} {et~al.}(2010){Gilliland}, {Jenkins}, {Borucki},
+  {Bryson}, {Caldwell}, {Clarke}, {Dotson}, {Haas}, {Hall}, {Klaus}, {Koch},
+  {McCauliff}, {Quintana}, {Twicken}, \& {van Cleve}}]{Gilliland2010}
+{Gilliland}, R.~L., {Jenkins}, J.~M., {Borucki}, W.~J., {et~al.} 2010, \apjl,
+  713, L160, \dodoi{10.1088/2041-8205/713/2/L160}
+
+\bibitem[{{Guzik} {et~al.}(2016){Guzik}, {Houdek}, {Chaplin}, {Smalley},
+  {Kurtz}, {Gilliland}, {Mullally}, {Rowe}, {Bryson}, {Still}, {Antoci},
+  {Appourchaux}, {Basu}, {Bedding}, {Benomar}, {Garcia}, {Huber}, {Kjeldsen},
+  {Latham}, {Metcalfe}, {P{\'a}pics}, {White}, {Aerts}, {Ballot}, {Boyajian},
+  {Briquet}, {Bruntt}, {Buchhave}, {Campante}, {Catanzaro},
+  {Christensen-Dalsgaard}, {Davies}, {Do{\u g}an}, {Dragomir}, {Doyle},
+  {Elsworth}, {Frasca}, {Gaulme}, {Gruberbauer}, {Handberg}, {Hekker},
+  {Karoff}, {Lehmann}, {Mathias}, {Mathur}, {Miglio}, {Molenda-{\.Z}akowicz},
+  {Mosser}, {Murphy}, {R{\'e}gulo}, {Ripepi}, {Salabert}, {Sousa}, {Stello}, \&
+  {Uytterhoeven}}]{Guzik2016}
+{Guzik}, J.~A., {Houdek}, G., {Chaplin}, W.~J., {et~al.} 2016, \apj, 831, 17,
+  \dodoi{10.3847/0004-637X/831/1/17}
+
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
 \newblock \url{http://www.scipy.org/}
+
+\bibitem[{{Kolenberg} {et~al.}(2011){Kolenberg}, {Bryson}, {Szab{\'o}},
+  {Kurtz}, {Smolec}, {Nemec}, {Guggenberger}, {Moskalik}, {Benk{\H o}},
+  {Chadid}, {Jeon}, {Kiss}, {Kopacki}, {Nuspl}, {Still},
+  {Christensen-Dalsgaard}, {Kjeldsen}, {Borucki}, {Caldwell}, {Jenkins}, \&
+  {Koch}}]{Kolenberg2011}
+{Kolenberg}, K., {Bryson}, S., {Szab{\'o}}, R., {et~al.} 2011, \mnras, 411,
+  878, \dodoi{10.1111/j.1365-2966.2010.17728.x}
+
+\bibitem[{{Luger} {et~al.}(2018){Luger}, {Kruse}, {Foreman-Mackey}, {Agol}, \&
+  {Saunders}}]{everest2}
+{Luger}, R., {Kruse}, E., {Foreman-Mackey}, D., {Agol}, E., \& {Saunders}, N.
+  2018, \aj, 156, 99, \dodoi{10.3847/1538-3881/aad230}
 
 \bibitem[{{Lund} {et~al.}(2015){Lund}, {Handberg}, {Davies}, {Chaplin}, \&
   {Jones}}]{k2p2}
@@ -131,6 +163,13 @@ Vin\'{i}cius, Z., Barentsen, G., Hedges, C., \& Gully-Santiago, M. 2018,
   {KeplerGO/lightkurve: 1.0.0.dev1: First development release of lightkurve},
   \dodoi{10.5281/zenodo.1181929}.
 \newblock \url{https://doi.org/10.5281/zenodo.1181929}
+
+\bibitem[{{White} {et~al.}(2013){White}, {Huber}, {Maestro}, {Bedding},
+  {Ireland}, {Baron}, {Boyajian}, {Che}, {Monnier}, {Pope}, {Roettenbacher},
+  {Stello}, {Tuthill}, {Farrington}, {Goldfinger}, {McAlister}, {Schaefer},
+  {Sturmann}, {Sturmann}, {ten Brummelaar}, \& {Turner}}]{2013MNRAS.433.1262W}
+{White}, T.~R., {Huber}, D., {Maestro}, V., {et~al.} 2013, \mnras, 433, 1262,
+  \dodoi{10.1093/mnras/stt802}
 
 \bibitem[{{White} {et~al.}(2017){White}, {Pope}, {Antoci}, {P{\'a}pics},
   {Aerts}, {Gies}, {Gordon}, {Huber}, {Schaefer}, {Aigrain}, {Albrecht},
