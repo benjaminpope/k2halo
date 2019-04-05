@@ -116,6 +116,11 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 {Kolenberg}, K., {Bryson}, S., {Szab{\'o}}, R., {et~al.} 2011, \mnras, 411,
   878, \dodoi{10.1111/j.1365-2966.2010.17728.x}
 
+\bibitem[{{Luger} {et~al.}(2019){Luger}, {Agol}, {Foreman-Mackey}, {Fleming},
+  {Lustig-Yaeger}, \& {Deitrick}}]{starry}
+{Luger}, R., {Agol}, E., {Foreman-Mackey}, D., {et~al.} 2019, \aj, 157, 64,
+  \dodoi{10.3847/1538-3881/aae8e5}
+
 \bibitem[{{Luger} {et~al.}(2018){Luger}, {Kruse}, {Foreman-Mackey}, {Agol}, \&
   {Saunders}}]{everest2}
 {Luger}, R., {Kruse}, E., {Foreman-Mackey}, D., {Agol}, E., \& {Saunders}, N.

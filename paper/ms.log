@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,6 +406,9 @@ Package: ulem 2012/05/18
 \widetext@top=\box54
 \widetext@bot=\box55
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
@@ -414,31 +417,31 @@ neric.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex))
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 174.
+lass! (Proceeding with fingers crossed.) on input line 176.
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 174.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 174
+ fingers crossed) on input line 176.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 176
 .
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 174.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 174.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 174.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 176.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 176.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 176.
  (./ms.aux)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
+LaTeX Font Info:    ... okay on input line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -471,7 +474,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 174.
+Package hyperref Info: Link coloring ON on input line 176.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -481,32 +484,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 178.
+LaTeX Info: Redefining \ref on input line 176.
+LaTeX Info: Redefining \pageref on input line 176.
+LaTeX Info: Redefining \nameref on input line 176.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 180.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 178.
+LaTeX Font Info:    Try loading font information for U+msa on input line 180.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 178.
+LaTeX Font Info:    Try loading font information for U+msb on input line 180.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 178.
+t line 180.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 225.
+line 227.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
@@ -514,7 +517,7 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Overfull \hbox (8.6399pt too wide) in paragraph at lines 235--235
+Overfull \hbox (8.6399pt too wide) in paragraph at lines 237--237
 [][] 
  []
 
@@ -527,13 +530,13 @@ Overfull \vbox (12.65984pt too high) has occurred while \output is active []
 File: lag_lc_cdpp.pdf Graphic file (type pdf)
 
 <use lag_lc_cdpp.pdf>
-Package pdftex.def Info: lag_lc_cdpp.pdf used on input line 276.
+Package pdftex.def Info: lag_lc_cdpp.pdf used on input line 278.
 (pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
  <lag_sc.pdf, id=107, 570.5754pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
-Package pdftex.def Info: lag_sc.pdf used on input line 276.
+Package pdftex.def Info: lag_sc.pdf used on input line 278.
 (pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
  [4 <./lag_lc_cdpp.pdf> <./lag_sc.pdf
 
@@ -547,7 +550,7 @@ ile (type pdf)
 
 <use ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>
 Package pdftex.def Info: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_
-v1_lc.pdf used on input line 291.
+v1_lc.pdf used on input line 293.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
  [5]
 [6 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>] [7]
@@ -573,19 +576,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--30
  []
 
 ) (./all_stars_6.tex) [10] [11] [12] [13] [14] [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 381.
  ) 
 Here is how much of TeX's memory you used:
- 10407 strings out of 492995
- 144703 string characters out of 6132704
- 323086 words of memory out of 5000000
- 13774 multiletter control sequences out of 15000+600000
+ 10436 strings out of 492995
+ 145278 string characters out of 6132704
+ 323562 words of memory out of 5000000
+ 13800 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1565b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1565b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -606,10 +609,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (15 pages, 530181 bytes).
+Output written on ms.pdf (15 pages, 532369 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 60 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

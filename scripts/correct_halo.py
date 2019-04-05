@@ -63,7 +63,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     frequency, power, spower = get_pgram(lc.time,lc.corr_flux-trend+np.nanmedian(trend),min_p=min_p,max_p=max_p)
     
     rc('axes', labelsize=7, titlesize=8)
-    rc('font', size=6)
+    rc('font', size=6, family="Times New Roman")
     rc('xtick', labelsize=7)
     rc('ytick', labelsize=7)
     rc('lines', linewidth=1)
@@ -71,9 +71,9 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     gs1 = GridSpec(3,2)
     gs1.update(top=0.95, bottom = 2/3.*1.05,hspace=0.0,left=0.09,right=0.96)
     gs2 = GridSpec(1,2)
-    gs2.update(top=2/3.*0.97,bottom=1/3.*1.07,hspace=0.35,left=0.09,right=0.96)
+    gs2.update(top=2/3.*1.01,bottom=1/3.*1.1,hspace=0.35,left=0.09,right=0.96)
     gs3 = GridSpec(2,2)
-    gs3.update(top=1/3.*0.96,bottom=0.04,hspace=0.07,left=0.09,right=0.96)
+    gs3.update(top=1/3.*1.01,bottom=0.04,hspace=0.225,left=0.09,right=0.96)
 
     ax_lctime = subplot(gs1[0,:])
     ax_lcpos = subplot(gs1[1,:],sharex=ax_lctime)
