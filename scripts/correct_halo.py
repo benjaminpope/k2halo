@@ -61,7 +61,8 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     poly = np.poly1d(np.polyfit(lc.time[m],lc.corr_flux[m],15))
     trend = poly(lc.time)
     frequency, power, spower = get_pgram(lc.time,lc.corr_flux-trend+np.nanmedian(trend),min_p=min_p,max_p=max_p)
-    
+    font = {'fontname':'Times New Roman'}
+
     rc('axes', labelsize=7, titlesize=8)
     rc('font', size=6, family="Times New Roman")
     rc('xtick', labelsize=7)
@@ -73,7 +74,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     gs2 = GridSpec(1,2)
     gs2.update(top=2/3.*1.01,bottom=1/3.*1.1,hspace=0.35,left=0.09,right=0.96)
     gs3 = GridSpec(2,2)
-    gs3.update(top=1/3.*1.01,bottom=0.04,hspace=0.225,left=0.09,right=0.96)
+    gs3.update(top=1/3.*1.01,bottom=0.04,hspace=0.23,left=0.09,right=0.96)
 
     ax_lctime = subplot(gs1[0,:])
     ax_lcpos = subplot(gs1[1,:],sharex=ax_lctime)
@@ -91,7 +92,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
     plot_log_pgram(ax_logpgram,frequency,power,spower,formal_name)  
 
-    fig.suptitle(formal_name,y=0.99,fontsize=20)
+    fig.suptitle(formal_name,y=0.99,fontsize=20,**font)
     ax_periodogram.set_title('Periodograms')
     ax_fluxmap.set_title('Flux Map')
     ax_weightmap.set_title('TV-Min Weight Map')
