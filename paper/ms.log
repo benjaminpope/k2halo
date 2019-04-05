@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,7 +543,7 @@ Package pdftex.def Info: lag_sc.pdf used on input line 279.
 pdfTeX warning: pdflatex (file ./lag_sc.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >]
-<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=200, 597.6
+<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=198, 597.6
 729pt x 844.83629pt>
 File: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf Graphic f
 ile (type pdf)
@@ -583,15 +583,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 382.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 10436 strings out of 492995
- 145278 string characters out of 6132704
+ 10435 strings out of 492995
+ 145268 string characters out of 6132704
  323562 words of memory out of 5000000
- 13800 multiletter control sequences out of 15000+600000
+ 13799 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1565b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1565b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
 ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
 sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -612,10 +617,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (15 pages, 532639 bytes).
+Output written on ms.pdf (15 pages, 532929 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 502 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
  60 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
