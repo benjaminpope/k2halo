@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 APR 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,11 +583,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 382.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
  10435 strings out of 492995
