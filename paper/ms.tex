@@ -157,7 +157,7 @@
 %%
 %% If you wish, you may supply running head information, although
 %% this information may be modified by the editorial offices.
-\shorttitle{The K2 Halo Campaign}
+\shorttitle{The K2 Bright Star Survey}
 \shortauthors{B. J. S. Pope et al.}
 %%
 %% You can add a light gray and diagonal water-mark to the first page 
@@ -175,7 +175,7 @@
 
 \begin{document}
 
-\title{The K2 Halo Campaign}
+\title{The K2 Bright Star Survey}
 
 \correspondingauthor{Benjamin J. S. Pope \twitter{fringetracker}}
 \email{benjamin.pope@nyu.edu}
@@ -225,7 +225,7 @@
 
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
-While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign~4 onwards. This halo campaign reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the halo sources, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product from the Mikulski Archive for Space Telescopes (MAST). \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % git link shamelessly borrowed from Luger!
+While the \kepler\ mission was designed to look at tens of thousands of faint stars ($V \gtrsim 12$), brighter stars which saturate the detector are nevertheless some of the most interesting because of the ease with which they can be observed by other instruments and the wealth of knowledge about them that is already available. By considering the unsaturated scattered light `halo' around these stars we retrieve precise light curves of most of the brightest stars in \ktwo fields from Campaign~4 onwards. This bright star survey reveals stellar variability ubiquitously, including effects of stellar pulsation, rotation, and binarity. Here we describe our pipeline, and present a catalogue of the bright stars studied, with classifications and parametrizations of their variability and remarks on interesting objects. These light curves are publicly available as a High Level Science Product from the Mikulski Archive for Space Telescopes (MAST). \href{https://github.com/benjaminpope/k2halo}{\color{linkcolor}\faGithub} % git link shamelessly borrowed from Luger!
 \end{abstract}
 
 %% Keywords should appear after the \end{abstract} command. 
@@ -273,11 +273,11 @@ This method differs from smear photometry \citep{Pope2016}, which uses collatera
 
 % benchmarking with lags and objective functions
 
-In order to choose the objective function $\Lambda_{k,l}$, we have selected the quiet star 36~Ophiuchi, the lowest-mass main sequence star in the halo sample and one with very little high frequency variability detected or predicted, which was also observed at short cadence. We choose the 6.5~hour Combined Differential Photometric Precision \citep[CDPP,][]{cdpp} as implemented in \texttt{lightkurve} \citep{lightkurve} as a proxy for the `noise' in a lightcurve, with lower being better. We calculate halo lightcurves and their CDPPs for $k \in \{1,2,3\}$, and $l \in [1,50]$ for long cadence and (sparsely) $l \in [1,2500]$ for short cadence data. The results are displayed in Figure~\ref{cdpps}. We find that for long cadence data, the L1 norm (TV) and a lag of 10 provide the best CDPP, which is unsurprising given that this is a slightly shorter lag than the 12~cadence thruster firing period. In this context we can understand the optimum as TV-min suppressing systematics on the same timescale as they occur. On the other hand, for short cadence data, performance at short lags is very poor but the method performs similarly for all values of $k$ and improves very slowly with $l$ for longer lags. 
+In order to choose the objective function $\Lambda_{k,l}$, we have selected the quiet star 36~Ophiuchi, the lowest-mass main sequence star in the halo sample and one with very little high frequency variability detected or predicted, which was also observed at short cadence. We choose the 6.5~hour Combined Differential Photometric Precision \citep[CDPP,][]{cdpp} as implemented in \texttt{lightkurve} \citep{lightkurve} as a proxy for the `noise' in a lightcurve, with lower being better. We calculate halo lightcurves and their CDPPs for $k \in \{1,2,3\}$, and $l \in [1,50]$ for long cadence and (sparsely) $l \in [1,2500]$ for short cadence data. The results are displayed in Figure~\ref{cdpps}. We find that for long cadence data, the L1 norm (TV) and a lag of 10 provide the best CDPP, which is unsurprising given that this is a slightly shorter lag than the 12~cadence thruster firing period. In this context we can understand the optimum as TV-min suppressing systematics on the same timescale as they occur. On the other hand, for short cadence data, performance at short lags is very poor but the method performs similarly for $k \in \{1,2\}$ and improves very slowly with $l$ for longer lags, and performs very poorly for $k=3$ at all lags. 
 
 \begin{figure*}
 \plottwo{lag_lc_cdpp.pdf}{lag_sc.pdf}
-\caption{Behaviour of long cadence (left) and short cadence (right) 6.5~hour CDPP for the quiet dwarf 36~Ophiuchi as a function of lag parameter $l$. For long cadence this shows a minimum for L1 norm and $l=10$, i.e. for objective function $\Lambda_{1,10}$. For short cadence CDPP continuously improves for higher lags and shows no strong differences between L1, L2 or~L3 norms.}
+\caption{Behaviour of long cadence (left) and short cadence (right) 6.5~hour CDPP for the quiet dwarf 36~Ophiuchi as a function of lag parameter $l$. For long cadence this shows a minimum for L1 norm and $l=10$, i.e. for objective function $\Lambda_{1,10}$. For short cadence CDPP continuously improves for higher lags and shows no strong differences between L1 and L2~norms, while L3 performs poorly.}
 \label{cdpps}
 \end{figure*}
 
