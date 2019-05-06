@@ -84,6 +84,14 @@
 % added by DH
 \usepackage{xspace}
 \usepackage{amsmath}
+\usepackage{newunicodechar,graphicx}
+
+\DeclareRobustCommand{\okina}{%
+  \raisebox{\dimexpr\fontcharht\font`A-\height}{%
+    \scalebox{0.8}{`}%
+  }%
+}
+\newunicodechar{ʻ}{\okina}
 
 \newcommand{\numax}{\mbox{$\nu_{\rm max}$}\xspace}
 \newcommand{\Dnu}{\mbox{$\Delta \nu$}\xspace}
@@ -217,7 +225,7 @@
 \affiliation{Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA}
 
 \author[0000-0001-8832-4488 ]{Daniel Huber}
-\affiliation{Institute for Astronomy, University of Hawai'i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA}
+\affiliation{Institute for Astronomy, University of Hawai\okina i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA}
 \affiliation{SETI Institute, 189 Bernardo Avenue, Mountain View, CA 94043, USA}
 \affiliation{Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, DK-8000 Aarhus C, Denmark}
 
@@ -292,11 +300,9 @@ This is a classic convex optimization program with constraints, which we solve w
 
 The objective function $\Lambda_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $l$. For $k = 1$ and $l = 1$, $\Lambda_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The L2 Variation (L2V) with $k=2$ is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $l$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. 
 
-Unlike other methods for calibrating \kepler systematics, other than the value of $l$, no knowledge of the spacecraft motion or the behaviour of an ensemble of other stars is used to inform our algorithm. The method is a self-calibration that is independent of the details of the systematics it is calibrating, operating on the assumption that a single signal is present across many individual time series which otherwise are contaminated by noise.
-
 % benchmarking with lags and objective functions
 
-In order to choose the objective function $\Lambda_{k,l}$, we have selected the quiet star 36~Ophiuchi, the lowest-mass main sequence star in the halo sample and one with very little high frequency variability detected or predicted, which was also observed at short cadence. We choose the 6.5~hour Combined Differential Photometric Precision \citep[CDPP,][]{cdpp} as implemented in \texttt{lightkurve} \citep{lightkurve} as a proxy for the `noise' in a lightcurve, with lower being better. We calculate halo lightcurves and their CDPPs for $k \in \{1,2,3\}$, and $l \in [1,50]$ for long cadence and (sparsely) $l \in [1,2500]$ for short cadence data. The results are displayed in Figure~\ref{cdpps}. We find that for long cadence data, the L1 norm (TV) and a lag of 10 provide the best CDPP, which is unsurprising given that this is a slightly shorter lag than the 12~cadence thruster firing period. In this context we can understand the optimum as TV-min suppressing systematics on the same timescale as they occur. On the other hand, for short cadence data, performance at short lags is very poor but the method performs similarly for $k \in \{1,2\}$ and improves very slowly with $l$ for longer lags, and performs very poorly for $k=3$ at all lags. 
+In order to choose the values for $k$ and $l$ in our objective function, we have selected the quiet star 36~Ophiuchi, the lowest-mass main sequence star in the halo sample and one with very little high frequency variability detected or predicted, which was also observed at short cadence. We choose the 6.5~hour Combined Differential Photometric Precision \citep[CDPP,][]{cdpp} as implemented in \texttt{lightkurve} \citep{lightkurve} as a proxy for the `noise' in a lightcurve, with lower being better. We calculate halo lightcurves and their CDPPs for $k \in \{1,2,3\}$, and $l \in [1,50]$ for long cadence and (sparsely) $l \in [1,2500]$ for short cadence data. The results are displayed in Figure~\ref{cdpps}. We find that for long cadence data, the L1 norm (TV) and a lag of 10 provide the best CDPP, which is unsurprising given that this is a slightly shorter lag than the 12~cadence thruster firing period. In this context we can understand the optimum as TV-min suppressing systematics on the same timescale as they occur. On the other hand, for short cadence data, performance at short lags is very poor but the method performs similarly for $k \in \{1,2\}$ and improves very slowly with $l$ for longer lags, and performs very poorly for $k=3$ at all lags. 
 
 \begin{figure*}
 \plottwo{lag_lc_cdpp.pdf}{lag_sc.pdf}
@@ -304,9 +310,12 @@ In order to choose the objective function $\Lambda_{k,l}$, we have selected the 
 \label{cdpps}
 \end{figure*}
 
+%  improvements
+Unlike other methods for calibrating \kepler systematics, other than the value of $l$, no knowledge of the spacecraft motion or the behaviour of an ensemble of other stars is used to inform our algorithm. The method is a self-calibration that is independent of the details of the systematics it is calibrating, operating on the assumption that a single signal is present across many individual time series which otherwise are contaminated by noise. It is therefore likely that significant improvements can be made to the method by including cotrending basis vectors with mean zero and whose weights are allowed to be negative, which would represent systematics which are common to all pixels in the halo aperture and therefore masquerade as signal. Any linear combination of convex objective functions is itself convex, and future extensions to the method could enforce combinations of different lags and orders to better represent systematics occurring on different timescales (e.g. thruster firings, red noise) and with different levels of smoothness.
+
 % describe changes with respect to Pleiades and Aldebaran papers: deathstar
 
-In addition to these changes in objective function, we have also added a feature `\texttt{deathstar}' to deal with contamination. We apply the watershed-based image segmentation algorithm from \textsc{k2p2} \citep{k2p2} to the input target pixel file datacube to identify possible background sources and cut them out. \textcolor{red}{More here from Tim.} Other than this, we have adopted less-aggressive quality flagging, having found that many cadences were being classified as bad quality for spurious `cosmic ray' events, which were actually caused by a combination of saturation and spacecraft motion. We now iteratively sigma-clip outliers and retain cadences with the \texttt{lightkurve} default quality mask.
+In addition to expanding the range of possible objective functions, we have also added a feature `\texttt{deathstar}' to deal with contamination. We apply the watershed-based image segmentation algorithm from \textsc{k2p2} \citep{k2p2} to the input target pixel file datacube to identify possible background sources and cut them out. \textcolor{red}{More here from Tim.} Other than this, we have adopted less-aggressive quality flagging, having found that many cadences were being classified as bad quality for spurious `cosmic ray' events, which were actually caused by a combination of saturation and spacecraft motion. We now iteratively sigma-clip outliers and retain cadences with the \texttt{lightkurve} default quality mask.
 
 % incorporation of k2sc
 While the halo procedure produces in most cases a fairly clean light curve, there are nevertheless residual systematic errors related to spacecraft motion. In order to correct these, we employ the \textsc{k2sc} code \citep{Aigrain2015,k2sc}, which simultaneously models a light curve as a 3D Gaussian Process (GP) in time and predicted position (the K2 standard data product \textsc{pos\_corr}) in pixels $(x,y)$. The model prediction in time for fixed position is then a nonparametric model of the stellar variability, and the prediction for the $x,y$ component evaluated for fixed time represents the pointing systematics. We subtract the systmatics model from the input fluxes to obtain a final corrected flux, which is the time series we use and recommend for science. The target pixel files for C91, C92, and C101 include no position information, and there are no halo apertures for C112. As a result \textsc{k2sc}-corrected data are not available for these targets.
