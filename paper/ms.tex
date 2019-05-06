@@ -277,14 +277,16 @@ This method was first described by \citet{White2017} and applied to the Pleiades
     \Lambda_{k,l} \equiv {\sum_i{|f_i - f_{i-l}|^k}},
 \end{equation}
 
-\noindent subject to th the constraints 
+\noindent subject to the constraints 
 
 \begin{align}
 \forall_j w_j &> 0\\
 \sum_i f_i  &= N
 \end{align}
 
-$\Lambda_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $l$. For $k = 1$ and $l = 1$, $\Lambda_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The $L=2$ L2 Variation (L2V) is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $l$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. TV with any lag is a convex objective function and $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd}][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution.
+This is a classic linear convex optimization program with constraints, which we solve with the \texttt{scipy} \citep{scipy} L-BFGS-B nonlinear optimization code. $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd}][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution. 
+
+The objective function $\Lambda_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $l$. For $k = 1$ and $l = 1$, $\Lambda_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The $L=2$ L2 Variation (L2V) is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $l$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. 
 
 % smear
 This method differs from smear photometry \citep{Pope2016}, which uses collateral `smear' data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. While this has also been used for photometry of very bright stars, the `halo' method has the advantage of averaging over many more realizations of the K2 pointing systematics and permitting more significant calibration, achieving a generally higher photometric prevision.
