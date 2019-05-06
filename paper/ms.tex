@@ -183,6 +183,7 @@
 
 \author[0000-0003-2595-9114]{Benjamin J. S. Pope}
 \affiliation{Center for Cosmology and Particle Physics, Department of Physics, New York University, 726 Broadway, New York, NY 10003, USA}
+\affiliation{Center for Data Science, New York University, 60 Fifth Ave, New York, NY 10011, USA}
 \affiliation{NASA Sagan Fellow}
 
 \author[0000-0002-6980-3392]{Timothy R. White}
@@ -284,7 +285,7 @@ This method was first described by \citet{White2017} and applied to the Pleiades
 
 \begin{align}
 \forall_j w_j &> 0\\
-\sum_i f_i  &= N
+\sum_{i=1}^{N} f_i  &= N
 \end{align}
 
 This is a classic convex optimization program with constraints, which we solve with the \texttt{scipy} \citep{scipy} L-BFGS-B nonlinear optimization code \citep{lbfgsb}. $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd}][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution. 
