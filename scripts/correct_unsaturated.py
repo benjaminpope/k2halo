@@ -54,18 +54,46 @@ def match_cadences(halocads,lccads):
     indices =np.array([1 if j in lccads else 0 for j in halocads])
     return np.where(indices==1)[0]
 
-def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
+def plot_weightmap_overlay(ax1,weightmap,name,title=False,mask=None):
+        norm = np.size(weightmap)
+
+        cmap = mpl.cm.seismic
+        cmap.set_bad('k',1.)
+
+        im = np.log10(weightmap.T*norm)
+        pic = ax1.imshow(im.T,cmap=cmap, vmin=-2*np.nanmax(im),vmax=2*np.nanmax(im),
+            interpolation='nearest',origin='lower')        
+        if [mask] != None:
+            mask_show = np.ma.masked_array(np.zeros_like(mask),mask=(mask))
+            ax1.imshow(mask_show,cmap=mpl.cm.gray,alpha=0.3)
+
+        if title:
+            plt.title(r'TV-min Weightmap %s' % name)
+
+        # cbaraxes, kw = mpl.colorbar.make_axes(ax1,location='right',pad=0.01)
+        # plt.colorbar(pic,cax=cbaraxes)
+
+        # cbaraxes.yaxis.set_ticks_position('right')
+        aspect = 20
+        pad_fraction = 0.5
+
+        divider = make_axes_locatable(ax1)
+        width = axes_size.AxesY(ax1, aspect=1./aspect)
+        pad = axes_size.Fraction(pad_fraction, width)
+        cax = divider.append_axes("right", size=width, pad=pad)
+        plt.colorbar(pic, cax=cax)
+
+        ax1.yaxis.set_ticks_position('left')        
+
+def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',mask=None):
     min_p,max_p=1./24.,20.
 
     PW,PH = 8.27, 11.69
-    m = np.isfinite(lc.corr_flux)
-    poly = np.poly1d(np.polyfit(lc.time[m],lc.corr_flux[m],15))
-    trend = poly(lc.time)
-    frequency, power, spower = get_pgram(lc.time,lc.corr_flux-trend+np.nanmedian(trend),min_p=min_p,max_p=max_p)
-    font = {'fontname':'Times New Roman'}
-
+    
+    frequency, power, spower = get_pgram(lc.time,lc.corr_flux-lc.tr_time,min_p=min_p,max_p=max_p)
+    
     rc('axes', labelsize=7, titlesize=8)
-    rc('font', size=6, family="Times New Roman")
+    rc('font', size=6)
     rc('xtick', labelsize=7)
     rc('ytick', labelsize=7)
     rc('lines', linewidth=1)
@@ -73,9 +101,9 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     gs1 = GridSpec(3,2)
     gs1.update(top=0.95, bottom = 2/3.*1.05,hspace=0.0,left=0.09,right=0.96)
     gs2 = GridSpec(1,2)
-    gs2.update(top=2/3.*1.01,bottom=1/3.*1.1,hspace=0.35,left=0.09,right=0.96)
+    gs2.update(top=2/3.*0.97,bottom=1/3.*1.07,hspace=0.35,left=0.09,right=0.96)
     gs3 = GridSpec(2,2)
-    gs3.update(top=1/3.*1.01,bottom=0.04,hspace=0.23,left=0.09,right=0.96)
+    gs3.update(top=1/3.*0.96,bottom=0.04,hspace=0.07,left=0.09,right=0.96)
 
     ax_lctime = subplot(gs1[0,:])
     ax_lcpos = subplot(gs1[1,:],sharex=ax_lctime)
@@ -85,25 +113,21 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     ax_periodogram   = subplot(gs3[0,:])
     ax_logpgram    = subplot(gs3[1,:])
 
-    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trends=[lc.tr_position])
-    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trends=[lc.tr_time,trend])
-    plot_lc(ax_lcwhite,lc.time,(lc.corr_flux-lc.tr_time)+np.nanmedian(lc.tr_time),formal_name+': Whitened')
-    plot_weightmap(ax_weightmap,weightmap,formal_name)
+    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trend=lc.tr_position)
+    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trend=lc.tr_time)
+    plot_lc(ax_lcwhite,lc.time,lc.corr_flux-lc.tr_time,formal_name+': Whitened')
+    plot_weightmap_overlay(ax_weightmap,weightmap,formal_name,mask=mask)
     plot_fluxmap(ax_fluxmap,image,formal_name)
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
     plot_log_pgram(ax_logpgram,frequency,power,spower,formal_name)  
 
-    fig.suptitle(formal_name,y=0.99,fontsize=20,**font)
+    fig.suptitle(formal_name+' Detrended',y=0.99,fontsize=20)
     ax_periodogram.set_title('Periodograms')
     ax_fluxmap.set_title('Flux Map')
     ax_weightmap.set_title('TV-Min Weight Map')
 
     if save_file is not None:
-        try:
-            for fname in save_file:
-                plt.savefig(fname)
-        except:
-            plt.savefig(save_file)
+        plt.savefig(save_file)
 '''-----------------------------------------------------------------
 
 An example call is 
@@ -181,11 +205,11 @@ if __name__ == '__main__':
     print('K2SC PDC CDPP:',cdpp_k2sc_pdc)
 
     with open('epic_%s.txt' % epic,'w') as f:
-        f.write('%s %f %f %f %f %f %f' %  (epic, cdpp_sap, cdpp_pdc, cdpp_k2sc_pdc, cdpp_halo, cdpp_k2sc_halo, enclosed_weight))
+        f.write('%s %f %f %f %f %f %f %f' %  (epic, lc_pdc.primary_header['kepmag'], cdpp_sap, cdpp_pdc, cdpp_k2sc_pdc, cdpp_halo, cdpp_k2sc_halo, enclosed_weight))
     print('Written data to epic_%s.txt' % epic)
 
     if args.do_plot:
-        plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s) Detrended' % epic,
+        plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s) Detrended' % epic,mask=tpf.pipeline_mask,
             save_file=['../data/normal/epic_%s.png' % (epic)])
         print('Saved figure to ../data/normal/epic_%s.png' % (epic))
 
