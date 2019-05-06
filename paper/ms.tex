@@ -284,7 +284,7 @@ This method was first described by \citet{White2017} and applied to the Pleiades
 \sum_i f_i  &= N
 \end{align}
 
-This is a classic linear convex optimization program with constraints, which we solve with the \texttt{scipy} \citep{scipy} L-BFGS-B nonlinear optimization code. $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd}][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution. 
+This is a classic linear convex optimization program with constraints, which we solve with the \texttt{scipy} \citep{scipy} L-BFGS-B nonlinear optimization code \citep{lbfgsb}. $\Lambda_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd}][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution. 
 
 The objective function $\Lambda_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $l$. For $k = 1$ and $l = 1$, $\Lambda_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The $L=2$ L2 Variation (L2V) is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $l$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. 
 
