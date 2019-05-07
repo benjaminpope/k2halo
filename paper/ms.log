@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 MAY 2019 18:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 MAY 2019 17:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,24 +593,24 @@ Overfull \vbox (2.99773pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] <lag_lc_cdpp.pdf, id=108, 569.57164pt x 402.0621pt>
+[2] [3] [4] <lag_lc_cdpp.pdf, id=125, 569.57164pt x 402.0621pt>
 File: lag_lc_cdpp.pdf Graphic file (type pdf)
 
 <use lag_lc_cdpp.pdf>
 Package pdftex.def Info: lag_lc_cdpp.pdf used on input line 308.
 (pdftex.def)             Requested size: 184.28981pt x 130.09193pt.
- <lag_sc.pdf, id=109, 570.5754pt x 402.0621pt>
+ <lag_sc.pdf, id=126, 570.5754pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
 Package pdftex.def Info: lag_sc.pdf used on input line 308.
 (pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
- [4] [5 <./lag_lc_cdpp.pdf> <./lag_sc.pdf
+ [5 <./lag_lc_cdpp.pdf> <./lag_sc.pdf
 
 pdfTeX warning: pdflatex (file ./lag_sc.pdf): PDF inclusion: multiple pdfs with
  page group included in a single page
 >]
-<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=214, 597.6
+<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=212, 597.6
 729pt x 844.83629pt>
 File: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf Graphic f
 ile (type pdf)
@@ -658,7 +658,7 @@ Here is how much of TeX's memory you used:
  14387 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1565b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1565b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -679,10 +679,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (16 pages, 536916 bytes).
+Output written on ms.pdf (16 pages, 537398 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
+ 514 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
  64 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
