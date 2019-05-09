@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAY 2019 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAY 2019 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,12 +602,12 @@ File: lag_opt_both.pdf Graphic file (type pdf)
 <use lag_opt_both.pdf>
 Package pdftex.def Info: lag_opt_both.pdf used on input line 324.
 (pdftex.def)             Requested size: 368.57964pt x 273.0064pt.
- <lag_sc.pdf, id=122, 570.5754pt x 402.0621pt>
+ <lag_sc.pdf, id=122, 587.03691pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
 Package pdftex.def Info: lag_sc.pdf used on input line 330.
-(pdftex.def)             Requested size: 368.57964pt x 259.72377pt.
+(pdftex.def)             Requested size: 368.57964pt x 252.44156pt.
  [5 <./lag_opt_both.pdf>] [6 <./lag_sc.pdf>]
 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=234, 597.6
 729pt x 844.83629pt>
@@ -682,7 +682,7 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (17 pages, 546652 bytes).
+Output written on ms.pdf (17 pages, 546476 bytes).
 PDF statistics:
  533 PDF objects out of 1000 (max. 8388607)
  351 compressed objects within 4 object streams
