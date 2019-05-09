@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2019 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAY 2019 15:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,74 @@ Package: ulem 2012/05/18
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen129
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen130
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count147
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count148
+\leftroot@=\count149
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count150
+\DOTSCASE@=\count151
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen131
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count152
+\c@MaxMatrixCols=\count153
+\dotsspace@=\muskip11
+\c@parentequation=\count154
+\dspbrk@lvl=\count155
+\tag@help=\toks23
+\row@=\count156
+\column@=\count157
+\maxfields@=\count158
+\andhelp@=\toks24
+\eqnshift@=\dimen132
+\alignsep@=\dimen133
+\tagshift@=\dimen134
+\tagwidth@=\dimen135
+\totwidth@=\dimen136
+\lineht@=\dimen137
+\@envbody=\toks25
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks26
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty
+Package: newunicodechar 2012/11/12 v1.1 Defining Unicode characters
+
+Package newunicodechar Warning: This package won't work without loading
+(newunicodechar)                `inputenc' or `inputenx' with the `utf8' option
+.
+
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
@@ -417,45 +484,48 @@ neric.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex))
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 176.
+lass! (Proceeding with fingers crossed.) on input line 185.
 Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
- fingers crossed) on input line 176.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 176
+ fingers crossed) on input line 185.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 185
 .
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 176.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 176.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 176.
- (./ms.aux)
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 185.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 185.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 185.
+ (./ms.aux
+
+LaTeX Warning: Label `cdpps' multiply defined.
+
+)
 \openout1 = `ms.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 185.
+LaTeX Font Info:    ... okay on input line 185.
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count147
-\scratchdimen=\dimen129
-\scratchbox=\box56
-\nofMPsegments=\count148
-\nofMParguments=\count149
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count150
-\MPscratchDim=\dimen130
-\MPnumerator=\count151
-\makeMPintoPDFobject=\count152
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count159
+\scratchdimen=\dimen138
+\scratchbox=\box58
+\nofMPsegments=\count160
+\nofMParguments=\count161
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count162
+\MPscratchDim=\dimen139
+\MPnumerator=\count163
+\makeMPintoPDFobject=\count164
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -473,8 +543,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 176.
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring ON on input line 185.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -482,34 +552,34 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count153
+\c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 176.
-LaTeX Info: Redefining \pageref on input line 176.
-LaTeX Info: Redefining \nameref on input line 176.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 180.
+LaTeX Info: Redefining \ref on input line 185.
+LaTeX Info: Redefining \pageref on input line 185.
+LaTeX Info: Redefining \nameref on input line 185.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 189.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 180.
+LaTeX Font Info:    Try loading font information for U+msa on input line 189.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 180.
+LaTeX Font Info:    Try loading font information for U+msb on input line 189.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 180.
+t line 189.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 228.
+line 248.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
@@ -517,47 +587,43 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 Class revtex4-1 Warning: Assuming \noaffiliation for authors.
 
 
-Overfull \hbox (8.6399pt too wide) in paragraph at lines 238--238
+Overfull \hbox (8.6399pt too wide) in paragraph at lines 258--258
 [][] 
  []
 
 
-Overfull \vbox (12.65984pt too high) has occurred while \output is active []
+Overfull \vbox (2.99773pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] <lag_lc_cdpp.pdf, id=106, 570.5754pt x 402.0621pt>
-File: lag_lc_cdpp.pdf Graphic file (type pdf)
+[2] [3] [4] <lag_opt_both.pdf, id=121, 743.27687pt x 550.5336pt>
+File: lag_opt_both.pdf Graphic file (type pdf)
 
-<use lag_lc_cdpp.pdf>
-Package pdftex.def Info: lag_lc_cdpp.pdf used on input line 279.
-(pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
- <lag_sc.pdf, id=107, 570.5754pt x 402.0621pt>
+<use lag_opt_both.pdf>
+Package pdftex.def Info: lag_opt_both.pdf used on input line 324.
+(pdftex.def)             Requested size: 368.57964pt x 273.0064pt.
+ <lag_sc.pdf, id=122, 570.5754pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
-Package pdftex.def Info: lag_sc.pdf used on input line 279.
-(pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
- [4 <./lag_lc_cdpp.pdf> <./lag_sc.pdf
-
-pdfTeX warning: pdflatex (file ./lag_sc.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
->]
-<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=197, 597.6
+Package pdftex.def Info: lag_sc.pdf used on input line 330.
+(pdftex.def)             Requested size: 368.57964pt x 259.72377pt.
+ [5 <./lag_opt_both.pdf>] [6 <./lag_sc.pdf>]
+<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=234, 597.6
 729pt x 844.83629pt>
 File: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf Graphic f
 ile (type pdf)
 
 <use ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>
 Package pdftex.def Info: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_
-v1_lc.pdf used on input line 294.
+v1_lc.pdf used on input line 349.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
 
-LaTeX Warning: Float too large for page by 11.86232pt on input line 296.
+LaTeX Warning: Float too large for page by 11.86232pt on input line 351.
 
-[5] [6 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>]
-[7] (./ms.bbl [8]) [9] (./all_stars_1.tex
+[7] [8 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>]
+[9] (./ms.bbl [10]) [11] (./all_stars_1.tex
 Overfull \hbox (36.88373pt too wide) in paragraph at lines 3--39
 []$[]$
  []
@@ -578,23 +644,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--30
 
  []
 
-) (./all_stars_6.tex) [10] [11] [12] [13] [14] [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
+) (./all_stars_6.tex) [12] [13] [14] [15] [16] [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 382.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 435.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 10435 strings out of 492995
- 145268 string characters out of 6132704
- 323567 words of memory out of 5000000
- 13799 multiletter control sequences out of 15000+600000
+ 11051 strings out of 492995
+ 152554 string characters out of 6132704
+ 334665 words of memory out of 5000000
+ 14389 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1565b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
-ree.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawe
-sometwo.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
+ 35i,8n,37p,1641b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
+o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
+methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
 FontAwesome.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
@@ -612,10 +682,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (15 pages, 532843 bytes).
+Output written on ms.pdf (17 pages, 546709 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 330 compressed objects within 4 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
+ 66 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
