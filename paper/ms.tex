@@ -300,7 +300,7 @@ This method was first described by \citet{White2017} and applied to the Pleiades
 
 This is a classic convex optimization program with constraints, which we solve with the \texttt{scipy} \citep{scipy} L-BFGS-B nonlinear optimization code \citep{lbfgsb}. $Q_{k,l}$ has analytic derivatives with respect to $w_j$ \citep[calculated with \texttt{autograd};][]{autograd}, and it is therefore extremely fast to optimize and converges well on a global solution. In practice, for computational reasons we optimize over parameters $\tilde{w}_j$ such that $w_j = \text{softmax}(\tilde{w}_j$, as this satisfies the constraint that $\forall_j w_j > 0$, and while this also constrains their sum to be unity, we renormalize $f$ to satisfy its normalization constraint before calculating the objective function and this additional constraint is removed again.
 
-The objective function $Q_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $\delta$. For $k = 1$ and $\delta = 1$, $Q_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The L2 Variation (L2V) with $k=2$ is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $\delta$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. For convenience in the rest of this paper, we will refer to the $k=1$ case as TV, the $k=2$ case as L2V, and the $k=3$ case as L3V.
+The objective function $Q_{k,l}$ is the $L_k$ norm on a `lagged' finite difference with a lag parameter $\delta$. For $k = 1$ and $\delta = 1$, $Q_{1,1}$ is the standard Total Variation objective (TV) used in previous halo papers \citep[e.g.][]{White2017,Farr2018}, and can be seen as the L1 norm on the derivative of $f$ or as a discrete approximation to its arc length. The L2 Variation (L2V) with $k=2$ is sometimes referred to in image processing literature as the `smoothness' regularizer, as it seeks to penalize large gradients without necessarily making them sparse. The lag parameter $\delta$ allows for flexibility in modelling systematics occurring at different timescales from cadence-to-cadence, and we investigate its effects below. The order parameter $k$ allows for flexibility in how sensitive we are to normally-distributed versus long-tailed noise. For convenience in the rest of this paper, we will refer to the $k=1$ case as TV, the $k=2$ case as L2V, and the $k=3$ case as L3V.
 
 % benchmarking with lags and objective functions
 
@@ -313,9 +313,16 @@ In order to choose the values for $k$ and $\delta$ in our objective function, we
 % \end{figure*}
 
 
+% \begin{figure*}
+% \plottwo{lag_lc_cdpp.pdf}{lag_lc_sys.pdf}
+% \caption{Behaviour of long cadence 6.5~hour CDPP (left) and $4 c/d$ systematics power (right) for the quiet dwarf 36~Ophiuchi as a function of lag parameter $\delta$. CDPP shows a minimum for L1 norm and $\delta=10$, i.e. for objective function $Q_{1,10}$.}
+% \label{cdpps}
+% \end{figure*}
+
+
 \begin{figure*}
-\plottwo{lag_lc_cdpp.pdf}{lag_lc_sys.pdf}
-\caption{Behaviour of long cadence 6.5~hour CDPP (left) and $4 c/d$ systematics power (right) for the quiet dwarf 36~Ophiuchi as a function of lag parameter $\delta$. CDPP shows a minimum for L1 norm and $\delta=10$, i.e. for objective function $Q_{1,10}$.}
+\plotone{lag_opt_both.pdf}
+\caption{Behaviour of long cadence 6.5~hour CDPP (bottom) and $4 c/d$ systematics power (top) for the quiet dwarf 36~Ophiuchi as a function of lag parameter $\delta$. CDPP shows a minimum for L1 norm and $\delta=10$, i.e. for objective function $Q_{1,10}$.}
 \label{cdpps}
 \end{figure*}
 

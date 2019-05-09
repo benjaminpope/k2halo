@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAY 2019 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  9 MAY 2019 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,44 +596,34 @@ Overfull \vbox (2.99773pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] <lag_lc_cdpp.pdf, id=118, 570.5754pt x 402.0621pt>
-File: lag_lc_cdpp.pdf Graphic file (type pdf)
+[2] [3] [4] <lag_opt_both.pdf, id=121, 743.27687pt x 550.5336pt>
+File: lag_opt_both.pdf Graphic file (type pdf)
 
-<use lag_lc_cdpp.pdf>
-Package pdftex.def Info: lag_lc_cdpp.pdf used on input line 317.
-(pdftex.def)             Requested size: 184.28981pt x 129.85881pt.
- <lag_lc_sys.pdf, id=119, 575.2491pt x 402.0621pt>
-File: lag_lc_sys.pdf Graphic file (type pdf)
-
-<use lag_lc_sys.pdf>
-Package pdftex.def Info: lag_lc_sys.pdf used on input line 317.
-(pdftex.def)             Requested size: 184.28981pt x 128.8036pt.
- <lag_sc.pdf, id=120, 570.5754pt x 402.0621pt>
+<use lag_opt_both.pdf>
+Package pdftex.def Info: lag_opt_both.pdf used on input line 324.
+(pdftex.def)             Requested size: 368.57964pt x 273.0064pt.
+ <lag_sc.pdf, id=122, 570.5754pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
-Package pdftex.def Info: lag_sc.pdf used on input line 323.
+Package pdftex.def Info: lag_sc.pdf used on input line 330.
 (pdftex.def)             Requested size: 368.57964pt x 259.72377pt.
- [5 <./lag_lc_cdpp.pdf> <./lag_lc_sys.pdf
-
-pdfTeX warning: pdflatex (file ./lag_lc_sys.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->]
-<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=216, 597.6
+ [5 <./lag_opt_both.pdf>] [6 <./lag_sc.pdf>]
+<../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf, id=234, 597.6
 729pt x 844.83629pt>
 File: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf Graphic f
 ile (type pdf)
 
 <use ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>
 Package pdftex.def Info: ../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_
-v1_lc.pdf used on input line 342.
+v1_lc.pdf used on input line 349.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
 
-LaTeX Warning: Float too large for page by 11.86232pt on input line 344.
+LaTeX Warning: Float too large for page by 11.86232pt on input line 351.
 
-[6 <./lag_sc.pdf>] [7 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1
-_lc.pdf>] [8] [9] (./ms.bbl [10]) [11] (./all_stars_1.tex
+[7] [8 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>]
+[9] (./ms.bbl [10]) [11] (./all_stars_1.tex
 Overfull \hbox (36.88373pt too wide) in paragraph at lines 3--39
 []$[]$
  []
@@ -655,23 +645,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--30
  []
 
 ) (./all_stars_6.tex) [12] [13] [14] [15] [16] [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 428.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 428.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 435.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11056 strings out of 492995
- 152638 string characters out of 6132704
+ 11052 strings out of 492995
+ 152564 string characters out of 6132704
  334665 words of memory out of 5000000
- 14393 multiletter control sequences out of 15000+600000
+ 14390 multiletter control sequences out of 15000+600000
  16220 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1641b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,37p,1641b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -692,10 +682,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (17 pages, 556941 bytes).
+Output written on ms.pdf (17 pages, 545890 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
+ 533 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
  66 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
