@@ -1,3 +1,3 @@
 Name,Vmag,Sp. Type,EPIC ID,RA (J2000) [deg],Dec (J2000) [deg],MASK,Investigation IDs,TPF,LC Halo Lightcurve,Lightcurve Image,Weight Image,Flux Image,Project,Contact,Publication,Comments
-Spica,0.97,B1V,212573842,201.2982483,-11.1613188,Regular,GO6040_LC|GO6081_LC,,,,,,,,,"Mistakenly observed with a normal mask for a 7.8 mag star, but light curve is salvagable"
+Spica,0.97,B1V,212573842,201.2982483,-11.1613188,Regular,GO6040_LC|GO6081_LC,,,,,,,,,"No Halo Mask"
 69 Vir,4.75,K0III-IIIbCN1.5CH0.5,212356048,201.8631897,-15.9735813,Regular,GO6081_LC,,,,,,,,,

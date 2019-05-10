@@ -85,6 +85,8 @@
 \usepackage{xspace}
 \usepackage{amsmath}
 \usepackage{newunicodechar,graphicx}
+\usepackage{longtable}
+
 
 \DeclareRobustCommand{\okina}{%
   \raisebox{\dimexpr\fontcharht\font`A-\height}{%
@@ -356,7 +358,7 @@ While the halo procedure produces in most cases a fairly clean light curve, ther
 
 % link to tables 
 
-The full sample of stars for which halo apertures were obtained is listed in Tables~\ref{table_0}--\ref{table_5}, broken down by Campaign. While some very bright stars were observed with conventional apertures as part of these programs, simple aperture photometry is satisfactory on these targets and we exclude them from the present discussion and data release, which is oriented strictly towards targets only observable with halo photometry. 
+The full sample of stars for which halo apertures were obtained is listed in Table~\ref{table_all}. While some very bright stars were observed with conventional apertures as part of these programs, simple aperture photometry is satisfactory on these targets and we exclude them from the present discussion and data release, which is oriented strictly towards targets only observable with halo photometry. 
 % normal apertures in 6
 We make an exception for Spica, which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture by mistake and simple aperture photometry performed extremely poorly, so we have processed it with the halo pipeline. The stars in Campaign~18 were also on-silicon in Campaign~5, but were not assigned apertures suitable for halo photometry in C5. A possible further extension of the present work would be to recover C5 light curves for these objects using either or both of smear or modified halo photometry.
 
@@ -414,15 +416,16 @@ This research made use of NASA's Astrophysics Data System; the SIMBAD database, 
 \bibliography{ms}
 
 \newpage
+\appendix
 % \section*{Sample}
 
-\input{all_stars_1}
-\input{all_stars_2}
-\input{all_stars_3}
-\input{all_stars_4}
-\input{all_stars_5}
-\input{all_stars_6}
-
+% \input{all_stars_1}
+% \input{all_stars_2}
+% \input{all_stars_3}
+% \input{all_stars_4}
+% \input{all_stars_5}
+% \input{all_stars_6}
+\input{table_all}
 %% This command is needed to show the entire author+affilation list when
 %% the collaboration and author truncation commands are used.  It has to
 %% go at the end of the manuscript.
