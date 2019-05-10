@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 MAY 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 MAY 2019 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,37 +624,37 @@ LaTeX Warning: Float too large for page by 11.86232pt on input line 353.
 
 [7] [8 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>]
 [9] (./ms.bbl [10]) [11] (./table_all.tex
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
@@ -663,36 +663,56 @@ Overfull \vbox (1.54805pt too high) has occurred while \output is active []
 
 
 [12]
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 [13]
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 [14]
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (75.07199pt too wide) in alignment at lines 167--167
+Overfull \hbox (24.03276pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
 
-[15]) [16]
+[15]
+Overfull \hbox (0.78806pt too wide) detected at line 168
+$\OML/cmm/m/it/10.95 a$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 169
+$\OML/cmm/m/it/10.95 b$
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 170
+$\OML/cmm/m/it/10.95 c$
+ []
+
+
+Overfull \hbox (0.69933pt too wide) detected at line 171
+$\OML/cmm/m/it/10.95 d$
+ []
+
+) [16]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 438.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 438.
@@ -705,11 +725,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11040 strings out of 492995
  152407 string characters out of 6132704
- 362982 words of memory out of 5000000
+ 358710 words of memory out of 5000000
  14399 multiletter control sequences out of 15000+600000
  16566 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,37p,1641b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,37p,1641b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -730,10 +750,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (16 pages, 545459 bytes).
+Output written on ms.pdf (16 pages, 546457 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
+ 508 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
  60 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

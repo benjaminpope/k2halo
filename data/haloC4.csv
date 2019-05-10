@@ -1,10 +1,10 @@
 Name,Vmag,Sp. Type,EPIC ID,RA (J2000),Dec (J2000),MASK,Comments
-Alcyone,2.986,B7III,200007767,,,LC Halo,\citet{White2017}
-Atlas,3.763,B8III,200007768,,,LC Halo,\citet{White2017}
-Electra,3.851,B6IIIe,200007769,,,LC Halo,\citet{White2017}
-Merope,4.305,,200007770,B6IVe,,LC Halo,\citet{White2017}
-Maia,4.305,,200007771,B8III,,LC Halo,\citet{White2017}
-Taygeta,4.448,,200007772,B6IV,,LC Halo,\citet{White2017}
-Pleione,5.192,,200007773,B8Vne,,LC Halo,\citet{White2017}
+Alcyone,2.986,B7III,200007767,,,LC Halo,\tablenotemark{a}
+Atlas,3.763,B8III,200007768,,,LC Halo,\tablenotemark{a}
+Electra,3.851,B6IIIe,200007769,,,LC Halo,\tablenotemark{a}
+Merope,4.305,,200007770,B6IVe,,LC Halo,\tablenotemark{a}
+Maia,4.305,,200007771,B8III,,LC Halo,\tablenotemark{a}
+Taygeta,4.448,,200007772,B6IV,,LC Halo,\tablenotemark{a}
+Pleione,5.192,,200007773,B8Vne,,LC Halo,\tablenotemark{a}
 gam Tau,3.474,,200007765,G9.5IIIabCN0.5,,LC Halo,
 del1 Tau,3.585,G9.5IIICN0.5,200007766,,,LC Halo,
