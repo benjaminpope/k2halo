@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=8GB
 #SBATCH --time=08:00:00
-#SBATCH --array=0-999
+#SBATCH --array=0-922
 
 if [ "$SLURM_ARRAY_TASK_ID" == "" ]; then exit; fi
 
