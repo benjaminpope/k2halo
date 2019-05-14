@@ -7,43 +7,43 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in lbfgsb
 You've used 27 entries,
             3166 wiz_defined-function locations,
-            858 strings with 17080 characters,
-and the built_in function-call counts, 16542 in all, are:
-= -- 1043
+            861 strings with 17120 characters,
+and the built_in function-call counts, 16591 in all, are:
+= -- 1046
 > -- 1894
 < -- 1
 + -- 626
 - -- 677
-* -- 1779
-:= -- 3237
-add.period$ -- 30
+* -- 1787
+:= -- 3241
+add.period$ -- 29
 call.type$ -- 27
 change.case$ -- 146
 chr.to.int$ -- 27
 cite$ -- 28
-duplicate$ -- 467
-empty$ -- 736
+duplicate$ -- 468
+empty$ -- 741
 format.name$ -- 696
-if$ -- 3132
+if$ -- 3145
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 23
-newline$ -- 92
+newline$ -- 91
 num.names$ -- 108
-pop$ -- 174
+pop$ -- 172
 preamble$ -- 1
 purify$ -- 146
 quote$ -- 0
-skip$ -- 368
+skip$ -- 373
 stack$ -- 0
-substring$ -- 442
+substring$ -- 455
 swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 243
 warning$ -- 1
-while$ -- 90
+while$ -- 91
 width$ -- 0
 write$ -- 299
 (There was 1 warning)

@@ -21,12 +21,12 @@
   \dodoi{10.1093/mnras/stw706}
 
 \bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
-  {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aquirre},
+  {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aguirre},
   {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
-  {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Palle}, {Garcia}, {Deng},
-  {Hon}, {Stello}, \& {J{\o}rgensen}}]{Arentoft2019}
-{Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, arXiv e-prints.
-\newblock \doarXiv{1901.06187}
+  {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Pall{\'e}}, {Garcia},
+  {Deng}, {Hon}, {Stello}, \& {J{\o}rgensen}}]{Arentoft2019}
+{Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, \aap, 622, A190,
+  \dodoi{10.1051/0004-6361/201834690}
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
