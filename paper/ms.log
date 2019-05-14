@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 MAY 2019 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 MAY 2019 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -620,7 +620,7 @@ v1_lc.pdf used on input line 351.
 LaTeX Warning: Float too large for page by 11.86232pt on input line 353.
 
 [7] [8 <../release/c14/hlsp_halo_k2_llc_200182931_-c14_kepler_v1_lc.pdf>]
-[9] (./ms.bbl [10]) [11] (./table_all.tex
+[9] [10] (./ms.bbl [11]) [12] (./table_all.tex
 Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
@@ -654,20 +654,6 @@ Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
 Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] 
  []
-
-[12]
-Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
- [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
- [] [] [] [] [] [] 
- []
-
-
-Overfull \vbox (2.72897pt too high) has occurred while \output is active []
-
 
 [13]
 Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
@@ -698,6 +684,20 @@ Overfull \vbox (2.72897pt too high) has occurred while \output is active []
 
 
 [15]
+Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (23.75905pt too wide) in alignment at lines 167--167
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \vbox (2.72897pt too high) has occurred while \output is active []
+
+
+[16]
 Overfull \hbox (0.78806pt too wide) detected at line 168
 $\OML/cmm/m/it/10.95 a$
  []
@@ -717,20 +717,20 @@ Overfull \hbox (0.69933pt too wide) detected at line 171
 $\OML/cmm/m/it/10.95 d$
  []
 
-) (./rgs.tex) [16] [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+) (./rgs.tex) [17] [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 453.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 453.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 453.
  ) 
 Here is how much of TeX's memory you used:
- 11053 strings out of 492995
- 152545 string characters out of 6132704
- 360797 words of memory out of 5000000
- 14407 multiletter control sequences out of 15000+600000
+ 11084 strings out of 492995
+ 153108 string characters out of 6132704
+ 361745 words of memory out of 5000000
+ 14429 multiletter control sequences out of 15000+600000
  17211 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1641b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1641b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -751,10 +751,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (17 pages, 550733 bytes).
+Output written on ms.pdf (18 pages, 558276 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 329 compressed objects within 4 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 71 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
