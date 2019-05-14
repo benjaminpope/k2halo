@@ -21,12 +21,12 @@
   \dodoi{10.1093/mnras/stw706}
 
 \bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
-  {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aquirre},
+  {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aguirre},
   {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
-  {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Palle}, {Garcia}, {Deng},
-  {Hon}, {Stello}, \& {J{\o}rgensen}}]{Arentoft2019}
-{Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, arXiv e-prints.
-\newblock \doarXiv{1901.06187}
+  {Jessen-Hansen}, {Antoci}, {Frandsen}, {Bedding}, {Pall{\'e}}, {Garcia},
+  {Deng}, {Hon}, {Stello}, \& {J{\o}rgensen}}]{Arentoft2019}
+{Arentoft}, T., {Grundahl}, F., {White}, T.~R., {et~al.} 2019, \aap, 622, A190,
+  \dodoi{10.1051/0004-6361/201834690}
 
 \bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
   {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
@@ -102,6 +102,33 @@
   {Uytterhoeven}}]{Guzik2016}
 {Guzik}, J.~A., {Houdek}, G., {Chaplin}, W.~J., {et~al.} 2016, \apj, 831, 17,
   \dodoi{10.3847/0004-637X/831/1/17}
+
+\bibitem[{{Heiter} {et~al.}(2015){Heiter}, {Jofr{\'e}}, {Gustafsson}, {Korn},
+  {Soubiran}, \& {Th{\'e}venin}}]{gaiabenchmark3}
+{Heiter}, U., {Jofr{\'e}}, P., {Gustafsson}, B., {et~al.} 2015, \aap, 582, A49,
+  \dodoi{10.1051/0004-6361/201526319}
+
+\bibitem[{{Huber} {et~al.}(2009){Huber}, {Stello}, {Bedding}, {Chaplin},
+  {Arentoft}, {Quirion}, \& {Kjeldsen}}]{Huber2009}
+{Huber}, D., {Stello}, D., {Bedding}, T.~R., {et~al.} 2009, Communications in
+  Asteroseismology, 160, 74.
+\newblock \doarXiv{0910.2764}
+
+\bibitem[{{Jofr{\'e}} {et~al.}(2018){Jofr{\'e}}, {Heiter}, {Tucci Maia},
+  {Soubiran}, {Worley}, {Hawkins}, {Blanco-Cuaresma}, \&
+  {Rodrigo}}]{2018RNAAS...2c.152J}
+{Jofr{\'e}}, P., {Heiter}, U., {Tucci Maia}, M., {et~al.} 2018, Research Notes
+  of the American Astronomical Society, 2, 152,
+  \dodoi{10.3847/2515-5172/aadc61}
+
+\bibitem[{{Jofr{\'e}} {et~al.}(2014){Jofr{\'e}}, {Heiter}, {Soubiran},
+  {Blanco-Cuaresma}, {Worley}, {Pancino}, {Cantat-Gaudin}, {Magrini},
+  {Bergemann}, {Gonz{\'a}lez Hern{\'a}ndez}, {Hill}, {Lardo}, {de Laverny},
+  {Lind}, {Masseron}, {Montes}, {Mucciarelli}, {Nordlander}, {Recio Blanco},
+  {Sobeck}, {Sordo}, {Sousa}, {Tabernero}, {Vallenari}, \& {Van
+  Eck}}]{gaiabenchmark1}
+{Jofr{\'e}}, P., {Heiter}, U., {Soubiran}, C., {et~al.} 2014, \aap, 564, A133,
+  \dodoi{10.1051/0004-6361/201322440}
 
 \bibitem[{Jones {et~al.}(2001)Jones, Oliphant, Peterson, \& Others}]{scipy}
 Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
@@ -183,6 +210,11 @@ Vin\'{i}cius, Z., Barentsen, G., Hedges, C., \& Gully-Santiago, M. 2018,
   {Tuthill}}]{White2017}
 {White}, T.~R., {Pope}, B.~J.~S., {Antoci}, V., {et~al.} 2017, \mnras, 471,
   2882, \dodoi{10.1093/mnras/stx1050}
+
+\bibitem[{{Yu} {et~al.}(2018){Yu}, {Huber}, {Bedding}, {Stello}, {Hon},
+  {Murphy}, \& {Khanna}}]{Yu2018}
+{Yu}, J., {Huber}, D., {Bedding}, T.~R., {et~al.} 2018, \apjs, 236, 42,
+  \dodoi{10.3847/1538-4365/aaaf74}
 
 \bibitem[{Zhu {et~al.}(1999)Zhu, H.~Byrd, \& Lu}]{lbfgsb}
 Zhu, C., H.~Byrd, R., \& Lu, P. 1999
