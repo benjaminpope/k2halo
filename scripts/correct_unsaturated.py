@@ -85,6 +85,20 @@ def plot_weightmap_overlay(ax1,weightmap,name,title=False,mask=None):
 
         ax1.yaxis.set_ticks_position('left')        
 
+def plot_lc(ax1,time,lc,name,trend=None,title=False):
+        m = (lc>0.) * (np.isfinite(lc))
+
+        ax1.plot(time[m],lc[m]/np.nanmedian(lc[m]),'.')
+        dt = np.nanmedian(time[m][1:]-time[m][:-1])
+        ax1.set_xlim(time[m].min()-dt,time[m].max()+dt)
+        if trend is not None:
+            ax1.plot(time[m],trend[m]/np.nanmedian(trend[m]),'-',color=colours[2])
+            plt.legend(labels=['Flux','Trend'])
+        ax1.set_xlabel('Time')
+        ax1.set_ylabel('Relative Flux')
+        if title:
+            plt.title(r'%s' % name)
+
 def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',mask=None):
     min_p,max_p=1./24.,20.
 
@@ -113,11 +127,11 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',mask=None):
     ax_periodogram   = subplot(gs3[0,:])
     ax_logpgram    = subplot(gs3[1,:])
 
-    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trends=[lc.tr_position])
-    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trends=[lc.tr_time])
+    plot_lc(ax_lctime,lc.time,lc.flux-lc.tr_time+np.nanmedian(lc.tr_time),formal_name,trend=lc.tr_position)
+    plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trend=lc.tr_time)
     plot_lc(ax_lcwhite,lc.time,lc.corr_flux-lc.tr_time,formal_name+': Whitened')
     plot_weightmap_overlay(ax_weightmap,weightmap,formal_name,mask=mask)
-    plot_fluxmap(ax_fluxmap,image,formal_name)
+    plot_fluxmap(ax_fluxmap,np.exp(image),formal_name)
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
     plot_log_pgram(ax_logpgram,frequency,power,spower,formal_name)  
 
@@ -128,6 +142,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',mask=None):
 
     if save_file is not None:
         plt.savefig(save_file)
+
 '''-----------------------------------------------------------------
 
 An example call is 
@@ -161,9 +176,6 @@ if __name__ == '__main__':
     cdpp_pdc = lc_pipeline.get_lightcurve('PDCSAP_FLUX').flatten().estimate_cdpp()
     cdpp_sap = lc_pipeline.get_lightcurve('SAP_FLUX').flatten().estimate_cdpp()
     print('CDPP: %.2f (PDC), %.2f (SAP)' % (cdpp_pdc,cdpp_sap))
-
-    # read in our halo work
-
 
     #load a lightkurve object with all the desired metadata
 
@@ -210,7 +222,7 @@ if __name__ == '__main__':
 
     if args.do_plot:
         plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s) Detrended' % epic,mask=tpf.pipeline_mask,
-            save_file=['../data/normal/epic_%s.png' % (epic)])
+            save_file='../data/normal/epic_%s.png' % (epic))
         print('Saved figure to ../data/normal/epic_%s.png' % (epic))
 
 
