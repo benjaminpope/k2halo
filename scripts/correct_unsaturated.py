@@ -220,6 +220,23 @@ if __name__ == '__main__':
         f.write('%s %f %f %f %f %f %f %f' %  (epic, lc_pdc.primary_header['kepmag'], cdpp_sap, cdpp_pdc, cdpp_k2sc_pdc, cdpp_halo, cdpp_k2sc_halo, enclosed_weight))
     print('Written data to epic_%s.txt' % epic)
 
+    to_save = ['time', 'flux', 'flux_err','centroid_col', 'centroid_row', 'quality', 'cadenceno','pos_corr1', 'pos_corr2','tr_position', 'tr_time','corr_flux']
+
+    dummy = fits.getheader('../data/normal/ktwo%s-c06_lpd-targ.fits.gz' % (epic)) # get the old header from the TPF
+    dummy['NAXIS']=1
+    dummy['halo'] =(halophot.__version__,'halophot version')
+    dummy['objective']=('tv','halophot objective')
+    dummy['sub']=(1,'halophot subsampling')
+    dummy['starname']=(epic,'Star Identifier')
+
+    hdu = fits.PrimaryHDU(weightmap,dummy) # can't save a masked array yet so just using pixelmap
+    cols = [fits.Column(name=key,format="D",array=lc_dummy.__dict__[key]) for key in to_save]
+    tab = fits.BinTableHDU.from_columns(cols)
+
+    hdul = fits.HDUList([hdu, tab])
+    hdul.writeto('../data/normal/hlsp_halo_k2_llc_%s_-c%s_kepler_v1_lc.fits' % (epic,campaign),overwrite=True)
+
+
     if args.do_plot:
         plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s) Detrended' % epic,mask=tpf.pipeline_mask,
             save_file='../data/normal/epic_%s.png' % (epic))
