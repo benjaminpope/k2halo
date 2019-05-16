@@ -182,6 +182,15 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 \bibitem[{Maclaurin {et~al.}(2015)Maclaurin, Duvenaud, \& Adams}]{autograd}
 Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
 
+\bibitem[{{Pablo} {et~al.}(2016){Pablo}, {Whittaker}, {Popowicz}, {Mochnacki},
+  {Kuschnig}, {Grant}, {Moffat}, {Rucinski}, {Matthews},
+  {Schwarzenberg-Czerny}, {Handler}, {Weiss}, {Baade}, {Wade},
+  {Zoc{\l}o{\'n}ska}, {Ramiaramanantsoa}, {Unterberger}, {Zwintz}, {Pigulski},
+  {Rowe}, {Koudelka}, {Orlea{\'n}ski}, {Pamyatnykh}, {Neiner}, {Wawrzaszek},
+  {Marciniszyn}, {Romano}, {Wo{\'z}niak}, {Zawistowski}, \& {Zee}}]{brite2}
+{Pablo}, H., {Whittaker}, G.~N., {Popowicz}, A., {et~al.} 2016, \pasp, 128,
+  125001, \dodoi{10.1088/1538-3873/128/970/125001}
+
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
@@ -221,6 +230,19 @@ Vin\'{i}cius, Z., Barentsen, G., Hedges, C., \& Gully-Santiago, M. 2018,
   {KeplerGO/lightkurve: 1.0.0.dev1: First development release of lightkurve},
   \dodoi{10.5281/zenodo.1181929}.
 \newblock \url{https://doi.org/10.5281/zenodo.1181929}
+
+\bibitem[{{Walker} {et~al.}(2003){Walker}, {Matthews}, {Kuschnig}, {Johnson},
+  {Rucinski}, {Pazder}, {Burley}, {Walker}, {Skaret}, {Zee}, {Grocott},
+  {Carroll}, {Sinclair}, {Sturgeon}, \& {Harron}}]{most}
+{Walker}, G., {Matthews}, J., {Kuschnig}, R., {et~al.} 2003, \pasp, 115, 1023,
+  \dodoi{10.1086/377358}
+
+\bibitem[{{Weiss} {et~al.}(2014){Weiss}, {Rucinski}, {Moffat},
+  {Schwarzenberg-Czerny}, {Koudelka}, {Grant}, {Zee}, {Kuschnig}, {Mochnacki},
+  {Matthews}, {Orleanski}, {Pamyatnykh}, {Pigulski}, {Alves}, {Guedel},
+  {Handler}, {Wade}, \& {Zwintz}}]{brite}
+{Weiss}, W.~W., {Rucinski}, S.~M., {Moffat}, A.~F.~J., {et~al.} 2014, \pasp,
+  126, 573, \dodoi{10.1086/677236}
 
 \bibitem[{{White} {et~al.}(2013){White}, {Huber}, {Maestro}, {Bedding},
   {Ireland}, {Baron}, {Boyajian}, {Che}, {Monnier}, {Pope}, {Roettenbacher},

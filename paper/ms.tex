@@ -261,7 +261,7 @@ While the \kepler\ Mission was designed to look at tens of thousands of faint st
 \label{sec:intro}
 
 % intro kepler
-The \kepler Space Telescope was launched with a main goal of determining the frequency of Earth-sized planets around Solar-like stars \citep{2010sci...327..977b}, a goal which it has substantially achieved \citep[e.g.][]{2013ApJ...766...81F,2013PNAS..11019273P,2014ApJ...795...64F}. In order to explore these populations it was necessary to observe hundreds of thousands of stars, with the consequence that the \kepler the exposure time and gain were set to optimally observe eleventh or twelfth-magnitude stars, while bright stars are saturated and these saturated stars were intentionally avoided. In the two-wheeled revival as the \ktwo mission, the \kepler telescope observed a sequence of ecliptic-plane fields containing many more very-saturated stars. While it is difficult to obtain precise light curves of these stars because of their saturation, they are some of the most-valuable targets to follow up with photon-hungry methods such as interferometry or high-resolution spectroscopy, and they typically have long histories of previous observations. 
+The \kepler Space Telescope was launched with a main goal of determining the frequency of Earth-sized planets around Solar-like stars \citep{2010sci...327..977b}, a goal which it has substantially achieved \citep[e.g.][]{2013ApJ...766...81F,2013PNAS..11019273P,2014ApJ...795...64F}. In order to explore these populations it was necessary to observe hundreds of thousands of stars, with the consequence that the \kepler the exposure time and gain were set to optimally observe eleventh or twelfth-magnitude stars, while bright stars are saturated and these saturated stars were intentionally avoided. In the two-wheeled revival as the \ktwo mission, the \kepler telescope observed a sequence of ecliptic-plane fields containing many more very-saturated stars. While it is difficult to obtain precise light curves of these stars because of their saturation, they are some of the most-valuable targets to follow up with photon-hungry methods such as interferometry or high-resolution spectroscopy, and they typically have long histories of previous observations. Dedicated bright-star space photometry missions such as MOST \citep{most} and the BRITE-Constellation \citep{brite,brite2} use very small telescopes (15 and~20\,cm apertures respectively), and we would prefer to use much larger telescopes such as \kepler (0.95\,m) to obtain higher precision lightcurves. 
 
 % describe saturation
 The \kepler detector saturates at a magnitude of $K_p \sim 11.3$ in both long- (30\,min) and short (1\,min)-cadence data, as these both represent sums of 6~s exposures \citep{Gilliland2010}. For objects brighter than this, additional photons create excess electrons which `bleed' into adjacent pixels in both directions along the column containing the bright star. Simple aperture photometry (SAP) -- adding all the flux contained in a window around the bleed column -- has recovered light curves with precisions close to the photon noise limit of stars as bright as 16~Cyg~AB, $\theta$~Cyg and RR~Lyr \citep[e.g.][]{Kolenberg2011,2013MNRAS.433.1262W,Guzik2016}. In the nominal \kepler mission this was not attempted for all such bright stars, and in \ktwo, the several-pixel spacecraft motion significantly increased the size of the required apertures for SAP photometry of very saturated stars, while also making their systematics more difficult to deal with. While the second-version pixel-level-decorrelation (PLD) pipeline EVEREST~2.0 was able to correct systematics in saturated SAP photometry \citep{everest2}, this is rendered impossible for the very brightest stars whose bleed columns may run to the edge of the detector. Furthermore, bandwidth constraints meant that pixel data were not downloaded for many bright targets in \ktwo. 
@@ -371,6 +371,10 @@ We want to compare the photometric precision obtained to that from SAP and norma
 \caption{The eight transiting single-planet systems in \ktwo Campaign~6 in the magnitude range $11.5 < Kp < 12.5$, with PDC light curves (blue) and TV-min light curves (orange) overlaid. These have been identically \textsc{k2sc}-corrected, whitened, outlier-clipped, folded and binned as described in Section~\ref{sec:benchmarking}. The depths and shapes of the transits agree closely except for EPIC~212460519, for which the TV-min transit is slightly shallower, and EPIC~212555594, for which TV-min is significantly shallower.}
 \end{figure*}
 
+We now seek to establish the global noise properties of the whole unsaturated sample, and compare these to PDC. We process all~2466 stars with TV-min and $\delta = 10$, using all pixels in the TPF unmasked. Because these stars are so bright and the TPFs so small, in the great majority  of cases we do not expect significant contamination, and this is a way of testing how well the weights assigned by TV-min match the flux distribution over pixels.
+
+
+
 \section{Sample}
 \label{sec:sample}
 
@@ -391,10 +395,6 @@ Analyses for several of the objects here have been previously published, but we 
 
 \section{Discussion}
 \label{sec:discussion}
-
-% how well did we do?
-\textcolor{red}{How well do we do? How do we quantify our lightcurve SNR?}
-
 
 \subsection{Oscillating Red Giants}
 \label{sec:rgs}
