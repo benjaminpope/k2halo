@@ -239,7 +239,7 @@ if __name__ == '__main__':
 
 
     if args.do_plot:
-        plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s) Detrended' % epic,mask=tpf.pipeline_mask,
+        plot_k2sc(lc_out,np.nanmean(tpf.flux,axis=0),weightmap.T,formal_name='(EPIC %s)' % epic,mask=tpf.pipeline_mask,
             save_file='../data/normal/epic_%s.png' % (epic))
         print('Saved figure to ../data/normal/epic_%s.png' % (epic))
 
