@@ -156,6 +156,12 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 {Kallinger}, T., \& {Weiss}, W.~W. 2018, in 3rd BRITE Science Conference,
   Vol.~8, 170--174
 
+\bibitem[{{Kallinger} {et~al.}(2019){Kallinger}, {Beck}, {Hekker}, {Huber},
+  {Kuschnig}, {Rockenbauer}, {Winter}, {Weiss}, {Handler}, {Moffat},
+  {Pigulski}, {Popowicz}, {Wade}, \& {Zwintz}}]{Kallinger2019}
+{Kallinger}, T., {Beck}, P.~G., {Hekker}, S., {et~al.} 2019, \aap, 624, A35,
+  \dodoi{10.1051/0004-6361/201834514}
+
 \bibitem[{{Kolenberg} {et~al.}(2011){Kolenberg}, {Bryson}, {Szab{\'o}},
   {Kurtz}, {Smolec}, {Nemec}, {Guggenberger}, {Moskalik}, {Benk{\H o}},
   {Chadid}, {Jeon}, {Kiss}, {Kopacki}, {Nuspl}, {Still},

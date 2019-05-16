@@ -5,45 +5,45 @@ The style file: aasjournal.bst
 Database file #1: ms.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in lbfgsb
-You've used 39 entries,
+You've used 40 entries,
             3166 wiz_defined-function locations,
-            954 strings with 22107 characters,
-and the built_in function-call counts, 24149 in all, are:
-= -- 1566
-> -- 2680
+            963 strings with 22545 characters,
+and the built_in function-call counts, 24704 in all, are:
+= -- 1602
+> -- 2739
 < -- 3
-+ -- 890
-- -- 961
-* -- 2576
-:= -- 4674
-add.period$ -- 43
-call.type$ -- 39
-change.case$ -- 221
-chr.to.int$ -- 38
-cite$ -- 40
-duplicate$ -- 683
-empty$ -- 1101
-format.name$ -- 991
-if$ -- 4616
++ -- 909
+- -- 982
+* -- 2636
+:= -- 4783
+add.period$ -- 44
+call.type$ -- 40
+change.case$ -- 225
+chr.to.int$ -- 39
+cite$ -- 41
+duplicate$ -- 700
+empty$ -- 1128
+format.name$ -- 1013
+if$ -- 4723
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 129
-num.names$ -- 156
-pop$ -- 255
+missing$ -- 35
+newline$ -- 132
+num.names$ -- 160
+pop$ -- 259
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 225
 quote$ -- 0
-skip$ -- 564
+skip$ -- 578
 stack$ -- 0
-substring$ -- 728
+substring$ -- 745
 swap$ -- 19
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 351
+type$ -- 360
 warning$ -- 1
-while$ -- 134
+while$ -- 137
 width$ -- 0
-write$ -- 431
+write$ -- 442
 (There was 1 warning)
