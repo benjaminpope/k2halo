@@ -375,8 +375,19 @@ We want to compare the photometric precision obtained to that from SAP and norma
 \caption{The eight transiting single-planet systems in \ktwo Campaign~6 in the magnitude range $11.5 < Kp < 12.5$, with PDC light curves (blue) and TV-min light curves (orange) overlaid. These have been identically \textsc{k2sc}-corrected, whitened, outlier-clipped, folded and binned as described in Section~\ref{sec:benchmarking}. The depths and shapes of the transits agree closely except for EPIC~212460519, for which the TV-min transit is slightly shallower, and EPIC~212555594, for which TV-min is significantly shallower.}
 \end{figure*}
 
-We now seek to establish the global noise properties of the whole unsaturated sample, and compare these to PDC. We process all~2466 stars with TV-min and $\delta = 10$, using all pixels in the TPF unmasked. Because these stars are so bright and the TPFs so small, in the great majority  of cases we do not expect significant contamination, and this is a way of testing how well the weights assigned by TV-min match the flux distribution over pixels.
+We now seek to establish the global noise properties of the whole unsaturated sample, and compare these to PDC. We process all~2466 stars with TV-min and $\delta = 10$, using all pixels in the TPF unmasked. Because these stars are so bright and the TPFs so small, in the great majority  of cases we do not expect significant contamination, and this is a way of testing how well the weights assigned by TV-min match the flux distribution over pixels. For each lightcurve we calculate the 6.5\,hr CDPP proxy with \texttt{lightkurve} as a measure of SNR, and we plot the results of the two pipelines against one another in Figure~\ref{fig:halovspdc}. We see that a significant number of stars have high PDC CDPP but low TV-min CDPP, which raises the possibility that these are variables for which halo is overcorrecting. We find by inspection of the weightmaps and \kepler pipeline aperture masks that these mostly consist of stars for which the SAP aperture is significantly smaller than the PSF. In this case, by ignoring the pipeline apertures, \texttt{halophot} is in fact generating significantly better light curves. Over all stars, we find that the fractional enclosed halo weight in the \kepler pipeline aperture is only $0.19 \pm 0.11$, which suggests that in fact the apertures are systematically smaller than optimal for stars of this magnitude, and that TV-min is using information in the fainter pixels to help correct systematics.
 
+\begin{figure}
+\plotone{halo_pdc_comparison.png}
+\label{fig:halovspdc}
+\caption{Correlation diagram of the \texttt{lightkurve}-computed 6.5\,hr CDPP for \ktwo Campaign~6 stars in the magnitude range $11.5 < Kp < 12.5$, as processed with the PDC pipeline ($x$-axis) and TV-min pipeline ($y$-axis), both after correction and whitening with \textsc{k2sc}. The severe outliers where halo significantly outperforms PDC are shown by individual inspection to consist of stars for which there is contamination, or for which the SAP aperture assigned by the \kepler pipeline is significantly smaller than the PSF.}
+\end{figure}
+
+\begin{figure}
+\plotone{halo_pdc_histograms.pdf}
+\label{fig:cdpphists}
+\caption{}
+\end{figure}
 
 
 \section{Sample}
