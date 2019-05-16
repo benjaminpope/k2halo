@@ -358,8 +358,8 @@ We accordingly use a lag $\delta=10$ for all long cadence light curves, and a la
 
 \begin{figure*}
 \plotone{rho_leo_pub.pdf}
-\label{fig:rholeo}
 \caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for $\rho$~Leonis. The top three panels illustrate \textsc{k2sc} systematics correction: at the top, flux minus the GP time trend (blue dots) with GP $x,y$ trend superimposed (orange line); in the middle, flux minus GP $x,y$ components with GP time trend superimposed, and in green, a fifteenth-order polynomial trend; at the bottom the `whitened' light curve with flux minus both GP components. Middle two panels: log-flux map (left) and halo log-weight map (right). Bottom two panels: periodograms in linear (top) and log (bottom) units of the residuals of the corrected light curve minus the long term polynomial trend. Plots of this form are available in supplementary online material for all long-cadence stars, together with similar plots for all short-cadence stars but without \textsc{k2sc}. The period at maximum power (16\,d) is marked on all plots, though for $\rho$~Leonis all variability is consistent with red noise \citep{bowman19}.}
+\label{fig:rholeo}
 \end{figure*}
 
 \subsection{Benchmarking}
@@ -371,22 +371,24 @@ We want to compare the photometric precision obtained to that from SAP and norma
 
 \begin{figure*}
 \plotone{planets_halo_pdc.pdf}
-\label{fig:planets}
 \caption{The eight transiting single-planet systems in \ktwo Campaign~6 in the magnitude range $11.5 < Kp < 12.5$, with PDC light curves (blue) and TV-min light curves (orange) overlaid. These have been identically \textsc{k2sc}-corrected, whitened, outlier-clipped, folded and binned as described in Section~\ref{sec:benchmarking}. The depths and shapes of the transits agree closely except for EPIC~212460519, for which the TV-min transit is slightly shallower, and EPIC~212555594, for which TV-min is significantly shallower.}
+\label{fig:planets}
 \end{figure*}
 
 We now seek to establish the global noise properties of the whole unsaturated sample, and compare these to PDC. We process all~2466 stars with TV-min and $\delta = 10$, using all pixels in the TPF unmasked. Because these stars are so bright and the TPFs so small, in the great majority  of cases we do not expect significant contamination, and this is a way of testing how well the weights assigned by TV-min match the flux distribution over pixels. For each lightcurve we calculate the 6.5\,hr CDPP proxy with \texttt{lightkurve} as a measure of SNR, and we plot the results of the two pipelines against one another in Figure~\ref{fig:halovspdc}. We see that a significant number of stars have high PDC CDPP but low TV-min CDPP, which raises the possibility that these are variables for which halo is overcorrecting. We find by inspection of the weightmaps and \kepler pipeline aperture masks that these mostly consist of stars for which the SAP aperture is significantly smaller than the PSF. In this case, by ignoring the pipeline apertures, \texttt{halophot} is in fact generating significantly better light curves. Over all stars, we find that the fractional enclosed halo weight in the \kepler pipeline aperture is only $0.19 \pm 0.11$, which suggests that in fact the apertures are systematically smaller than optimal for stars of this magnitude, and that TV-min is using information in the fainter pixels to help correct systematics.
 
 \begin{figure}
 \plotone{halo_pdc_comparison.png}
-\label{fig:halovspdc}
 \caption{Correlation diagram of the \texttt{lightkurve}-computed 6.5\,hr CDPP for \ktwo Campaign~6 stars in the magnitude range $11.5 < Kp < 12.5$, as processed with the PDC pipeline ($x$-axis) and TV-min pipeline ($y$-axis), both after correction and whitening with \textsc{k2sc}. The severe outliers where halo significantly outperforms PDC are shown by individual inspection to consist of stars for which there is contamination, or for which the SAP aperture assigned by the \kepler pipeline is significantly smaller than the PSF.}
+\label{fig:halovspdc}
 \end{figure}
+
+Histograms of the CDPPs of the SAP, PDC and halo light curves with and without \textsc{k2sc} are displayed in Figure~\ref{fig:cdpphists}. We see that both halo and PDC significantly outperform SAP, with halo performing better than PDC with no additional correction. Nevertheless, after \textsc{k2sc}, we find that the best PDC lightcurves have a smaller CDPP than the best similarly pointing-corrected halo. We conjecture that PDC with its improved calibration for common-mode systematics and blended/background light is correcting for effects that halo, as a single-star and instrument-agnostic method, does not.
 
 \begin{figure}
 \plotone{halo_pdc_histograms.pdf}
+\caption{Histograms of the \texttt{lightkurve}-computed 6.5\,hr CDPP for five different pipelines applied to \ktwo Campaign~6 stars in the magnitude range $11.5 < Kp < 12.5$: SAP (purple dashed), PDC with (blue solid) and without (blue dashed) \textsc{k2sc}, and TV-min with (orange solid) and without (orange dashed) \textsc{k2sc}.}
 \label{fig:cdpphists}
-\caption{}
 \end{figure}
 
 
@@ -413,9 +415,16 @@ Analyses for several of the objects here have been previously published, but we 
 
 \subsection{Oscillating Red Giants}
 \label{sec:rgs}
-31 of the evolved stars in our sample have detectable stochastically-excited solar-like acoustic oscillations. In the asymptotic limit, these consist of a comb of modes separated by the large frequency separation \Dnu, approximately the sound-crossing-time of the star, with a Gaussian envelope centred on the frequency of maximum power \numax, which scales with the acoustic cutoff frequency at the star's surface. These can be used to constrain stellar fundamental parameters, and detailed studies of the deviations from this asymptotic limit for acoustic $p$-modes, for example due to their interaction with gravity-wave $g$-modes, can be used to accurately determine the stellar evolutionary state, for example to distinguish hydrogen shell burning red giant branch from helium core burning red clump stars. 
+31 of the evolved stars in our sample have detectable stochastically-excited solar-like acoustic oscillations. In the asymptotic limit, these consist of a comb of modes separated by the large frequency separation \Dnu, approximately the sound-crossing-time of the star, with a Gaussian envelope centred on the frequency of maximum power \numax, which scales with the acoustic cutoff frequency at the star's surface. These can be used to constrain stellar fundamental parameters, and detailed studies of the deviations from this asymptotic limit for acoustic $p$-modes, for example due to their interaction with gravity-wave $g$-modes, can be used to accurately determine the stellar evolutionary state, for example to distinguish hydrogen shell burning red giant branch from helium core burning red clump stars. Summary plots for a good example of such a star, $\eta$~Cancri, are shown in Figure~\ref{fig:etacnc}.
 
-Using the Sydney pipeline \citep{Huber2009} with modifications to the extraction of \Dnu detailed in \citep{Yu2018}, we extract the global asteroseismic parameters \numax and \Dnu for all 31 giants for which oscillations are detected. These parameters are listed in Table~\ref{rgs}. High precision spectroscopy of these stars would permit detailed stellar modelling and the extraction of precise elemental abundances, which would make these stars valuable as benchmarks for large spectroscopic surveys or testing detailed stellar models. This sample would be a valuable addition to the~36 Gaia FGK benchmark stars \citep{gaiabenchmark1,gaiabenchmark3,2018RNAAS...2c.152J}, the 23 BRITE-Constellation asteroseismic giants \citep{Kallinger2019}, and the~33 \kepler Smear Campaign spectroscopic benchmark red giants (Pope et al., 2019, under review).
+Using the Sydney pipeline \citep{Huber2009} with modifications to the extraction of \Dnu detailed in \citep{Yu2018}, we extract the global asteroseismic parameters \numax and \Dnu for all 31 giants for which oscillations are detected. These parameters are listed in Table~\ref{rgs}. High precision spectroscopy of these stars would permit detailed stellar modelling and the extraction of precise elemental abundances, which would make these stars valuable as benchmarks for large spectroscopic surveys or testing detailed stellar models. This sample would be a valuable addition to the~36 Gaia FGK benchmark stars \citep{gaiabenchmark1,gaiabenchmark3,2018RNAAS...2c.152J}, the 23 BRITE-Constellation asteroseismic giants \citep{Kallinger2019}, and the~33 \kepler Smear Campaign spectroscopic benchmark red giants (Pope et al., 2019, under review). 
+
+\begin{figure*}
+\plotone{eta_cnc_pub.pdf}
+\caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for the red giant $\eta$~Cancri, in the same format as Figure~\ref{fig:rholeo}. Solar like oscillations are clearly detected with $\numax = 22.9 \pm 0.9$ and $\Dnu = 2.7 \pm 0.03$.}
+\label{fig:etacnc}
+\end{figure*}
+
 
 % RGs, Classical pulsators 
 \subsection{Classical Variables}
