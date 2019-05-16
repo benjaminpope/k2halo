@@ -20,6 +20,15 @@
 {Aigrain}, S., {Parviainen}, H., \& {Pope}, B.~J.~S. 2016, \mnras, 459, 2408,
   \dodoi{10.1093/mnras/stw706}
 
+\bibitem[{{Akeson} {et~al.}(2013){Akeson}, {Chen}, {Ciardi}, {Crane}, {Good},
+  {Harbut}, {Jackson}, {Kane}, {Laity}, {Leifer}, {Lynn}, {McElroy}, {Papin},
+  {Plavchan}, {Ram{\'{\i}}rez}, {Rey}, {von Braun}, {Wittman}, {Abajian},
+  {Ali}, {Beichman}, {Beekley}, {Berriman}, {Berukoff}, {Bryden}, {Chan},
+  {Groom}, {Lau}, {Payne}, {Regelson}, {Saucedo}, {Schmitz}, {Stauffer},
+  {Wyatt}, \& {Zhang}}]{2013PASP..125..989A}
+{Akeson}, R.~L., {Chen}, X., {Ciardi}, D., {et~al.} 2013, \pasp, 125, 989,
+  \dodoi{10.1086/672273}
+
 \bibitem[{{Arentoft} {et~al.}(2019){Arentoft}, {Grundahl}, {White},
   {Slumstrup}, {Handberg}, {Lund}, {Brogaard}, {Andersen}, {Silva Aguirre},
   {Zhang}, {Chen}, {Yan}, {Pope}, {Huber}, {Kjeldsen}, {Christensen-Dalsgaard},
@@ -53,6 +62,14 @@
   {Prsa}}]{2010sci...327..977b}
 {Borucki}, W.~J., {Koch}, D., {Basri}, G., {et~al.} 2010, Science, 327, 977,
   \dodoi{10.1126/science.1185402}
+
+\bibitem[{{Bowman} {et~al.}(2019){Bowman}, {Burssens}, {Pedersen}, {Johnston},
+  {Aerts}, {Buysschaert}, {Michielsen}, {Tkachenko}, {Rogers}, {Edelmann},
+  {Ratnasingam}, {Sim{\'o}n-D{\'\i}az}, {Castro}, {Moravveji}, {Pope}, {White},
+  \& {De Cat}}]{bowman19}
+{Bowman}, D.~M., {Burssens}, S., {Pedersen}, M.~G., {et~al.} 2019, arXiv
+  e-prints, arXiv:1905.02120.
+\newblock \doarXiv{1905.02120}
 
 \bibitem[{{Buysschaert} {et~al.}(2018){Buysschaert}, {Neiner}, {Aerts},
   {White}, \& {Pope}}]{Buysschaert2018}
@@ -135,6 +152,10 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
   scientific tools for Python.
 \newblock \url{http://www.scipy.org/}
 
+\bibitem[{{Kallinger} \& {Weiss}(2018)}]{Kallinger2018}
+{Kallinger}, T., \& {Weiss}, W.~W. 2018, in 3rd BRITE Science Conference,
+  Vol.~8, 170--174
+
 \bibitem[{{Kolenberg} {et~al.}(2011){Kolenberg}, {Bryson}, {Szab{\'o}},
   {Kurtz}, {Smolec}, {Nemec}, {Guggenberger}, {Moskalik}, {Benk{\H o}},
   {Chadid}, {Jeon}, {Kiss}, {Kopacki}, {Nuspl}, {Still},
@@ -170,10 +191,15 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 {Petigura}, E.~A., {Howard}, A.~W., \& {Marcy}, G.~W. 2013, Proceedings of the
   National Academy of Science, 110, 19273, \dodoi{10.1073/pnas.1319909110}
 
-\bibitem[{{Pope} {et~al.}(2016){Pope}, {White}, {Huber}, {Murphy}, {Bedding},
-  {Caldwell}, {Sarai}, {Aigrain}, \& {Barclay}}]{Pope2016}
-{Pope}, B.~J.~S., {White}, T.~R., {Huber}, D., {et~al.} 2016, \mnras, 455, L36,
-  \dodoi{10.1093/mnrasl/slv143}
+\bibitem[{{Pope} {et~al.}(2016{\natexlab{a}}){Pope}, {Parviainen}, \&
+  {Aigrain}}]{Pope2016planets}
+{Pope}, B. J.~S., {Parviainen}, H., \& {Aigrain}, S. 2016{\natexlab{a}},
+  \mnras, 461, 3399, \dodoi{10.1093/mnras/stw1373}
+
+\bibitem[{{Pope} {et~al.}(2016{\natexlab{b}}){Pope}, {White}, {Huber},
+  {Murphy}, {Bedding}, {Caldwell}, {Sarai}, {Aigrain}, \& {Barclay}}]{Pope2016}
+{Pope}, B.~J.~S., {White}, T.~R., {Huber}, D., {et~al.} 2016{\natexlab{b}},
+  \mnras, 455, L36, \dodoi{10.1093/mnrasl/slv143}
 
 \bibitem[{{Ricker} {et~al.}(2015){Ricker}, {Winn}, {Vanderspek}, {Latham},
   {Bakos}, {Bean}, {Berta-Thompson}, {Brown}, {Buchhave}, {Butler}, {Butler},

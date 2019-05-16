@@ -354,13 +354,22 @@ We accordingly use a lag $\delta=10$ for all long cadence light curves, and a la
 
 \begin{figure*}
 \plotone{rho_leo_pub.pdf}
-\caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for $\rho$~Leonis. The top three panels illustrate \textsc{k2sc} systematics correction: at the top, flux minus the GP time trend (blue dots) with GP $x,y$ trend superimposed (orange line); in the middle, flux minus GP $x,y$ components with GP time trend superimposed, and in green, a fifteenth-order polynomial trend; at the bottom the `whitened' light curve with flux minus both GP components. Middle two panels: log-flux map (left) and halo log-weight map (right). Bottom two panels: periodograms in linear (top) and log (bottom) units of the residuals of the corrected light curve minus the long term polynomial trend. Plots of this form are available in supplementary online material for all long-cadence stars, together with similar plots for all short-cadence stars but without \textsc{k2sc}. The period at maximum power (16\,d) is marked on all plots, though for $\rho$~Leonis all variability is consistent with red noise (Bowman et al., 2019).}
+\label{fig:rholeo}
+\caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for $\rho$~Leonis. The top three panels illustrate \textsc{k2sc} systematics correction: at the top, flux minus the GP time trend (blue dots) with GP $x,y$ trend superimposed (orange line); in the middle, flux minus GP $x,y$ components with GP time trend superimposed, and in green, a fifteenth-order polynomial trend; at the bottom the `whitened' light curve with flux minus both GP components. Middle two panels: log-flux map (left) and halo log-weight map (right). Bottom two panels: periodograms in linear (top) and log (bottom) units of the residuals of the corrected light curve minus the long term polynomial trend. Plots of this form are available in supplementary online material for all long-cadence stars, together with similar plots for all short-cadence stars but without \textsc{k2sc}. The period at maximum power (16\,d) is marked on all plots, though for $\rho$~Leonis all variability is consistent with red noise \citep{bowman19}.}
 \end{figure*}
 
 \subsection{Benchmarking}
 \label{sec:benchmarking}
 
+As the halo method is the only available means of obtaining light curves of stars as bright as in our sample, and they are ubiquitously found to be variable, it is difficult based on this sample alone to determine the accuracy and precision of the light curves obtained. While \citet{Kallinger2018} have found agreement between the \citet{White2017} halo observations of Atlas and their BRITE-Constellation observations, the BRITE observations have a lower precision and cannot be obtained for most of the stars in our sample. 
 
+We want to compare the photometric precision obtained to that from SAP and normal calibration pipelines, and ascertain whether we systematically distort the scale of variation or the power spectrum of variability. In order to do this, we take the sample of stars with $11.5 <  Kp < 12.5$ from \ktwo Campaign~6, for which \textsc{k2sc} light curves are available, choosing~2466 stars that are as bright as possible without saturation. The planets in this campaign are well characterized \citep[e.g.][]{Pope2016planets}, and eight singly-transiting systems are known in this magnitude range. We take the entire target pixel file without using any aperture restriction, and run TV-min with $\delta = 10$ for each of these planets and compare these to light curves from the PDC pipeline. In both cases, we correct residual systematics with \textsc{k2sc}, prewhiten with the GP time trend model, clip $3\,\sigma$ upwards outliers, and normalize the final fluxes to unity. These are then folded on the known transit period and zero epoch as tabulated in the NASA Exoplanet Archive \citep{2013PASP..125..989A}, and the folded lightcurves are binned in 3-cadence bins to reduce white noise in the comparison. The results are displayed in Figure~\ref{fig:planets}.
+
+\begin{figure*}
+\plotone{planets_halo_pdc.pdf}
+\label{fig:planets}
+\caption{The eight transiting single-planet systems in \ktwo Campaign~6 in the magnitude range $11.5 < Kp < 12.5$, with PDC light curves (blue) and TV-min light curves (orange) overlaid. These have been identically \textsc{k2sc}-corrected, whitened, outlier-clipped, folded and binned as described in Section~\ref{sec:benchmarking}. The depths and shapes of the transits agree closely except for EPIC~212460519, for which the TV-min transit is slightly shallower, and EPIC~212555594, for which TV-min is significantly shallower.}
+\end{figure*}
 
 \section{Sample}
 \label{sec:sample}
