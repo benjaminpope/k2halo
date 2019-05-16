@@ -131,7 +131,7 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',mask=None):
     plot_lc(ax_lcpos,lc.time,lc.flux-lc.tr_position+np.nanmedian(lc.tr_position),formal_name,trend=lc.tr_time)
     plot_lc(ax_lcwhite,lc.time,lc.corr_flux-lc.tr_time,formal_name+': Whitened')
     plot_weightmap_overlay(ax_weightmap,weightmap,formal_name,mask=mask)
-    plot_fluxmap(ax_fluxmap,np.exp(image),formal_name)
+    plot_fluxmap(ax_fluxmap,(image),formal_name)
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
     plot_log_pgram(ax_logpgram,frequency,power,spower,formal_name)  
 
@@ -235,6 +235,7 @@ if __name__ == '__main__':
 
     hdul = fits.HDUList([hdu, tab])
     hdul.writeto('../data/normal/hlsp_halo_k2_llc_%s_-c%s_kepler_v1_lc.fits' % (epic,campaign),overwrite=True)
+    print('Written Halo K2SC light curve to  ../data/normal/hlsp_halo_k2_llc_%s_-c%s_kepler_v1_lc.fits' % (epic,campaign))
 
 
     if args.do_plot:
