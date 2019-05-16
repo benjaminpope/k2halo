@@ -205,7 +205,7 @@ if __name__ == '__main__':
         dummy = fits.getheader('%s/%s' % (ddir_raw,tpf_fname)) # get the old header from the TPF
         dummy['NAXIS']=1
         dummy['halo'] =(halophot.__version__,'halophot version')
-        dummy['objective']=(objective,'halophot objective')
+        dummy['obj']=(objective,'halophot objective')
         dummy['sub']=(1,'halophot subsampling')
         dummy['starname']=(starname,'Star Identifier')
 
@@ -215,6 +215,7 @@ if __name__ == '__main__':
 
         hdul = fits.HDUList([hdu, tab])
         hdul.writeto('%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (savedir,epic,campaign),overwrite=True)
+        print('Written to %s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.fits' % (savedir,epic,campaign))
 
     else:
         args.do_plot = True # in case you forgot!  
