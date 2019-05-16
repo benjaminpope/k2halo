@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2019 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,7 +589,7 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 264--264
  []
 
 
-Overfull \vbox (2.99773pt too high) has occurred while \output is active []
+Overfull \vbox (5.91325pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -729,7 +729,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 475.
 Here is how much of TeX's memory you used:
  11138 strings out of 492995
  153806 string characters out of 6132704
- 364000 words of memory out of 5000000
+ 363891 words of memory out of 5000000
  14470 multiletter control sequences out of 15000+600000
  17211 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -754,7 +754,7 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (20 pages, 620499 bytes).
+Output written on ms.pdf (20 pages, 620501 bytes).
 PDF statistics:
  649 PDF objects out of 1000 (max. 8388607)
  419 compressed objects within 5 object streams
