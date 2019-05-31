@@ -48,6 +48,16 @@
 {Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
   \aap, 558, A33, \dodoi{10.1051/0004-6361/201322068}
 
+\bibitem[{{Bedding} {et~al.}(2011){Bedding}, {Mosser}, {Huber},
+  {Montalb{\'a}n}, {Beck}, {Christensen-Dalsgaard}, {Elsworth},
+  {Garc{\'{\i}}a}, {Miglio}, {Stello}, {White}, {De Ridder}, {Hekker}, {Aerts},
+  {Barban}, {Belkacem}, {Broomhall}, {Brown}, {Buzasi}, {Carrier}, {Chaplin},
+  {di Mauro}, {Dupret}, {Frandsen}, {Gilliland}, {Goupil}, {Jenkins},
+  {Kallinger}, {Kawaler}, {Kjeldsen}, {Mathur}, {Noels}, {Silva Aguirre}, \&
+  {Ventura}}]{bedding2011}
+{Bedding}, T.~R., {Mosser}, B., {Huber}, D., {et~al.} 2011, \nat, 471, 608,
+  \dodoi{10.1038/nature09935}
+
 \bibitem[{{Borucki} {et~al.}(2010){Borucki}, {Koch}, {Basri}, {Batalha},
   {Brown}, {Caldwell}, {Caldwell}, {Christensen-Dalsgaard}, {Cochran},
   {DeVore}, {Dunham}, {Dupree}, {Gautier}, {Geary}, {Gilliland}, {Gould},
@@ -124,6 +134,10 @@
   {Soubiran}, \& {Th{\'e}venin}}]{gaiabenchmark3}
 {Heiter}, U., {Jofr{\'e}}, P., {Gustafsson}, B., {et~al.} 2015, \aap, 582, A49,
   \dodoi{10.1051/0004-6361/201526319}
+
+\bibitem[{{Hekker} \& {Christensen-Dalsgaard}(2017)}]{2017A&ARv..25....1H}
+{Hekker}, S., \& {Christensen-Dalsgaard}, J. 2017, \aapr, 25, 1,
+  \dodoi{10.1007/s00159-017-0101-x}
 
 \bibitem[{{Huber} {et~al.}(2009){Huber}, {Stello}, {Bedding}, {Chaplin},
   {Arentoft}, {Quirion}, \& {Kjeldsen}}]{Huber2009}
@@ -237,6 +251,17 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 {Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2015, Journal of
   Astronomical Telescopes, Instruments, and Systems, 1, 014003,
   \dodoi{10.1117/1.JATIS.1.1.014003}
+
+\bibitem[{{Tkachenko} {et~al.}(2014){Tkachenko}, {Degroote}, {Aerts},
+  {Pavlovski}, {Southworth}, {P{\'a}pics}, {Moravveji}, {Kolbas}, {Tsymbal},
+  {Debosscher}, \& {Cl{\'e}mer}}]{tkachenko2014}
+{Tkachenko}, A., {Degroote}, P., {Aerts}, C., {et~al.} 2014, \mnras, 438, 3093,
+  \dodoi{10.1093/mnras/stt2421}
+
+\bibitem[{{Verma} {et~al.}(2019){Verma}, {Raodeo}, {Basu}, {Silva Aguirre},
+  {Mazumdar}, {Mosumgaard}, {Lund}, \& {Ranadive}}]{Verma2019}
+{Verma}, K., {Raodeo}, K., {Basu}, S., {et~al.} 2019, \mnras, 483, 4678,
+  \dodoi{10.1093/mnras/sty3374}
 
 \bibitem[{Vin\'{i}cius {et~al.}(2018)Vin\'{i}cius, Barentsen, Hedges, \&
   Gully-Santiago}]{lightkurve}
