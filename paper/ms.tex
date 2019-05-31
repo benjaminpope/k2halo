@@ -186,7 +186,7 @@
 
 \begin{document}
 
-\title{The K2 Bright Star Survey}
+\title{The K2 Bright Star Survey I: Methodology and Data Release}
 
 \correspondingauthor{Benjamin J. S. Pope \twitter{fringetracker}}
 \email{benjamin.pope@nyu.edu}
@@ -212,8 +212,6 @@
 
 \author[0000-0001-8832-4488 ]{Daniel Huber}
 \affiliation{Institute for Astronomy, University of Hawai\okina i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA}
-\affiliation{SETI Institute, 189 Bernardo Avenue, Mountain View, CA 94043, USA}
-\affiliation{Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, DK-8000 Aarhus C, Denmark}
 
 \author[0000-0003-1822-7126]{Conny Aerts}
 \affiliation{Instituut voor Sterrenkunde, KU Leuven, Celestijnenlaan 200D, B-3001 Leuven, Belgium}
@@ -268,7 +266,7 @@ While the \kepler\ Mission was designed to look at tens of thousands of faint st
 \label{sec:intro}
 
 % intro kepler
-The \kepler Space Telescope was launched with a main goal of determining the frequency of Earth-sized planets around Solar-like stars \citep{2010sci...327..977b}, a goal which it has substantially achieved \citep[e.g.][]{2013ApJ...766...81F,2013PNAS..11019273P,2014ApJ...795...64F}. In order to explore these populations it was necessary to observe hundreds of thousands of stars, with the consequence that the \kepler exposure time and gain were set to optimally observe eleventh or twelfth-magnitude stars, while bright stars are saturated and intentionally avoided. In the two-wheeled revival as the \ktwo mission, the \kepler telescope observed a sequence of ecliptic-plane fields containing many more very-saturated stars. While it is difficult to obtain precise light curves of these stars because of their saturation, they are some of the most-valuable targets to follow up with photon-hungry methods such as interferometry and high-resolution spectroscopy, and they typically have long histories of previous observations. Dedicated bright-star space photometry missions such as MOST \citep{most} and the BRITE-Constellation \citep{brite,brite2} use very small telescopes (15 and~20\,cm apertures respectively), and we would prefer to use much larger telescopes such as \kepler (0.95\,m) to obtain higher precision light curves. 
+The \kepler Space Telescope was launched with a main goal of determining the frequency of Earth-sized planets around Solar-like stars \citep{2010sci...327..977b}, a goal which it has substantially achieved \citep[e.g.][]{2013ApJ...766...81F,2013PNAS..11019273P,2014ApJ...795...64F,2015ApJ...809....8B}. In order to explore these populations it was necessary to observe hundreds of thousands of stars, with the consequence that the \kepler exposure time and gain were set to optimally observe eleventh or twelfth-magnitude stars, while bright stars are saturated and intentionally avoided. In the two-wheeled revival as the \ktwo mission, the \kepler telescope observed a sequence of ecliptic-plane fields containing many more very-saturated stars \citep{2014PASP..126..398H}. While it is difficult to obtain precise light curves of these stars because of their saturation, they are some of the most-valuable targets to follow up with photon-hungry methods such as interferometry and high-resolution spectroscopy, and they typically have long histories of previous observations. Dedicated bright-star space photometry missions such as MOST \citep{most} and the BRITE-Constellation \citep{brite,brite2} use very small telescopes (15 and~20\,cm apertures respectively), and we would prefer to use much larger telescopes such as \kepler (0.95\,m) to obtain higher precision light curves. 
 
 % describe saturation
 The \kepler detector saturates at a magnitude of $K_p \sim 11.3$ in both long- (30\,min) and short (1\,min)-cadence data, since these both represent sums of 6\,s exposures \citep{Gilliland2010}. For objects brighter than this, excess electrons `bleed' into adjacent pixels in both directions along the column containing the star. Simple aperture photometry (SAP) -- adding all the flux contained in a window around the bleed column -- has recovered light curves with precisions close to the photon noise limit t, for various types of variables. Examples treated in the nominal {\it Kepler\/} mission are the prototype classical radial pulsator RR\,Lyr \citep[$V=7.2$;][]{Kolenberg2011}, the solar-like pulsators 16\,Cyg\,AB \citep[$V\approx 6$;][]{2013MNRAS.433.1262W} and $\theta\,$Cyg \citep[$V=4.48$;][]{Guzik2016}, and the massive eclipsing binary V380\,Cyg \citep[$V=5.68$;][]{tkachenko2014}.
@@ -406,9 +404,12 @@ Histograms of the CDPPs of the SAP, PDC and halo light curves with and without \
 
 % link to tables 
 
-The full sample of stars for which halo apertures were obtained is listed in Table~\ref{table_all}. Some very bright stars were observed with conventional apertures as part of these programs, but we exclude them from the present discussion and data release, which is oriented towards targets only observable with halo photometry. 
+The full sample of stars for which halo apertures were obtained is listed in Table~\ref{table_all}. Following the successful pilot observations of the Pleiades B~stars in Campaign~4, we proposed halo photometry through dedicated K2 Guest Observer Programs from Campaign 5 onwards. Target selection was performed by cross-matching Hipparcos \citep{leeuwen07} with the K2 Ecliptic Plane Input Catalog \citep[EPIC,][]{huber16} and selecting all targets on silicon brighter than $Kp < 6$ on silicon. M giants which pulsate with periods that are too long to be resolved within a K2 campaign were removed. We requested short-cadence observations for a small number of unevolved stars for which the expected timescales of solar-like oscillations cannot be sufficiently sampled with long-cadence data.
+
+
+ Some very bright stars were observed with conventional apertures as part of these programs, but we exclude them from the present discussion and data release, which is oriented towards targets only observable with halo photometry. 
 % normal apertures in 6
-We include $\alpha$\,Vir (Spica), which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture by mistake and simple aperture photometry performed extremely poorly, so we have processed these data with the halo pipeline. The stars in Campaign~18 in our sample were also on-silicon in Campaign~5, but were not assigned apertures suitable for halo photometry in C5. A possible further extension of the present work would be to recover C5 light curves for these objects using smear and/or modified halo photometry.
+We include $\alpha$\,Vir (Spica), which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture due an erroneous estimate of its \kepler magnitude and simple aperture photometry performed extremely poorly, so we have processed these data with the halo pipeline. The stars in Campaign~18 in our sample were also on-silicon in Campaign~5, but were not assigned apertures suitable for halo photometry in C5. A possible further extension of the present work would be to recover C5 light curves for these objects using smear and/or modified halo photometry.
 
 % short cadence availability 
 Seven stars in Campaign~13 and one in Campaign~16 were assigned short-cadence halo apertures. For these targets we have provided both long- and short-cadence reductions. Following the analysis in Section~\ref{method} showing the insensitivity of short cadence CDPP to lags longer than $\sim 100$\,cad and to $k \in {1,2}$, and for consistency with long cadence, we have adopted a 300~cadence lag (i.e. $30 \times$ the long cadence lag of 10) and the L1 TV objective function. With their many time samples, the short-cadence stars are computationally intractable for the Gaussian Process model in \textsc{k2sc} and we present otherwise uncalibrated halo light curves.
@@ -440,8 +441,8 @@ Using the Sydney pipeline \citep{Huber2009} with modifications to the extraction
 % RGs, Classical pulsators 
 \subsection{Pulsators with Self-Driven Modes}
 \label{sec:variables}
-\textcolor{red}{Variability catalog?}
 
+Our dataset includes a rich variety of classical pulsators. We used visual inspection of the light curves and amplitude spectra to classify all non red-giant stars into traditional variability classes such as $\delta$ Scuti stars, $\gamma$ Doradus stars, slowly pulsating B~stars, $\beta$ Cephei pulsators, as well as supergiants showing stochastic variability \citep[][]{Aerts2018,bowman19}. The classes we have determined for each star are listed in Table~\ref{table_all}. A detailed frequency analysis of the variability in each star will be presented in a forthcoming paper (Greklek-McKeon et al., in prep).
 
 \subsection{Chemically-Peculiar Stars}
 
@@ -473,7 +474,7 @@ There are directions for improvement of the halo method itself, and for applying
 
 \section*{Acknowledgements} % add your acknowledgements text here!
 
-This work was performed in part under contract with the Jet Propulsion Laboratory (JPL) funded by NASA through the Sagan Fellowship Program executed by the NASA Exoplanet Science Institute. TRW acknowledges the support of the Australian Research Council (grant DP150100250) and the Villum Foundation (research grant 10118). The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO6081-7081, GO8025, GO9923, GO10025, GO11047-13047, GO14003-16003, and GO17051-19051, and as a Director's Discretionary Time program in Campaign 4 as GO4901. We are grateful for the associated funding provided by the K2 GO office which has been essential in bringing this project to fruition.
+This work was performed in part under contract with the Jet Propulsion Laboratory (JPL) funded by NASA through the Sagan Fellowship Program executed by the NASA Exoplanet Science Institute. TRW acknowledges the support of the Australian Research Council (grant DP150100250) and the Villum Foundation (research grant 10118). The halo apertures were kindly provided by the K2 team as part of the Guest Observer programs GO6081-7081, GO8025, GO9923, GO10025, GO11047-13047, GO14003-16003, and GO17051-19051, and as a Director's Discretionary Time program in Campaign 4 as GO4901. We gratefully acknowledge financial support by the National Aeronautics and Space Administration through K2 Guest Observer Programs NNX17AF76G, 80NSSC18K0362, and 80NSSC19K0108, which has been essential in bringing this project to fruition.
 
 This project was developed in part at the Building Early Science with TESS meeting, which took place in March 2019 at the University of Chicago.
 

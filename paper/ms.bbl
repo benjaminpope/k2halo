@@ -81,6 +81,14 @@
   e-prints, arXiv:1905.02120.
 \newblock \doarXiv{1905.02120}
 
+\bibitem[{{Burke} {et~al.}(2015){Burke}, {Christiansen}, {Mullally}, {Seader},
+  {Huber}, {Rowe}, {Coughlin}, {Thompson}, {Catanzarite}, {Clarke}, {Morton},
+  {Caldwell}, {Bryson}, {Haas}, {Batalha}, {Jenkins}, {Tenenbaum}, {Twicken},
+  {Li}, {Quintana}, {Barclay}, {Henze}, {Borucki}, {Howell}, \&
+  {Still}}]{2015ApJ...809....8B}
+{Burke}, C.~J., {Christiansen}, J.~L., {Mullally}, F., {et~al.} 2015, \apj,
+  809, 8, \dodoi{10.1088/0004-637X/809/1/8}
+
 \bibitem[{{Buysschaert} {et~al.}(2018){Buysschaert}, {Neiner}, {Aerts},
   {White}, \& {Pope}}]{Buysschaert2018}
 {Buysschaert}, B., {Neiner}, C., {Aerts}, C., {White}, T.~R., \& {Pope},
@@ -139,11 +147,23 @@
 {Hekker}, S., \& {Christensen-Dalsgaard}, J. 2017, \aapr, 25, 1,
   \dodoi{10.1007/s00159-017-0101-x}
 
+\bibitem[{{Howell} {et~al.}(2014){Howell}, {Sobeck}, {Haas}, {Still},
+  {Barclay}, {Mullally}, {Troeltzsch}, {Aigrain}, {Bryson}, {Caldwell},
+  {Chaplin}, {Cochran}, {Huber}, {Marcy}, {Miglio}, {Najita}, {Smith},
+  {Twicken}, \& {Fortney}}]{2014PASP..126..398H}
+{Howell}, S.~B., {Sobeck}, C., {Haas}, M., {et~al.} 2014, \pasp, 126, 398,
+  \dodoi{10.1086/676406}
+
 \bibitem[{{Huber} {et~al.}(2009){Huber}, {Stello}, {Bedding}, {Chaplin},
   {Arentoft}, {Quirion}, \& {Kjeldsen}}]{Huber2009}
 {Huber}, D., {Stello}, D., {Bedding}, T.~R., {et~al.} 2009, Communications in
   Asteroseismology, 160, 74.
 \newblock \doarXiv{0910.2764}
+
+\bibitem[{{Huber} {et~al.}(2016){Huber}, {Bryson}, {Haas}, {Barclay},
+  {Barentsen}, {Howell}, {Sharma}, {Stello}, \& {Thompson}}]{huber16}
+{Huber}, D., {Bryson}, S.~T., {Haas}, M.~R., {et~al.} 2016, \apjs, 224, 2,
+  \dodoi{10.3847/0067-0049/224/1/2}
 
 \bibitem[{{Jofr{\'e}} {et~al.}(2018){Jofr{\'e}}, {Heiter}, {Tucci Maia},
   {Soubiran}, {Worley}, {Hawkins}, {Blanco-Cuaresma}, \&
@@ -257,6 +277,9 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   {Debosscher}, \& {Cl{\'e}mer}}]{tkachenko2014}
 {Tkachenko}, A., {Degroote}, P., {Aerts}, C., {et~al.} 2014, \mnras, 438, 3093,
   \dodoi{10.1093/mnras/stt2421}
+
+\bibitem[{{van Leeuwen}(2007)}]{leeuwen07}
+{van Leeuwen}, F. 2007, \aap, 474, 653, \dodoi{10.1051/0004-6361:20078357}
 
 \bibitem[{{Verma} {et~al.}(2019){Verma}, {Raodeo}, {Basu}, {Silva Aguirre},
   {Mazumdar}, {Mosumgaard}, {Lund}, \& {Ranadive}}]{Verma2019}
