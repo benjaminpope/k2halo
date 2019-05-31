@@ -199,6 +199,14 @@
 \author[0000-0002-6980-3392]{Timothy R. White}
 \affiliation{Research School of Astronomy and Astrophysics, Mount Stromlo Observatory, The Australian National University, Canberra, ACT 2611, Australia}
 
+\author[0000-0003-1540-8562]{Will M. Farr}
+\affiliation{Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA}
+\affiliation{Department of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794, USA}
+
+\author[0000-0002-0007-6211]{Jie Yu}
+\affiliation{Sydney Institute for Astronomy, School of Physics A28, The University of Sydney, NSW 2006, Australia}
+\affiliation{Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, DK-8000 Aarhus C, Denmark}
+
 \author[0000-0003-1822-7126]{Conny Aerts}
 \affiliation{Instituut voor Sterrenkunde, KU Leuven, Celestijnenlaan 200D, B-3001 Leuven, Belgium}
 \affiliation{Department of Astrophysics, IMAPP, Radboud University Nijmegen, P.O. Box 9010, NL-6500 GL Nijmegen, The Netherlands}
@@ -216,10 +224,6 @@
 \author[0000-0003-1853-6631]{Orlagh L. Creevey}
 \affiliation{Universit\'{e} C\^{o}te d'Azur, Observatoire de la C\^{o}te d'Azur, CNRS, Laboratoire Lagrange, Bd de l'Observatoire, CS 34229, 06304 Nice cedex 4, France}
 
-\author[0000-0003-1540-8562]{Will M. Farr}
-\affiliation{Center for Computational Astrophysics, Flatiron Institute, 162 Fifth Ave, New York, NY 10010, USA}
-\affiliation{Department of Physics and Astronomy, Stony Brook University, Stony Brook, NY 11794, USA}
-
 \author[0000-0003-2866-9403]{David W. Hogg}
 \affiliation{Center for Cosmology and Particle Physics, Department of Physics, New York University, 726 Broadway, New York, NY 10003, USA}
 \affiliation{Center for Data Science, New York University, 60 Fifth Ave, New York, NY 10011, USA}
@@ -230,11 +234,6 @@
 \affiliation{Institute for Astronomy, University of Hawai\okina i, 2680 Woodlawn Drive, Honolulu, HI 96822, USA}
 \affiliation{SETI Institute, 189 Bernardo Avenue, Mountain View, CA 94043, USA}
 \affiliation{Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, DK-8000 Aarhus C, Denmark}
-
-\author[0000-0002-0007-6211]{Jie Yu}
-\affiliation{Sydney Institute for Astronomy, School of Physics A28, The University of Sydney, NSW 2006, Australia}
-\affiliation{Stellar Astrophysics Centre, Department of Physics and Astronomy, Aarhus University, DK-8000 Aarhus C, Denmark}
-
 
 \author{friends}
 %% Note that the \and command from previous versions of AASTeX is now
@@ -268,7 +267,10 @@ While the \kepler\ Mission was designed to look at tens of thousands of faint st
 The \kepler Space Telescope was launched with a main goal of determining the frequency of Earth-sized planets around Solar-like stars \citep{2010sci...327..977b}, a goal which it has substantially achieved \citep[e.g.][]{2013ApJ...766...81F,2013PNAS..11019273P,2014ApJ...795...64F}. In order to explore these populations it was necessary to observe hundreds of thousands of stars, with the consequence that the \kepler exposure time and gain were set to optimally observe eleventh or twelfth-magnitude stars, while bright stars are saturated and intentionally avoided. In the two-wheeled revival as the \ktwo mission, the \kepler telescope observed a sequence of ecliptic-plane fields containing many more very-saturated stars. While it is difficult to obtain precise light curves of these stars because of their saturation, they are some of the most-valuable targets to follow up with photon-hungry methods such as interferometry and high-resolution spectroscopy, and they typically have long histories of previous observations. Dedicated bright-star space photometry missions such as MOST \citep{most} and the BRITE-Constellation \citep{brite,brite2} use very small telescopes (15 and~20\,cm apertures respectively), and we would prefer to use much larger telescopes such as \kepler (0.95\,m) to obtain higher precision light curves. 
 
 % describe saturation
-The \kepler detector saturates at a magnitude of $K_p \sim 11.3$ in both long- (30\,min) and short (1\,min)-cadence data, since these both represent sums of 6\,s exposures \citep{Gilliland2010}. For objects brighter than this, excess electrons `bleed' into adjacent pixels in both directions along the column containing the star. Simple aperture photometry (SAP) -- adding all the flux contained in a window around the bleed column -- has recovered light curves with precisions close to the photon noise limit of the $V = 6$ 16~Cyg~AB, $V=4.48$ $\theta$~Cyg, and the $V=7.2$ RR~Lyr \citep[e.g.][]{Kolenberg2011,2013MNRAS.433.1262W,Guzik2016}. In the nominal \kepler mission this was only attempted for a few bright stars, and in \ktwo, the larger spacecraft motion significantly increased the size of the required apertures for SAP photometry of very saturated stars, while also making their systematics more difficult to deal with. While the second-version pixel-level-decorrelation (PLD) pipeline EVEREST~2.0 was able to correct systematics in saturated SAP photometry \citep{everest2}, this is not possible for the very brightest stars whose bleed columns may run to the edge of the detector. Furthermore, bandwidth constraints meant that pixel data were not downloaded for many bright targets in \ktwo. 
+The \kepler detector saturates at a magnitude of $K_p \sim 11.3$ in both long- (30\,min) and short (1\,min)-cadence data, since these both represent sums of 6\,s exposures \citep{Gilliland2010}. For objects brighter than this, excess electrons `bleed' into adjacent pixels in both directions along the column containing the star. Simple aperture photometry (SAP) -- adding all the flux contained in a window around the bleed column -- has recovered light curves with precisions close to the photon noise limit t, for various types of variables. Examples treated in the nominal {\it Kepler\/} mission are the prototype classical radial pulsator RR\,Lyr \citep[$V=7.2$;][]{Kolenberg2011}, the solar-like pulsators 16\,Cyg\,AB \citep[$V\approx 6$;][]{2013MNRAS.433.1262W} and $\theta\,$Cyg \citep[$V=4.48$;][]{Guzik2016}, and the massive eclipsing binary V380\,Cyg \citep[$V=5.68$;][]{tkachenko2014}.
+
+
+of the $V = 6$ 16~Cyg~AB, $V=4.48$ $\theta$~Cyg, and the $V=7.2$ RR~Lyr \citep[e.g.][]{,}. In the nominal \kepler mission this was only attempted for a few bright stars, and in \ktwo, the larger spacecraft motion significantly increased the size of the required apertures for SAP photometry of very saturated stars, while also making their systematics more difficult to deal with. While the second-version pixel-level-decorrelation (PLD) pipeline EVEREST~2.0 was able to correct systematics in saturated SAP photometry \citep{everest2}, this is not possible for the very brightest stars whose bleed columns may run to the edge of the detector. Furthermore, bandwidth constraints meant that pixel data were not downloaded for many bright targets in \ktwo. 
 
 % briefly intro the halo method and halo literature
 In order to recover precise light curves of the brightest stars in \ktwo, we have therefore developed two main approaches, `smear' and `halo' photometry. Smear photometry \citep{Pope2016,smearcampaign} uses collateral `smear' calibration data to obtain a 1-D spatial profile with $\sim 1/1000$ of the flux on each CCD. This can be processed to recover light curves of stars that were not necessarily conventionally targeted and downloaded with active pixels, because smear data are recorded for all columns. The main disadvantage of this method is that it confuses all stars in the same column, which means that in crowded fields smear light curves tend to be significantly contaminated. 
@@ -406,7 +408,7 @@ The full sample of stars for which halo apertures were obtained is listed in Tab
 We include $\alpha$\,Vir (Spica), which was observed in Campaign~6 without a halo aperture but in Campaign~17 with a halo aperture. In Campaign~6 it was assigned a normal aperture by mistake and simple aperture photometry performed extremely poorly, so we have processed these data with the halo pipeline. The stars in Campaign~18 in our sample were also on-silicon in Campaign~5, but were not assigned apertures suitable for halo photometry in C5. A possible further extension of the present work would be to recover C5 light curves for these objects using smear and/or modified halo photometry.
 
 % short cadence availability 
-Seven stars in Campaign~13 and one in Campaign~16 were assigned short-cadence halo apertures. For these targets we have provided both long- and short-cadence reductions. Following the analysis in Section~\ref{method} showing the insensitivity of short cadence CDPP to lags longer than $\sim 100$\,cad and on choice of objective function, and for consistency with long cadence, we have adopted a 300~cadence lag (i.e. $30 \times$ the long cadence lag of 10) and the L1 TV objective function. With their many time samples, the short-cadence stars are computationally intractable for the Gaussian Process model in \textsc{k2sc} and we present otherwise uncalibrated halo light curves.
+Seven stars in Campaign~13 and one in Campaign~16 were assigned short-cadence halo apertures. For these targets we have provided both long- and short-cadence reductions. Following the analysis in Section~\ref{method} showing the insensitivity of short cadence CDPP to lags longer than $\sim 100$\,cad and to $k \in {1,2}$, and for consistency with long cadence, we have adopted a 300~cadence lag (i.e. $30 \times$ the long cadence lag of 10) and the L1 TV objective function. With their many time samples, the short-cadence stars are computationally intractable for the Gaussian Process model in \textsc{k2sc} and we present otherwise uncalibrated halo light curves.
 
 % breakdown of main sequence vs giants
 
@@ -425,13 +427,13 @@ Using the Sydney pipeline \citep{Huber2009} with modifications to the extraction
 
 \begin{figure*}
 \plotone{eta_cnc_pub.pdf}
-\caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for the red giant $\eta$~Cancri, in the same format as Figure~\ref{fig:rholeo}. Solar like oscillations are clearly detected with $\numax = 22.9 \pm 0.9$ and $\Dnu = 2.7 \pm 0.03$.}
+\caption{Summary plots for \textsc{k2sc}-corrected final halo light curve for the red giant $\eta$~Cancri, in the same format as Figure~\ref{fig:rholeo}. Solar like oscillations are clearly detected with $\numax = 22.9 \pm 0.9$\,\muHz and $\Dnu = 2.7 \pm 0.03$\,\muHz.}
 \label{fig:etacnc}
 \end{figure*}
 
 
 % RGs, Classical pulsators 
-\subsection{Classical Variables}
+\subsection{Pulsators with Self-Driven Modes}
 \label{sec:variables}
 \textcolor{red}{Variability catalog?}
 
@@ -439,7 +441,7 @@ Using the Sydney pipeline \citep{Huber2009} with modifications to the extraction
 \subsection{Chemically-Peculiar Stars}
 
 % interesting EB - 98 Tau
-The chemically-peculiar A0V star 98~Tau is of special interest for studies of surface inhomogeneity. We detected variability with a fundamental period of 1.74~d with twice as much power at the first harmonic ($P = 0.87$\,d), which is consistent with $\alpha^2$\,CVn spot modulation from a rapidly-rotating star with a period of 1.74\,d. This star also experiences a transit of depth 0.03, which for a 1.87\,\rsun typical A0V star implies an 0.3\,\rsun stellar mass companion. With rotational modulation and an eclipse to break degeneracies, models such as \texttt{starry} \citep{starry} can infer surface brightness maps and reveal the spatial distribution of the star's chemical peculiarity. 
+The chemically-peculiar A0V star 98~Tau is of special interest for studies of surface inhomogeneity. We detected variability with a fundamental period of 1.74~d with twice as much power at the first harmonic ($P = 0.87$\,d), which is consistent with $\alpha^2$\,CVn spot modulation from a rapidly-rotating star. This star also experiences a transit of depth 0.03, which for a 1.87\,\rsun typical A0V star implies an 0.3\,\rsun stellar mass companion. With rotational modulation and an eclipse to break degeneracies, models such as \texttt{starry} \citep{starry} can infer surface brightness maps and reveal the spatial distribution of the star's chemical peculiarity. 
 
 \section{Data Release and Open Science}
 
@@ -453,7 +455,7 @@ All light curves presented in this paper are available as High-Level Science Pro
 % pretty good sample
 
 % do hot star asteroseismology and red giants as benchmarks, interferometry
-Some of the objects presented here are the subject of more detailed work in preparation, namely $\alpha$\,Vir (Spica), interferometry of the Hyades giants, and main-sequence stars.
+Some of the objects presented here are the subject of more detailed work in preparation, namely $\alpha$\,Vir (Spica), interferometry of the Hyades giants, and main-sequence stars with self-driven nonradial modes.
 
 % do k2 smear after that
 The sample of K2 bright stars presented here only includes those with halo apertures. While some others are available conventionally, many were not assigned target pixels and were not downloaded at all. Smear photometry has been used to recover the brightest otherwise-unobserved stars in nominal \kepler \citep{smearcampaign}, and this can also be done in K2, although the sample is much smaller due to allocation of halo apertures and the systematics correction is more challenging. A natural extension of both pieces of work would be to produce smear light curves of all bright stars without halo apertures in K2, which would finally make the \kepler extended mission magnitude-complete at the bright end. 
