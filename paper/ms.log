@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 JUN 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 JUN 2019 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,27 +726,7 @@ Overfull \hbox (60.48431pt too wide) in alignment at lines 167--167
 Overfull \vbox (2.72897pt too high) has occurred while \output is active []
 
 
-[22]
-Overfull \hbox (0.78806pt too wide) detected at line 168
-$\OML/cmm/m/it/10.95 a$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 169
-$\OML/cmm/m/it/10.95 b$
- []
-
-
-Underfull \hbox (badness 10000) detected at line 170
-$\OML/cmm/m/it/10.95 c$
- []
-
-
-Overfull \hbox (0.69933pt too wide) detected at line 171
-$\OML/cmm/m/it/10.95 d$
- []
-
-) (./rgs.tex) [23] [24]
+[22]) (./rgs.tex) [23] [24]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
@@ -780,7 +760,7 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (24 pages, 993161 bytes).
+Output written on ms.pdf (24 pages, 994231 bytes).
 PDF statistics:
  860 PDF objects out of 1000 (max. 8388607)
  528 compressed objects within 6 object streams
