@@ -224,8 +224,11 @@ if __name__ == '__main__':
 
     dummy = fits.getheader('../data/normal/ktwo%s-c06_lpd-targ.fits.gz' % (epic)) # get the old header from the TPF
     dummy['NAXIS']=1
+    dummy['ORIGIN']=('Pope/NYU','institution responsible for creating this file ')
+    dummy['CREATOR'] = ('halophot + k2halo/scripts/correct_unsaturated.py', 'pipeline')
+
     dummy['halo'] =(halophot.__version__,'halophot version')
-    dummy['objective']=('tv','halophot objective')
+    dummy['obj']=('tv','halophot objective')
     dummy['sub']=(1,'halophot subsampling')
     dummy['starname']=(epic,'Star Identifier')
 

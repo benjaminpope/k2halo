@@ -420,8 +420,20 @@ Seven stars in Campaign~13 and one in Campaign~16 were assigned short-cadence ha
 
 Analyses for some of our sample have been previously published, we include their light curves in this data release: the Pleiades Seven Sisters \citep{White2017}, $\alpha$~Tau \citep[Aldebaran;][]{Farr2018}, $\iota$~Lib \citep{Buysschaert2018}, and $\epsilon$~Tau \citep{Arentoft2019}, as well as $\rho$~Leo, which was studied with halo pixels but without our objective functions \citep{Aerts2018}.
 
+
 \section{Discussion}
 \label{sec:discussion}
+
+\subsection{Comparison with `Raw' Halo}
+\label{raw}
+
+The blue supergiant $\rho$~Leonis, observed in Campaign~14, was studied with halo photometry but without the TV-min method by \citet{Aerts2018}. In that reduction, \citet{Aerts2018} used four different aperture masks to extract raw light curves, and detrended these for K2 systematics with \textsc{k2sc} and a polynomial to account for long-term drift. They detected photometric variability at the star's rotation period of 26.8~d and also multiperiodic low-frequency variability ($<1.5 \text{d}^{-1}$). There is excellent agreement between the light curves produced by both methods. It is easiest to compare the methods in the power-spectral domain, where we see a reduction of only a few percent in the amplitude of oscillations in the TV-min and the \citet{Aerts2018} lightcurve; at high frequencies, both methods show significant residual systematics at the K2~thruster-firing frequencies, but the TV-min lightcurve shows a lower white noise floor by a factor of $\sim 3$. 
+
+\begin{figure}
+\plotone{rholeo_comparison.pdf}
+\caption{Top: halo light curves of $\rho$~Leonis from \citet{Aerts2018} (blue) and TV-min from the present paper (green). Bottom: Lomb-Scargle power spectral densities of the Aerts (blue) and TV-min (green) observations, with smoothed power spectral densities overplotted in orange and purple respectively and the K2 thruster firing frequencies highlighted with pale blue vertical lines. There is excellent agreement between the light curves and power spectra at high frequencies, with some residual thruster firing systematics in both light curves, and a factor of $\sim 3$ lower white noise floor in the TV-min power spectrum.}
+\label{rholeo_comparison}
+\end{figure}
 
 \subsection{Oscillating Red Giants}
 \label{sec:rgs}
