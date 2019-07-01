@@ -81,14 +81,6 @@
   e-prints, arXiv:1905.02120.
 \newblock \doarXiv{1905.02120}
 
-\bibitem[{{Burke} {et~al.}(2015){Burke}, {Christiansen}, {Mullally}, {Seader},
-  {Huber}, {Rowe}, {Coughlin}, {Thompson}, {Catanzarite}, {Clarke}, {Morton},
-  {Caldwell}, {Bryson}, {Haas}, {Batalha}, {Jenkins}, {Tenenbaum}, {Twicken},
-  {Li}, {Quintana}, {Barclay}, {Henze}, {Borucki}, {Howell}, \&
-  {Still}}]{2015ApJ...809....8B}
-{Burke}, C.~J., {Christiansen}, J.~L., {Mullally}, F., {et~al.} 2015, \apj,
-  809, 8, \dodoi{10.1088/0004-637X/809/1/8}
-
 \bibitem[{{Buysschaert} {et~al.}(2018){Buysschaert}, {Neiner}, {Aerts},
   {White}, \& {Pope}}]{Buysschaert2018}
 {Buysschaert}, B., {Neiner}, C., {Aerts}, C., {White}, T.~R., \& {Pope},
@@ -107,17 +99,6 @@
   {Huber}}]{Farr2018}
 {Farr}, W.~M., {Pope}, B. J.~S., {Davies}, G.~R., {et~al.} 2018, \apj, 865,
   L20, \dodoi{10.3847/2041-8213/aadfde}
-
-\bibitem[{{Foreman-Mackey} {et~al.}(2014){Foreman-Mackey}, {Hogg}, \&
-  {Morton}}]{2014ApJ...795...64F}
-{Foreman-Mackey}, D., {Hogg}, D.~W., \& {Morton}, T.~D. 2014, \apj, 795, 64,
-  \dodoi{10.1088/0004-637X/795/1/64}
-
-\bibitem[{{Fressin} {et~al.}(2013){Fressin}, {Torres}, {Charbonneau}, {Bryson},
-  {Christiansen}, {Dressing}, {Jenkins}, {Walkowicz}, \&
-  {Batalha}}]{2013ApJ...766...81F}
-{Fressin}, F., {Torres}, G., {Charbonneau}, D., {et~al.} 2013, \apj, 766, 81,
-  \dodoi{10.1088/0004-637X/766/2/81}
 
 \bibitem[{{Gilliland} {et~al.}(2010){Gilliland}, {Jenkins}, {Borucki},
   {Bryson}, {Caldwell}, {Clarke}, {Dotson}, {Haas}, {Hall}, {Klaus}, {Koch},
@@ -234,11 +215,6 @@ Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
-
-\bibitem[{{Petigura} {et~al.}(2013){Petigura}, {Howard}, \&
-  {Marcy}}]{2013PNAS..11019273P}
-{Petigura}, E.~A., {Howard}, A.~W., \& {Marcy}, G.~W. 2013, Proceedings of the
-  National Academy of Science, 110, 19273, \dodoi{10.1073/pnas.1319909110}
 
 \bibitem[{{Pope} {et~al.}(2016{\natexlab{a}}){Pope}, {Parviainen}, \&
   {Aigrain}}]{Pope2016planets}
