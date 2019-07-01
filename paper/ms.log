@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 JUL 2019 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 JUL 2019 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -655,11 +655,8 @@ File: eta_cnc_pub.pdf Graphic file (type pdf)
 Package pdftex.def Info: eta_cnc_pub.pdf used on input line 447.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-[13] [14 <./rholeo_comparison.pdf>] [15 <./eta_cnc_pub.pdf>]
-Overfull \vbox (0.55629pt too high) has occurred while \output is active []
-
-
-[16] [17] (./ms.bbl [18]) [19] (./table_all.tex
+[13] [14 <./rholeo_comparison.pdf>] [15 <./eta_cnc_pub.pdf>] [16] [17]
+(./ms.bbl [18]) [19] (./table_all.tex
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
@@ -743,13 +740,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 534.
  ) 
 Here is how much of TeX's memory you used:
- 11203 strings out of 492995
- 154890 string characters out of 6132704
- 384647 words of memory out of 5000000
- 14513 multiletter control sequences out of 15000+600000
+ 11208 strings out of 492995
+ 154956 string characters out of 6132704
+ 384899 words of memory out of 5000000
+ 14517 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1686b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1686b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -770,10 +767,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (25 pages, 1173403 bytes).
+Output written on ms.pdf (25 pages, 1173827 bytes).
 PDF statistics:
- 918 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 536 compressed objects within 6 object streams
+ 102 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

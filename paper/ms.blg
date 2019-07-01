@@ -6,45 +6,45 @@ Database file #1: ms.bib
 Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in lbfgsb
-You've used 45 entries,
+You've used 46 entries,
             3166 wiz_defined-function locations,
-            994 strings with 24840 characters,
-and the built_in function-call counts, 27711 in all, are:
-= -- 1780
-> -- 3097
-< -- 5
-+ -- 1027
-- -- 1107
-* -- 2964
-:= -- 5392
-add.period$ -- 50
-call.type$ -- 45
-change.case$ -- 249
-chr.to.int$ -- 44
-cite$ -- 46
-duplicate$ -- 782
-empty$ -- 1257
-format.name$ -- 1145
-if$ -- 5285
+            1002 strings with 25356 characters,
+and the built_in function-call counts, 28428 in all, are:
+= -- 1825
+> -- 3174
+< -- 6
++ -- 1052
+- -- 1134
+* -- 3035
+:= -- 5518
+add.period$ -- 51
+call.type$ -- 46
+change.case$ -- 253
+chr.to.int$ -- 45
+cite$ -- 47
+duplicate$ -- 812
+empty$ -- 1292
+format.name$ -- 1173
+if$ -- 5430
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 40
-newline$ -- 148
-num.names$ -- 180
-pop$ -- 286
+newline$ -- 151
+num.names$ -- 184
+pop$ -- 295
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 253
 quote$ -- 0
-skip$ -- 641
+skip$ -- 668
 stack$ -- 0
-substring$ -- 814
-swap$ -- 19
-text.length$ -- 1
+substring$ -- 831
+swap$ -- 31
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 414
 warning$ -- 1
-while$ -- 152
+while$ -- 155
 width$ -- 0
-write$ -- 497
+write$ -- 507
 (There were 2 warnings)
