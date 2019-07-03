@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 JUL 2019 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 JUL 2019 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,14 +662,8 @@ File: 98_Tau_pub.pdf Graphic file (type pdf)
 Package pdftex.def Info: 98_Tau_pub.pdf used on input line 463.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-[15] [16 <./eta_cnc_pub.pdf>] [17 <./98_Tau_pub.pdf>] [18] (./ms.bbl
-Overfull \vbox (6.11623pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (6.11623pt too high) has occurred while \output is active []
-
-
-[19] [20]) [21] (./table_all.tex
+[15] [16 <./eta_cnc_pub.pdf>] [17 <./98_Tau_pub.pdf>] [18] (./ms.bbl [19]
+[20]) [21] (./table_all.tex
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
@@ -759,7 +753,7 @@ Here is how much of TeX's memory you used:
  14531 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1681b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1681b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -780,10 +774,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (27 pages, 1391789 bytes).
+Output written on ms.pdf (27 pages, 1391991 bytes).
 PDF statistics:
- 1029 PDF objects out of 1200 (max. 8388607)
- 576 compressed objects within 6 object streams
+ 1035 PDF objects out of 1200 (max. 8388607)
+ 582 compressed objects within 6 object streams
  107 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
