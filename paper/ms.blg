@@ -3,48 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: ms.aux
 The style file: aasjournal.bst
 Database file #1: ms.bib
-Warning--I didn't find a database entry for ""
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in lbfgsb
-You've used 47 entries,
+You've used 48 entries,
             3166 wiz_defined-function locations,
-            1011 strings with 25741 characters,
-and the built_in function-call counts, 29090 in all, are:
-= -- 1890
-> -- 3212
+            1015 strings with 25919 characters,
+and the built_in function-call counts, 29537 in all, are:
+= -- 1930
+> -- 3250
 < -- 6
-+ -- 1065
-- -- 1149
-* -- 3090
-:= -- 5619
-add.period$ -- 53
-call.type$ -- 47
-change.case$ -- 260
-chr.to.int$ -- 46
-cite$ -- 48
-duplicate$ -- 839
-empty$ -- 1340
-format.name$ -- 1188
-if$ -- 5575
++ -- 1078
+- -- 1164
+* -- 3128
+:= -- 5704
+add.period$ -- 55
+call.type$ -- 48
+change.case$ -- 267
+chr.to.int$ -- 47
+cite$ -- 49
+duplicate$ -- 855
+empty$ -- 1363
+format.name$ -- 1203
+if$ -- 5662
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 155
-num.names$ -- 188
-pop$ -- 305
+missing$ -- 41
+newline$ -- 159
+num.names$ -- 192
+pop$ -- 314
 preamble$ -- 1
-purify$ -- 260
+purify$ -- 267
 quote$ -- 0
-skip$ -- 696
+skip$ -- 706
 stack$ -- 0
-substring$ -- 870
+substring$ -- 877
 swap$ -- 39
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 423
+type$ -- 432
 warning$ -- 1
-while$ -- 161
+while$ -- 164
 width$ -- 0
-write$ -- 520
-(There were 2 warnings)
+write$ -- 531
+(There was 1 warning)

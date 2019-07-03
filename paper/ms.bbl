@@ -226,6 +226,12 @@ Maclaurin, D., Duvenaud, D., \& Adams, R.~P. 2015, in ICML 2015 AutoML Workshop
 {Pablo}, H., {Whittaker}, G.~N., {Popowicz}, A., {et~al.} 2016, \pasp, 128,
   125001, \dodoi{10.1088/1538-3873/128/970/125001}
 
+\bibitem[{{Parker} {et~al.}(2019){Parker}, {H{\"o}rst}, {Ryan}, \&
+  {Howett}}]{parker}
+{Parker}, A.~H., {H{\"o}rst}, S.~M., {Ryan}, E.~L., \& {Howett}, C.~J.~A. 2019,
+  arXiv e-prints.
+\newblock \doarXiv{1906.04220}
+
 \bibitem[{P\'erez \& Granger(2007)}]{PER-GRA:2007}
 P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
   21, \dodoi{10.1109/MCSE.2007.53}
