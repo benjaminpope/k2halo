@@ -102,6 +102,12 @@
   Publications of the Astronomical Society of the Pacific, 124, 1279,
   \dodoi{10.1086/668847}
 
+\bibitem[{Ester {et~al.}(1996)Ester, Kriegel, Sander, \& Xu}]{dbscan}
+Ester, M., Kriegel, H.-P., Sander, J., \& Xu, X. 1996, in Proceedings of the
+  Second International Conference on Knowledge Discovery and Data Mining,
+  KDD'96 (AAAI Press), 226--231.
+\newblock \url{http://dl.acm.org/citation.cfm?id=3001460.3001507}
+
 \bibitem[{{Farr} {et~al.}(2018){Farr}, {Pope}, {Davies}, {North}, {White},
   {Barrett}, {Miglio}, {Lund}, {Antoci}, {Fredslund Andersen}, {Grundahl}, \&
   {Huber}}]{Farr2018}
