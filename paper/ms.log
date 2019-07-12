@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 JUL 2019 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUL 2019 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,13 +589,13 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 265--265
  []
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] <lag_opt_both.pdf, id=148, 743.27687pt x 550.5336pt>
+[2] [3] [4] [5] [6] <lag_opt_both.pdf, id=162, 743.27687pt x 571.00069pt>
 File: lag_opt_both.pdf Graphic file (type pdf)
 
 <use lag_opt_both.pdf>
 Package pdftex.def Info: lag_opt_both.pdf used on input line 354.
-(pdftex.def)             Requested size: 368.57964pt x 273.0064pt.
- [6] <lag_sc.pdf, id=163, 570.5754pt x 402.0621pt>
+(pdftex.def)             Requested size: 368.57964pt x 283.1559pt.
+ <lag_sc.pdf, id=163, 570.5754pt x 402.0621pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
@@ -619,7 +619,7 @@ File: planets_halo_pdc.pdf Graphic file (type pdf)
 Package pdftex.def Info: planets_halo_pdc.pdf used on input line 379.
 (pdftex.def)             Requested size: 368.57964pt x 458.12413pt.
  [8 <./lag_sc.pdf>] [9 <./rho_leo_pub.pdf>]
-<halo_pdc_comparison.png, id=385, 505.52866pt x 390.9807pt>
+<halo_pdc_comparison.png, id=386, 505.52866pt x 390.9807pt>
 File: halo_pdc_comparison.png Graphic file (type png)
 
 <use halo_pdc_comparison.png>
@@ -639,20 +639,20 @@ File: halo_pdc_histograms.pdf Graphic file (type pdf)
 Package pdftex.def Info: halo_pdc_histograms.pdf used on input line 395.
 (pdftex.def)             Requested size: 368.57964pt x 279.09106pt.
  [11 <./halo_pdc_comparison.png>] [12 <./halo_pdc_histograms.pdf>] <rholeo_comp
-arison.pdf, id=509, 513.75061pt x 712.44415pt>
+arison.pdf, id=510, 513.75061pt x 712.44415pt>
 File: rholeo_comparison.pdf Graphic file (type pdf)
 
 <use rholeo_comparison.pdf>
 Package pdftex.def Info: rholeo_comparison.pdf used on input line 432.
 (pdftex.def)             Requested size: 368.57964pt x 511.15482pt.
  [13] [14 <./rholeo_comparison.pdf>]
-<eta_cnc_pub.pdf, id=615, 597.6729pt x 844.83629pt>
+<eta_cnc_pub.pdf, id=616, 597.6729pt x 844.83629pt>
 File: eta_cnc_pub.pdf Graphic file (type pdf)
  <use eta_cnc_pub.pdf>
 Package pdftex.def Info: eta_cnc_pub.pdf used on input line 446.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-<98_Tau_pub.pdf, id=623, 597.6729pt x 844.83629pt>
+<98_Tau_pub.pdf, id=624, 597.6729pt x 844.83629pt>
 File: 98_Tau_pub.pdf Graphic file (type pdf)
  <use 98_Tau_pub.pdf>
 Package pdftex.def Info: 98_Tau_pub.pdf used on input line 463.
@@ -752,7 +752,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 543.
 Here is how much of TeX's memory you used:
  11228 strings out of 492995
  155218 string characters out of 6132704
- 385404 words of memory out of 5000000
+ 385405 words of memory out of 5000000
  14531 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -777,9 +777,9 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (27 pages, 1393187 bytes).
+Output written on ms.pdf (27 pages, 1393824 bytes).
 PDF statistics:
- 1035 PDF objects out of 1200 (max. 8388607)
+ 1036 PDF objects out of 1200 (max. 8388607)
  582 compressed objects within 6 object streams
  107 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
