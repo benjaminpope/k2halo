@@ -53,7 +53,7 @@ def match_cadences(halocads,lccads):
     indices =np.array([1 if j in lccads else 0 for j in halocads])
     return np.where(indices==1)[0]
 
-def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
+def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test',title=True):
     min_p,max_p=1./24.,20.
 
     PW,PH = 8.27, 11.69
@@ -92,7 +92,10 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     plot_pgram(ax_periodogram,frequency,power,spower,formal_name)        
     plot_log_pgram(ax_logpgram,frequency,power,spower,formal_name)  
 
-    fig.suptitle(formal_name,y=0.99,fontsize=20,**font)
+    if title:
+        fig.suptitle(formal_name,y=0.99,fontsize=20,**font)
+    else:
+        print('No title')
     ax_periodogram.set_title('Periodograms')
     ax_fluxmap.set_title('Flux Map')
     ax_weightmap.set_title('TV-Min Weight Map')
@@ -100,9 +103,12 @@ def plot_k2sc(lc,image,weightmap,save_file=None,formal_name='test'):
     if save_file is not None:
         try:
             for fname in save_file:
-                plt.savefig(fname)
+                plt.savefig(fname,bbox_inches='tight')
+                print('Saved to',fname)
         except:
-            plt.savefig(save_file)
+            plt.savefig(save_file,bbox_inches='tight')
+            print('Saved to',fname)
+
 '''-----------------------------------------------------------------
 
 An example call is 
@@ -123,6 +129,7 @@ if __name__ == '__main__':
     ap.add_argument('--just-plot', action = 'store_true', default = False, \
                     help = 'only produce plots')
     ap.add_argument('--epic',default=200000000,type=str,help='EPIC Number')
+    ap.add_argument('--notitle',action='store_true',default=False,help='Title the figures?')
     ap.add_argument('--tpf-fname',default=None,type=str,help='TPF Filename')
     ap.add_argument('--objective', default='tv',type=str,help='Objective function: can be tv, tv_o2, l2v, or l3v')
 
@@ -225,8 +232,13 @@ if __name__ == '__main__':
         lc.tr_time = data['tr_time']
 
     if args.do_plot:
+        if args.notitle:
+            do_title = False
+        else:
+            do_title = True
         plot_k2sc(lc,np.nanmean(tpf.flux,axis=0),f[0][:,:].T,formal_name=translate_greek(args.name).replace('_',' ')+' (EPIC %s) Detrended' % epic,
-            save_file=['%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (savedir,epic,campaign),'%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.pdf' % (savedir,epic,campaign)])
+            save_file=['%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.png' % (savedir,epic,campaign),'%s/hlsp_halo_k2_llc_%s_-c%d_kepler_v1_lc.pdf' % (savedir,epic,campaign)],
+            title=do_title)
 
 
 
