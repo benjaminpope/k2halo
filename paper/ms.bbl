@@ -199,6 +199,9 @@ Jones, E., Oliphant, T., Peterson, P., \& Others. 2001, {SciPy}: Open source
 {Kolenberg}, K., {Bryson}, S., {Szab{\'o}}, R., {et~al.} 2011, \mnras, 411,
   878, \dodoi{10.1111/j.1365-2966.2010.17728.x}
 
+\bibitem[{{Lomb}(1976)}]{lomb}
+{Lomb}, N.~R. 1976, \apss, 39, 447, \dodoi{10.1007/BF00648343}
+
 \bibitem[{{Luger} {et~al.}(2019){Luger}, {Agol}, {Foreman-Mackey}, {Fleming},
   {Lustig-Yaeger}, \& {Deitrick}}]{starry}
 {Luger}, R., {Agol}, E., {Foreman-Mackey}, D., {et~al.} 2019, \aj, 157, 64,
@@ -267,6 +270,9 @@ P\'erez, F., \& Granger, B.~E. 2007, Computing in Science and Engineering, 9,
 {Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2015, Journal of
   Astronomical Telescopes, Instruments, and Systems, 1, 014003,
   \dodoi{10.1117/1.JATIS.1.1.014003}
+
+\bibitem[{{Scargle}(1982)}]{scargle}
+{Scargle}, J.~D. 1982, \apj, 263, 835, \dodoi{10.1086/160554}
 
 \bibitem[{{Tkachenko} {et~al.}(2014){Tkachenko}, {Degroote}, {Aerts},
   {Pavlovski}, {Southworth}, {P{\'a}pics}, {Moravveji}, {Kolbas}, {Tsymbal},
