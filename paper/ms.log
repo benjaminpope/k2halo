@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 JUL 2019 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 JUL 2019 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,34 +635,31 @@ File: halo_pdc_histograms.pdf Graphic file (type pdf)
 Package pdftex.def Info: halo_pdc_histograms.pdf used on input line 397.
 (pdftex.def)             Requested size: 368.57964pt x 279.09106pt.
  [11 <./halo_pdc_comparison.png>] [12 <./halo_pdc_histograms.pdf>] <rholeo_comp
-arison.pdf, id=510, 513.75061pt x 712.44415pt>
+arison.pdf, id=514, 513.75061pt x 712.44415pt>
 File: rholeo_comparison.pdf Graphic file (type pdf)
 
 <use rholeo_comparison.pdf>
 Package pdftex.def Info: rholeo_comparison.pdf used on input line 434.
 (pdftex.def)             Requested size: 368.57964pt x 511.15482pt.
  [13] [14 <./rholeo_comparison.pdf>]
-<eta_cnc_pub.pdf, id=614, 597.6729pt x 844.83629pt>
+<eta_cnc_pub.pdf, id=616, 597.6729pt x 844.83629pt>
 File: eta_cnc_pub.pdf Graphic file (type pdf)
  <use eta_cnc_pub.pdf>
 Package pdftex.def Info: eta_cnc_pub.pdf used on input line 448.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-<98_Tau_pub.pdf, id=622, 597.6729pt x 844.83629pt>
+<98_Tau_pub.pdf, id=624, 597.6729pt x 844.83629pt>
 File: 98_Tau_pub.pdf Graphic file (type pdf)
  <use 98_Tau_pub.pdf>
 Package pdftex.def Info: 98_Tau_pub.pdf used on input line 465.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-[15] [16 <./eta_cnc_pub.pdf>] [17 <./98_Tau_pub.pdf>]
-Overfull \vbox (3.55629pt too high) has occurred while \output is active []
-
-
-[18]
+[15] [16 <./eta_cnc_pub.pdf>] [17 <./98_Tau_pub.pdf>] [18]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [19] (./ms.bbl [20]) [21] (./table_all.tex
+ [19] (./ms.bbl
+[20] [21]) [22] (./table_all.tex
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
@@ -696,20 +693,6 @@ Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
-
-[22]
-Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \vbox (2.72897pt too high) has occurred while \output is active []
-
 
 [23]
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
@@ -739,7 +722,21 @@ Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
 Overfull \vbox (2.72897pt too high) has occurred while \output is active []
 
 
-[25]) (./rgs.tex) [26] [27]
+[25]
+Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \vbox (2.72897pt too high) has occurred while \output is active []
+
+
+[26]) (./rgs.tex) [27] [28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
  (./ms.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
@@ -747,12 +744,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 545.
  ) 
 Here is how much of TeX's memory you used:
  11228 strings out of 492995
- 155218 string characters out of 6132704
- 385373 words of memory out of 5000000
- 14531 multiletter control sequences out of 15000+600000
+ 155217 string characters out of 6132704
+ 385415 words of memory out of 5000000
+ 14530 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1686b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1686b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -773,10 +770,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (27 pages, 1378246 bytes).
+Output written on ms.pdf (28 pages, 1378798 bytes).
 PDF statistics:
- 1035 PDF objects out of 1200 (max. 8388607)
- 582 compressed objects within 6 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 108 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
