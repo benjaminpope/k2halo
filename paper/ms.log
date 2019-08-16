@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 JUL 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2019 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,44 +585,44 @@ Overfull \hbox (8.6399pt too wide) in paragraph at lines 265--265
  []
 
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] [4] [5] [6] <lag_opt_both.pdf, id=167, 743.27687pt x 549.30157pt>
+[2] [3] [4] [5] [6] <lag_opt_both.pdf, id=168, 743.27687pt x 549.30157pt>
 File: lag_opt_both.pdf Graphic file (type pdf)
 
 <use lag_opt_both.pdf>
-Package pdftex.def Info: lag_opt_both.pdf used on input line 356.
+Package pdftex.def Info: lag_opt_both.pdf used on input line 358.
 (pdftex.def)             Requested size: 368.57964pt x 272.39545pt.
- <lag_sc.pdf, id=168, 561.93875pt x 371.73665pt>
+ <lag_sc.pdf, id=169, 561.93875pt x 371.73665pt>
 File: lag_sc.pdf Graphic file (type pdf)
 
 <use lag_sc.pdf>
-Package pdftex.def Info: lag_sc.pdf used on input line 362.
+Package pdftex.def Info: lag_sc.pdf used on input line 364.
 (pdftex.def)             Requested size: 368.57964pt x 243.83812pt.
- <rho_leo_pub.pdf, id=169, 582.17029pt x 813.8694pt>
+ <rho_leo_pub.pdf, id=170, 582.17029pt x 813.8694pt>
 File: rho_leo_pub.pdf Graphic file (type pdf)
 
 <use rho_leo_pub.pdf>
-Package pdftex.def Info: rho_leo_pub.pdf used on input line 368.
+Package pdftex.def Info: rho_leo_pub.pdf used on input line 370.
 (pdftex.def)             Requested size: 368.57964pt x 515.27383pt.
 
 
-LaTeX Warning: Float too large for page by 18.12755pt on input line 371.
+LaTeX Warning: Float too large for page by 18.12755pt on input line 373.
 
 [7 <./lag_opt_both.pdf>]
-<planets_halo_pdc.pdf, id=250, 757.70578pt x 941.77217pt>
+<planets_halo_pdc.pdf, id=251, 757.70578pt x 941.77217pt>
 File: planets_halo_pdc.pdf Graphic file (type pdf)
 
 <use planets_halo_pdc.pdf>
-Package pdftex.def Info: planets_halo_pdc.pdf used on input line 381.
+Package pdftex.def Info: planets_halo_pdc.pdf used on input line 383.
 (pdftex.def)             Requested size: 368.57964pt x 458.12413pt.
  [8 <./lag_sc.pdf>] [9 <./rho_leo_pub.pdf>]
-<halo_pdc_comparison.png, id=358, 505.52866pt x 390.9807pt>
-File: halo_pdc_comparison.png Graphic file (type png)
+<halo_pdc_comparison.pdf, id=359, 507.19487pt x 393.05971pt>
+File: halo_pdc_comparison.pdf Graphic file (type pdf)
 
-<use halo_pdc_comparison.png>
-Package pdftex.def Info: halo_pdc_comparison.png used on input line 389.
-(pdftex.def)             Requested size: 368.57964pt x 285.07347pt.
+<use halo_pdc_comparison.pdf>
+Package pdftex.def Info: halo_pdc_comparison.pdf used on input line 391.
+(pdftex.def)             Requested size: 368.57964pt x 285.63571pt.
 
-Underfull \hbox (badness 2302) in paragraph at lines 390--390
+Underfull \hbox (badness 2302) in paragraph at lines 392--392
 []\OT1/cmr/bx/n/10.95 Figure 5. []\OT1/cmr/m/n/10.95 Correlation di-a-gram of t
 he \OT1/cmtt/m/n/10.95 lightkurve\OT1/cmr/m/n/10.95 -computed 6.5hr CDPP for
  []
@@ -632,34 +632,40 @@ he \OT1/cmtt/m/n/10.95 lightkurve\OT1/cmr/m/n/10.95 -computed 6.5hr CDPP for
 File: halo_pdc_histograms.pdf Graphic file (type pdf)
 
 <use halo_pdc_histograms.pdf>
-Package pdftex.def Info: halo_pdc_histograms.pdf used on input line 397.
+Package pdftex.def Info: halo_pdc_histograms.pdf used on input line 399.
 (pdftex.def)             Requested size: 368.57964pt x 279.09106pt.
- [11 <./halo_pdc_comparison.png>] [12 <./halo_pdc_histograms.pdf>] <rholeo_comp
-arison.pdf, id=486, 513.75061pt x 712.44415pt>
+ [11 <./halo_pdc_comparison.pdf>]
+<cmd_halo.pdf, id=458, 463.37178pt x 383.28883pt>
+File: cmd_halo.pdf Graphic file (type pdf)
+ <use cmd_halo.pdf>
+Package pdftex.def Info: cmd_halo.pdf used on input line 413.
+(pdftex.def)             Requested size: 368.57964pt x 304.89447pt.
+ [12 <./halo_pdc_histograms.pdf>] [13 <./cmd_halo.pdf>]
+<rholeo_comparison.pdf, id=579, 513.75061pt x 712.44415pt>
 File: rholeo_comparison.pdf Graphic file (type pdf)
 
 <use rholeo_comparison.pdf>
-Package pdftex.def Info: rholeo_comparison.pdf used on input line 434.
+Package pdftex.def Info: rholeo_comparison.pdf used on input line 441.
 (pdftex.def)             Requested size: 368.57964pt x 511.15482pt.
- [13] [14 <./rholeo_comparison.pdf>]
-<eta_cnc_pub.pdf, id=588, 585.68341pt x 813.8694pt>
+
+<eta_cnc_pub.pdf, id=607, 585.68341pt x 813.8694pt>
 File: eta_cnc_pub.pdf Graphic file (type pdf)
  <use eta_cnc_pub.pdf>
-Package pdftex.def Info: eta_cnc_pub.pdf used on input line 448.
+Package pdftex.def Info: eta_cnc_pub.pdf used on input line 455.
 (pdftex.def)             Requested size: 368.57964pt x 512.19402pt.
 
-<98_Tau_pub.pdf, id=596, 597.6729pt x 844.83629pt>
+[14] [15 <./rholeo_comparison.pdf>] [16 <./eta_cnc_pub.pdf>]
+<98_Tau_pub.pdf, id=778, 597.6729pt x 844.83629pt>
 File: 98_Tau_pub.pdf Graphic file (type pdf)
  <use 98_Tau_pub.pdf>
-Package pdftex.def Info: 98_Tau_pub.pdf used on input line 465.
+Package pdftex.def Info: 98_Tau_pub.pdf used on input line 472.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
-[15] [16 <./eta_cnc_pub.pdf>] [17 <./98_Tau_pub.pdf>] [18]
+[17] [18 <./98_Tau_pub.pdf>] [19]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [19] (./ms.bbl
-[20] [21]) [22] (./table_all.tex
+ (./ms.bbl [20] [21]) [22] (./table_all.tex
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
@@ -737,19 +743,19 @@ Overfull \vbox (2.72897pt too high) has occurred while \output is active []
 
 
 [26]) (./rgs.tex) [27] [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
  (./ms.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 545.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 11249 strings out of 492995
- 155614 string characters out of 6132704
- 386980 words of memory out of 5000000
- 14547 multiletter control sequences out of 15000+600000
+ 11255 strings out of 492995
+ 155708 string characters out of 6132704
+ 387085 words of memory out of 5000000
+ 14552 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1686b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1686b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -770,10 +776,10 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (28 pages, 1377664 bytes).
+Output written on ms.pdf (28 pages, 1494379 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 606 compressed objects within 7 object streams
- 112 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1100 PDF objects out of 1200 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

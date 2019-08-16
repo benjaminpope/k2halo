@@ -75,11 +75,10 @@
 
 \bibitem[{{Bowman} {et~al.}(2019){Bowman}, {Burssens}, {Pedersen}, {Johnston},
   {Aerts}, {Buysschaert}, {Michielsen}, {Tkachenko}, {Rogers}, {Edelmann},
-  {Ratnasingam}, {Sim{\'o}n-D{\'\i}az}, {Castro}, {Moravveji}, {Pope}, {White},
-  \& {De Cat}}]{bowman19}
-{Bowman}, D.~M., {Burssens}, S., {Pedersen}, M.~G., {et~al.} 2019, arXiv
-  e-prints, arXiv:1905.02120.
-\newblock \doarXiv{1905.02120}
+  {Ratnasingam}, {Sim{\'o}n-D{\'{\i}}az}, {Castro}, {Moravveji}, {Pope},
+  {White}, \& {De Cat}}]{bowman19}
+{Bowman}, D.~M., {Burssens}, S., {Pedersen}, M.~G., {et~al.} 2019, Nature
+  Astronomy, \dodoi{10.1038/s41550-019-0768-1}
 
 \bibitem[{{Broeg} {et~al.}(2013){Broeg}, {Fortier}, {Ehrenreich}, {Alibert},
   {Baumjohann}, {Benz}, {Deleuil}, {Gillon}, {Ivanov}, {Liseau}, {Meyer},
