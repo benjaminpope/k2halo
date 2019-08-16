@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2019 11:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 AUG 2019 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,11 +661,14 @@ File: 98_Tau_pub.pdf Graphic file (type pdf)
 Package pdftex.def Info: 98_Tau_pub.pdf used on input line 472.
 (pdftex.def)             Requested size: 368.57964pt x 521.0086pt.
 
+Overfull \vbox (5.55629pt too high) has occurred while \output is active []
+
+
 [17] [18 <./98_Tau_pub.pdf>] [19]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- (./ms.bbl [20] [21]) [22] (./table_all.tex
+ [20] (./ms.bbl [21]) [22] (./table_all.tex
 Overfull \hbox (28.91922pt too wide) in alignment at lines 167--167
  [] [] [] [] [] [] [] 
  []
@@ -749,13 +752,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 11255 strings out of 492995
- 155708 string characters out of 6132704
+ 11256 strings out of 492995
+ 155719 string characters out of 6132704
  387085 words of memory out of 5000000
- 14552 multiletter control sequences out of 15000+600000
+ 14553 multiletter control sequences out of 15000+600000
  17379 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,37p,1686b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,12n,37p,1686b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometw
 o.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/fontawesome/fontaweso
 methree.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/fontawesome/
@@ -776,7 +779,7 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (28 pages, 1494446 bytes).
+Output written on ms.pdf (28 pages, 1494536 bytes).
 PDF statistics:
  1100 PDF objects out of 1200 (max. 8388607)
  636 compressed objects within 7 object streams
